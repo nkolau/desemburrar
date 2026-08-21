@@ -3220,5 +3220,257 @@
     "category": "Física",
     "level": "deep",
     "link": "https://pt.wikipedia.org/wiki/Gravidade%20qu%C3%A2ntica"
+  },
+  {
+    "id": 361,
+    "title": "Cinismo",
+    "author_or_source": "Wikipédia",
+    "description": "O cinismo foi uma corrente filosófica fundada por Antístenes, discípulo de Sócrates e como tal praticada pelos cínicos. Para os cínicos, o propósito da vida era viver na virtude, de acordo com a natureza. Como criaturas racionais, as pessoas podem obter felicidade por meio de um treinamento rigoroso e vivendo de uma maneira que seja natural para elas mesmas, rejeitando todos os desejos convencionais de riqueza, poder e fama - em vez disso, eles deveriam levar uma vida simples, livre da necessidade de posses - e até mesmo desrespeitando as convenções sociais aberta e ironicamente.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Cinismo"
+  },
+  {
+    "id": 362,
+    "title": "Ceticismo",
+    "author_or_source": "Wikipédia",
+    "description": "Ceticismo (português brasileiro) ou cepticismo (português europeu) é qualquer atitude de questionamento para com o conhecimento, fatos, opiniões ou crenças estabelecidas. Filosoficamente, é a doutrina da qual a mente humana não pode atingir certeza alguma a respeito da verdade.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Ceticismo"
+  },
+  {
+    "id": 363,
+    "title": "Idealismo",
+    "author_or_source": "Wikipédia",
+    "description": "Na filosofia, o idealismo é o grupo de filosofias metafísicas que afirmam que a realidade, ou a realidade como os humanos podem conhecê-la, é fundamentalmente mental, mentalmente construída ou imaterial. Epistemologicamente, o idealismo se manifesta como um ceticismo quanto à possibilidade de conhecer qualquer coisa independente da mente. Em contraste com o materialismo, o idealismo afirma a primazia da consciência como a origem e o pré-requisito dos fenômenos materiais. De acordo com essa visão, a consciência existe antes e é a pré-condição da existência material. A consciência cria e determina o material e não vice-versa. O idealismo acredita que a consciência e a mente são a origem do mundo material e tem como objetivo explicar o mundo existente de acordo com esses princípios.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Idealismo"
+  },
+  {
+    "id": 364,
+    "title": "Utilitarismo",
+    "author_or_source": "Wikipédia",
+    "description": "O utilitarismo é uma família de teorias metaéticas consequencionalistas, sistematizada inicialmente pelos filósofos ingleses Jeremy Bentham e John Stuart Mill, que afirma que uma ação é correta ou incorreta baseada em sua tendência a maximizar ou minimizar \"utilidade\"; que é geralmente identificada com a felicidade ou a satisfação de preferências. Ao lado da Ética de Virtudes e da Ética do dever, é uma das perspectivas mais influentes no campo da filosofia moral.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Utilitarismo"
+  },
+  {
+    "id": 365,
+    "title": "Filosofia analítica",
+    "author_or_source": "Wikipédia",
+    "description": "A filosofia analítica é uma vertente do pensamento contemporâneo reivindicada por filósofos bastante diferentes e com duas caracterizações distintas, cuja filosofia precursora surgiu da superação da filosofia sintética do Século XIX. Originariamente, seu ponto comum foi a ideia de que a filosofia trata da análise do significado de enunciados linguísticos; isto é, a filosofia reduz-se a uma pesquisa sobre a linguagem. Desde os anos 1960, acabou a chamada virada linguística, de modo que a filosofia analítica deixou de ter qualquer comprometimento especial com a análise da linguagem. Atualmente, ela é melhor caracterizada por seu espírito científico : problemas filosóficos são tratados como questões factuais a serem resolvidas argumentativamente. É muito comum o uso de ferramentas das ciências formais e resultados das ciências naturais. A filosofia analítica é amplamente difundida até hoje no mundo anglófono e possui importantes centros de pesquisa na América Latina, na Europa continental, e no resto do globo. Como consequência dessa difusão geográfica e do abandono da perspectiva linguística, a filosofia analítica tornou-se extremamente plural, se afastando muito dos pressupostos linguísticos e positivistas que motivaram sua história inicial.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_anal%C3%ADtica"
+  },
+  {
+    "id": 366,
+    "title": "Filosofia continental",
+    "author_or_source": "Wikipédia",
+    "description": "Filosofia continental é um termo de origem anglo-americana utilizado para denominar a filosofia não-analítica. Popularizou-se no âmbito da filosofia acadêmica analítica como um conjunto vagamente organizado de tendências filosóficas contemporâneas da europa continental, às vezes acompanhado de uma desqualificação do valor filosófico dessas produções, em comparação com os critérios da análise filosófica britânica. Por esta razão, não há uma definição consensual para o que constitui a 'tradição filosófica continental', com alguns autores até mesmo rejeitando a ideia de uma tradição continental, negando qualquer coerência interna entre essas tendências, e afirmando alternativamente que se trata mais de uma divisão cultural, acadêmica e histórica do que propriamente filosófica.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_continental"
+  },
+  {
+    "id": 367,
+    "title": "Estética",
+    "author_or_source": "Wikipédia",
+    "description": "Estética é um ramo da filosofia que tem por objetivo o estudo da natureza, da beleza e dos fundamentos da arte. Ela estuda o julgamento e a percepção do que é considerado beleza, a produção das emoções pelos fenômenos estéticos, bem como: as diferentes formas de arte e da técnica artística; as ideias de obra, de arte e de criação; a relação entre matérias e formas nas artes. Por outro lado, a estética também pode ocupar-se do sublime, ou da privação da beleza, ou seja, o que pode ser considerado feio, ou até mesmo ridículo.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Est%C3%A9tica"
+  },
+  {
+    "id": 368,
+    "title": "Lógica",
+    "author_or_source": "Wikipédia",
+    "description": "Lógica tem dois significados principais: refere-se tanto ao uso do raciocínio em alguma atividade quanto ao estudo normativo e filosófico do raciocínio válido. No segundo sentido, é um campo dedicado à análise da validade dos argumentos, sendo estudado principalmente nas disciplinas de filosofia, matemática e ciência da computação. Ambos os sentidos têm foco comum referente a harmonia de raciocínio, a proporcionalidade formal entre argumentos.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/L%C3%B3gica"
+  },
+  {
+    "id": 369,
+    "title": "Escolástica",
+    "author_or_source": "Wikipédia",
+    "description": "Escolástica, escolasticismo ou filosofia escolástica é um método ocidental de pensamento crítico e de aprendizagem, com origem nas escolas monásticas cristãs, que concilia a fé cristã com um sistema de pensamento racional, especialmente o da filosofia grega.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Escol%C3%A1stica"
+  },
+  {
+    "id": 370,
+    "title": "Termologia",
+    "author_or_source": "Wikipédia",
+    "description": "Termologia ou Termo física é a parte da Física que estuda o calor. Dentro da termologia, tem-se a termodinâmica, que é uma importante ramificação que estuda as principais relações entre calor, trabalho e temperatura. Os fenômenos são interpretados a partir de modelos da estrutura da matéria, sob dois pontos de vista distintos, porém complementares: o macroscópico e o microscópico.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Termologia"
+  },
+  {
+    "id": 371,
+    "title": "Hidrostática",
+    "author_or_source": "Wikipédia",
+    "description": "A hidrostática é a parte da física que estuda os fluidos em repouso. Apesar de a palavra \"hidrostática\" significar \"estática da água\", este termo é utilizado para designar a estática dos fluidos em geral. Ao contrário dos sólidos, um fluido em equilíbrio não pode estar sob a ação de forças cisalhantes ou tangenciais, por menores que elas possam ser. Por decorrência, todas as forças que agem sobre um fluido em repouso fazem-se atuando perpendicularmente a sua superfície livre.",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Hidrost%C3%A1tica"
+  },
+  {
+    "id": 372,
+    "title": "Mecânica clássica",
+    "author_or_source": "Wikipédia",
+    "description": "A mecânica clássica se refere às três principais formulações da mecânica pré-relativística: a mecânica newtoniana, mecânica lagrangeana e a mecânica hamiltoniana. É a parte da física que analisa o movimento, as variações de energia e as forças que atuam sobre um corpo. No ensino de física, a mecânica clássica geralmente é a primeira área da física a ser lecionada. É geralmente classificada em estática, cinemática e dinâmica.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Mec%C3%A2nica_cl%C3%A1ssica"
+  },
+  {
+    "id": 373,
+    "title": "Efeito Doppler",
+    "author_or_source": "Wikipédia",
+    "description": "Efeito Doppler é um fenômeno físico observado nas ondas quando emitidas ou refletidas por um objeto que está em movimento com relação ao observador. Foi-lhe atribuído este nome em homenagem a Christian Doppler, que o descreveu teoricamente pela primeira vez em 1842. A primeira comprovação experimental foi obtida por Buys Ballot, em 1845, numa experiência em que uma locomotiva puxava um vagão com vários trompetistas.",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Efeito_Doppler"
+  },
+  {
+    "id": 374,
+    "title": "Física nuclear",
+    "author_or_source": "Wikipédia",
+    "description": "Física nuclear é a área da física que estuda os constituintes e interações dos núcleos atômicos. As aplicações mais conhecidas da física nuclear são a geração de energia nuclear e tecnologia de armas nucleares, mas a investigação tem proporcionado aplicação em muitos campos, incluindo aqueles em medicina nuclear e ressonância magnética, implantação de íons em engenharia de materiais, e datação por radiocarbono em geologia e arqueologia.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/F%C3%ADsica_nuclear"
+  },
+  {
+    "id": 375,
+    "title": "Plasma",
+    "author_or_source": "Wikipédia",
+    "description": "Em física e em química, o plasma é um dos estados físicos da matéria, similar ao gás, no qual certa porção das partículas é ionizada. A premissa básica é que o aquecimento de um gás provoca a dissociação das suas ligações moleculares, convertendo-o em seus átomos constituintes. Além disso, esse aquecimento adicional pode levar à ionização dessas moléculas e dos átomos do gás, transformando-o em plasma contendo partículas carregadas.",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Plasma"
+  },
+  {
+    "id": 376,
+    "title": "Efeito fotoelétrico",
+    "author_or_source": "Wikipédia",
+    "description": "O efeito fotoelétrico é a emissão de elétrons por um material, geralmente metálico, quando exposto a uma radiação eletromagnética de frequência suficientemente alta, que depende do material, como por exemplo a radiação ultravioleta. Ele pode ser observado quando a luz incide numa placa de metal, arrancando elétrons da placa. Os elétrons ejetados são denominados fotoelétrons.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Efeito_fotoel%C3%A9trico"
+  },
+  {
+    "id": 377,
+    "title": "Hidrodinâmica",
+    "author_or_source": "Wikipédia",
+    "description": "A hidrodinâmica é sub-área da hidráulica. Sendo esta a ciência que trata da mecânica dos fluidos, a hidrodinâmica refere-se especificamente a ciência que trata do movimento dos fluidos — fluxo de líquidos e gases. Refere-se à variáveis que atuam sob os líquidos em movimento, tais quais velocidade, aceleração e força. Tem várias aplicações, incluindo a aerodinâmica, a engenharia naval e dimensionamentos hidráulicos. Devido as características complexas dos fluidos reais, e a consequente dificuldade de equacioná-los, a hidrodinâmica passou a trabalhar com o chamado fluido perfeito — fluido sem atrito, viscosidade, coesão ou elasticidade. Devido a essas simplificações, a hidrodinâmica era, inicialmente, uma ciência com aplicações práticas limitadas. Entretanto, com o desenvolvimento de fórmulas empíricas a partir da experimentação e com o avanço de tecnologias que possibilitaram trabalhar com equações bastante complexas, a hidrodinâmica passou a ser um instrumento de valor prático indiscutível.",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Hidrodin%C3%A2mica"
+  },
+  {
+    "id": 378,
+    "title": "Física do estado sólido",
+    "author_or_source": "Wikipédia",
+    "description": "Física do estado sólido é o maior ramo da física da matéria condensada e estuda a matéria rígida ou sólidos. As principais teorias e pesquisas da física do estado sólido estão focadas em cristais, basicamente devido a periodicidade dos átomos no cristal que facilita a modelagem matemática e também porque materiais cristalinos frequentemente possuem propriedades elétricas, magnéticas, ópticas, ou mecânicas que podem ser explorados para propósitos de engenharia.\nÉ a disciplina fundamental que trata do estudo e aprimoramento dos semicondutores. Uma das principais teorias advindas da física de sólidos é a Teoria de Bandas.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/F%C3%ADsica_do_estado_s%C3%B3lido"
+  },
+  {
+    "id": 379,
+    "title": "Genoma",
+    "author_or_source": "Wikipédia",
+    "description": "Em biologia, o genoma é toda a informação hereditária de um organismo que está codificada em seu DNA. Isso inclui tanto genes como regiões intergénicas, DNA mitocondrial e DNA plastídico. Os genes consistem tanto na sua região codificante (exons) quanto a região não codificante, conhecida como íntrons ou junk DNA, termo criado, em 1920, por Hans Winkler, professor de botânica na Universidade de Hamburgo, e que não é mais usado, porque atualmente se sabe que essas sequências não codificadoras são muito importantes para a regulação gênica, dentre outras funções. Mais precisamente, o genoma de um organismo é uma sequência de DNA completa de um conjunto de cromossomos; por exemplo, um dos dois conjuntos que um indivíduo diploide contém em cada uma das suas células somáticas. Quando se diz que o genoma de uma espécie que se reproduz sexualmente foi \"sequenciado\", normalmente está a referir-se à determinação das sequências de um conjunto de autossomos e de um de cada tipo de cromossomo sexual, que determinam o sexo. Mesmo em espécies cujos indivíduos são todos do mesmo sexo, o que é descrito como \"uma sequência genómica\" pode ser um composto de cromossomos de vários indivíduos.",
+    "category": "Ciência",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Genoma"
+  },
+  {
+    "id": 380,
+    "title": "Sociologia urbana",
+    "author_or_source": "Wikipédia",
+    "description": "Sociologia urbana é o ramo da sociologia que trata do estudo das relações sociais dentro do espaço urbano. Assim, constitui-se como uma das bases dos estudos sobre as cidades, sendo uma disciplina de fundamentação para a arquitetura, o urbanismo e o planejamento urbano, assim como a antropologia, a economia e a geografia urbana.",
+    "category": "Sociologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Sociologia_urbana"
+  },
+  {
+    "id": 381,
+    "title": "Sociologia do trabalho",
+    "author_or_source": "Wikipédia",
+    "description": "A Sociologia do trabalho é um ramo da Sociologia voltado ao estudo das relações sociais no mundo do trabalho - a princípio, incluindo basicamente empresas e sindicatos - e às implicações sociais da relação entre trabalho e técnica.",
+    "category": "Sociologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Sociologia_do_trabalho"
+  },
+  {
+    "id": 382,
+    "title": "Computação em nuvem",
+    "author_or_source": "Wikipédia",
+    "description": "Computação em nuvem é um termo coloquial para a disponibilidade sob demanda de recursos do sistema de computador, especialmente armazenamento de dados e capacidade de computação, sem o gerenciamento ativo direto do utilizador. O termo geralmente é usado para descrever centros de dados disponíveis para muitos utilizadores pela Internet. Nuvens em grande escala, predominantes hoje em dia, geralmente têm funções distribuídas em vários locais dos servidores centrais. Se a conexão com o utilizador for relativamente próxima, pode ser designado um servidor de borda.",
+    "category": "Tecnologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_em_nuvem"
+  },
+  {
+    "id": 383,
+    "title": "Segurança computacional",
+    "author_or_source": "Wikipédia",
+    "description": "Segurança de computadores ou cibersegurança é a proteção de sistemas de computador contra roubo ou danos ao hardware, software ou dados eletrônicos, bem como a interrupção ou desorientação dos serviços que fornecem. O campo está crescendo em importância devido à crescente dependência de sistemas de computadores, internet e redes sem fio, como Bluetooth e Wi-Fi, e devido ao crescimento de dispositivos \"inteligentes\", incluindo smartphones, televisores e vários dispositivos pequenos que constituem a internet das coisas. Devido à sua complexidade, tanto em termos de política quanto de tecnologia, é também um dos maiores desafios do mundo contemporâneo.",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Seguran%C3%A7a_computacional"
+  },
+  {
+    "id": 384,
+    "title": "5G",
+    "author_or_source": "Wikipédia",
+    "description": "Em telecomunicações, o 5G é o padrão de tecnologia de quinta geração para redes móveis e de banda larga que as empresas de telefonia celular começaram a implantar em todo o mundo no final do ano de 2018. É o sucessor planejado das redes 4G que fornecem conectividade para a maioria dos dispositivos atuais.",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/5G"
+  },
+  {
+    "id": 385,
+    "title": "Big data",
+    "author_or_source": "Wikipédia",
+    "description": "Big data é a área do conhecimento que estuda como tratar, analisar e obter informações a partir de conjuntos de dados muito grandes. O termo big data surgiu em 1997, e foi inicialmente utilizado para nomear conjuntos de dados não ordenados em rápido crescimento. Nas últimas décadas, os conjuntos de dados têm crescido de forma exponencial.[carece de fontes?]",
+    "category": "Tecnologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Big_data"
+  },
+  {
+    "id": 386,
+    "title": "Automação",
+    "author_or_source": "Wikipédia",
+    "description": "Automação é um sistema automático pelo qual os mecanismos verificam seu próprio funcionamento, efetuando medições e introduzindo correções, sem a necessidade da interferência do homem. Em seu uso moderno, a automação pode ser definida como uma tecnologia que utiliza comandos programados para operar um dado processo, combinados com retroação de informação para determinar que os comandos sejam executados corretamente, frequentemente utilizada em processos antes operados por seres humanos, é a aplicação de técnicas computadorizadas ou mecânicas para diminuir o uso de mão de obra em qualquer processo, especialmente o uso de robôs nas linhas de produção. A automação diminui os custos e aumenta a velocidade da produção.",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Automa%C3%A7%C3%A3o"
+  },
+  {
+    "id": 387,
+    "title": "Sistema operativo",
+    "author_or_source": "Wikipédia",
+    "description": "Sistema operativo (português europeu) ou sistema operacional (português brasileiro) é um software que gerencia os recursos de um dispositivo, como a memória e o processamento, permite a execução de programas e aplicativos, define qual programa recebe atenção do processador, cria um sistema de arquivos, e fornece uma interface entre o computador e o usuário (português brasileiro) ou utilizador (português europeu). Embora possa ser executado imediatamente após a máquina ser ligada, a maioria dos computadores pessoais de hoje o executa através de outro programa armazenado em uma memória não-volátil ROM chamado BIOS num processo chamado \"bootstrapping\", conceito em inglês usado para designar processos autossustentáveis, ou seja, capazes de prosseguirem sem ajuda externa. Após executar testes e iniciar os componentes da máquina, o BIOS procura pelo sistema operacional em alguma unidade de armazenamento, geralmente o Disco Rígido, e a partir daí, o sistema operacional \"toma\" o controle da máquina. O sistema operacional reveza sua execução com a de outros programas, como se estivesse vigiando, controlando e orquestrando todo o processo computacional.",
+    "category": "Tecnologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Sistema_operativo"
+  },
+  {
+    "id": 388,
+    "title": "Código aberto",
+    "author_or_source": "Wikipédia",
+    "description": "Código aberto é o código-fonte que é disponibilizado gratuitamente para consulta, examinação, modificação e redistribuição. Os produtos incluem permissão para usar o código-fonte, documentos de design ou conteúdo do produto. O modelo de código aberto é um modelo de desenvolvimento de software descentralizado que incentiva a colaboração aberta. Um princípio importante do desenvolvimento de software de código aberto é a produção por pares, com produtos como código-fonte, projetos e documentação disponíveis gratuitamente ao público. O movimento de código aberto no software começou como uma resposta às limitações do código proprietário. O modelo é usado em projetos de tecnologia apropriada e na descoberta e pesquisa de medicamentos.",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/C%C3%B3digo_aberto"
   }
 ]
