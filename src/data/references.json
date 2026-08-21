@@ -1,0 +1,3224 @@
+[
+  {
+    "id": 1,
+    "title": "O Mito da Caverna",
+    "author_or_source": "Platão",
+    "description": "Uma alegoria clássica sobre como a humanidade está aprisionada em um mundo de sombras e ilusões e como o conhecimento nos liberta.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Mito_da_caverna"
+  },
+  {
+    "id": 2,
+    "title": "A Crítica da Razão Pura",
+    "author_or_source": "Immanuel Kant",
+    "description": "Obra complexa onde Kant investiga os limites da razão humana, separando o que percebemos (fenômeno) do que as coisas realmente são (númeno).",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Cr%C3%ADtica_da_Raz%C3%A3o_Pura"
+  },
+  {
+    "id": 3,
+    "title": "Cem Anos de Solidão",
+    "author_or_source": "Gabriel García Márquez",
+    "description": "A obra máxima do realismo mágico que narra a história da família Buendía. Um livro sobre tempo circular, memória e a história da América Latina.",
+    "category": "Literatura",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Cem_Anos_de_Solid%C3%A3o"
+  },
+  {
+    "id": 4,
+    "title": "Ulysses",
+    "author_or_source": "James Joyce",
+    "description": "Marco do modernismo literário conhecido pelo fluxo de consciência. O livro acompanha Leopold Bloom por Dublin em um único dia.",
+    "category": "Literatura",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Ulysses_(romance)"
+  },
+  {
+    "id": 5,
+    "title": "Buracos Negros",
+    "author_or_source": "Astrofísica",
+    "description": "Regiões do espaço onde o campo gravitacional é tão intenso que nada, nem a luz, pode escapar. A sua fronteira é o Horizonte de Eventos.",
+    "category": "Ciência",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Buraco_negro"
+  },
+  {
+    "id": 6,
+    "title": "Emaranhamento Quântico",
+    "author_or_source": "Física Quântica",
+    "description": "Fenômeno em que partículas interagem de tal forma que o estado de uma afeta instantaneamente a outra, mesmo a anos-luz de distância.",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Emaranhamento_qu%C3%A2ntico"
+  },
+  {
+    "id": 7,
+    "title": "Revolução Francesa",
+    "author_or_source": "História",
+    "description": "Agitação política (1789-1799) que pôs fim à monarquia absolutista na França, estabelecendo princípios de Liberdade, Igualdade e Fraternidade.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Francesa"
+  },
+  {
+    "id": 8,
+    "title": "Materialismo Histórico",
+    "author_or_source": "Karl Marx",
+    "description": "Método que afirma que as causas fundamentais das mudanças sociais estão na forma como a sociedade organiza sua produção econômica.",
+    "category": "Sociologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Materialismo_hist%C3%B3rico"
+  },
+  {
+    "id": 9,
+    "title": "Estoicismo",
+    "author_or_source": "Sêneca, Marco Aurélio",
+    "description": "Filosofia prática que ensina a focar no que podemos controlar e aceitar o que não podemos, promovendo resiliência e tranquilidade.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Estoicismo"
+  },
+  {
+    "id": 10,
+    "title": "Desconstrução",
+    "author_or_source": "Jacques Derrida",
+    "description": "Método de análise textual que critica a ideia de que a linguagem contém significados fixos, expondo contradições lógicas em textos.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Desconstru%C3%A7%C3%A3o"
+  },
+  {
+    "id": 11,
+    "title": "1984",
+    "author_or_source": "George Orwell",
+    "description": "Romance distópico sobre os perigos do totalitarismo, vigilância constante e a manipulação da verdade, personificada pelo 'Grande Irmão'.",
+    "category": "Literatura",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/1984_(livro)"
+  },
+  {
+    "id": 12,
+    "title": "Teoremas da Incompletude de Gödel",
+    "author_or_source": "Kurt Gödel",
+    "description": "Provou que em qualquer sistema matemático formal capaz de descrever a aritmética, haverá proposições verdadeiras que não podem ser provadas dentro do sistema.",
+    "category": "Matemática",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Teoremas_da_incompletude_de_G%C3%B6del"
+  },
+  {
+    "id": 13,
+    "title": "A Origem das Espécies",
+    "author_or_source": "Charles Darwin",
+    "description": "Obra que fundamentou a biologia evolutiva. Introduziu o conceito de seleção natural e evolução ao longo das gerações.",
+    "category": "Ciência",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/A_Origem_das_Esp%C3%A9cies"
+  },
+  {
+    "id": 14,
+    "title": "Teoria das Cordas",
+    "author_or_source": "Física Teórica",
+    "description": "Teoria que tenta unificar a mecânica quântica e a relatividade geral, propondo que partículas fundamentais são pequenas cordas vibrantes.",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Teoria_das_cordas"
+  },
+  {
+    "id": 15,
+    "title": "Efeito Dunning-Kruger",
+    "author_or_source": "Psicologia",
+    "description": "Viés cognitivo em que indivíduos com pouca habilidade superestimam a própria competência, enquanto especialistas subestimam a sua.",
+    "category": "Psicologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Efeito_Dunning-Kruger"
+  },
+  {
+    "id": 16,
+    "title": "O Ser e o Nada",
+    "author_or_source": "Jean-Paul Sartre",
+    "description": "Obra fundamental do existencialismo francês. Postula que a 'existência precede a essência', abordando liberdade, responsabilidade e angústia.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/O_Ser_e_o_Nada"
+  },
+  {
+    "id": 17,
+    "title": "Renascimento",
+    "author_or_source": "História da Arte",
+    "description": "Período de efervescência cultural e científica europeia que marcou a transição da Idade Média para a modernidade (Da Vinci, Michelangelo).",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Renascimento"
+  },
+  {
+    "id": 18,
+    "title": "Panóptico",
+    "author_or_source": "Michel Foucault",
+    "description": "Conceito arquitetônico usado como metáfora para as 'sociedades disciplinares'. Um sistema de vigilância que gera um comportamento dócil e autocontrolado.",
+    "category": "Sociologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Pan%C3%B3ptico"
+  },
+  {
+    "id": 19,
+    "title": "Dom Casmurro",
+    "author_or_source": "Machado de Assis",
+    "description": "Clássico brasileiro narrado por Bentinho, que tenta provar a traição de Capitu. Obra magistral sobre ciúme e a não confiabilidade da memória.",
+    "category": "Literatura",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Dom_Casmurro"
+  },
+  {
+    "id": 20,
+    "title": "Entropia",
+    "author_or_source": "Física Clássica",
+    "description": "Princípio (2ª Lei da Termodinâmica) indicando que o grau de desordem de um sistema isolado sempre tende a aumentar com o tempo.",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Entropia"
+  },
+  {
+    "id": 21,
+    "title": "Fascismo",
+    "author_or_source": "Ciência Política",
+    "description": "Ideologia política autoritária e ultranacionalista caracterizada por poder ditatorial, repressão da oposição e forte subordinação da sociedade ao Estado.",
+    "category": "Política",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Fascismo"
+  },
+  {
+    "id": 22,
+    "title": "Complexo de Édipo",
+    "author_or_source": "Sigmund Freud",
+    "description": "Conceito central da psicanálise que descreve o desejo inconsciente da criança pelo genitor do sexo oposto, acompanhado de rivalidade com o do mesmo sexo.",
+    "category": "Psicologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Complexo_de_%C3%89dipo"
+  },
+  {
+    "id": 23,
+    "title": "A Divina Comédia",
+    "author_or_source": "Dante Alighieri",
+    "description": "Poema épico do século XIV que descreve a jornada de Dante pelo Inferno, Purgatório e Paraíso, sendo uma profunda visão teológica e filosófica da vida após a morte.",
+    "category": "Literatura",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/A_Divina_Com%C3%A9dia"
+  },
+  {
+    "id": 24,
+    "title": "Sincronicidade",
+    "author_or_source": "Carl Jung",
+    "description": "Conceito que descreve circunstâncias que parecem significativamente relacionadas, embora sem uma conexão causal aparente (coincidências significativas).",
+    "category": "Psicologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Sincronicidade"
+  },
+  {
+    "id": 25,
+    "title": "Paradoxo de Fermi",
+    "author_or_source": "Enrico Fermi",
+    "description": "A aparente contradição entre as altas estimativas de probabilidade de existência de civilizações extraterrestres e a falta de evidências delas.",
+    "category": "Ciência",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Paradoxo_de_Fermi"
+  },
+  {
+    "id": 26,
+    "title": "Fenomenologia",
+    "author_or_source": "Edmund Husserl",
+    "description": "Abordagem filosófica que estuda as estruturas da consciência e dos fenômenos como eles aparecem na experiência subjetiva em primeira pessoa.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Fenomenologia"
+  },
+  {
+    "id": 27,
+    "title": "Guerra Fria",
+    "author_or_source": "História Contemporânea",
+    "description": "Período de tensão geopolítica entre os Estados Unidos e a União Soviética e seus respectivos aliados após a Segunda Guerra Mundial.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Guerra_Fria"
+  },
+  {
+    "id": 28,
+    "title": "Mito de Sísifo",
+    "author_or_source": "Albert Camus",
+    "description": "Ensaio filosófico sobre o absurdo da condição humana, usando o mito grego de Sísifo, condenado a empurrar eternamente uma pedra montanha acima.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/O_Mito_de_S%C3%ADsifo"
+  },
+  {
+    "id": 29,
+    "title": "Guernica",
+    "author_or_source": "Pablo Picasso",
+    "description": "Pintura a óleo e poderosa declaração política contra a guerra. Retrata o sofrimento causado pelo bombardeio da cidade de Guernica durante a Guerra Civil Espanhola.",
+    "category": "Arte",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Guernica_(quadro)"
+  },
+  {
+    "id": 30,
+    "title": "Biopolítica",
+    "author_or_source": "Michel Foucault",
+    "description": "O estilo de governo que regula a população através do 'biopoder', gerindo a vida humana biológica em massa (nascimentos, mortalidade, saúde).",
+    "category": "Sociologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Biopol%C3%ADtica"
+  },
+  {
+    "id": 31,
+    "title": "O Pequeno Príncipe",
+    "author_or_source": "Antoine de Saint-Exupéry",
+    "description": "Um conto poético repleto de observações profundas sobre a vida e a natureza humana, contado a partir da perspectiva de uma criança que viaja por planetas.",
+    "category": "Literatura",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/O_Pequeno_Pr%C3%ADncipe"
+  },
+  {
+    "id": 32,
+    "title": "Hipótese de Riemann",
+    "author_or_source": "Bernhard Riemann",
+    "description": "Um dos problemas não resolvidos mais famosos da matemática. Lida com a distribuição de números primos e os zeros da função zeta de Riemann.",
+    "category": "Matemática",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Hip%C3%B3tese_de_Riemann"
+  },
+  {
+    "id": 33,
+    "title": "Império Romano",
+    "author_or_source": "História Antiga",
+    "description": "Um dos maiores e mais influentes impérios da história humana, cujas inovações em direito, arquitetura, idioma e governo moldaram o mundo ocidental.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Romano"
+  },
+  {
+    "id": 34,
+    "title": "Determinismo e Livre-Arbítrio",
+    "author_or_source": "Filosofia da Mente",
+    "description": "O debate sobre se as ações humanas são completamente determinadas por eventos passados e leis físicas (determinismo) ou se possuímos liberdade de escolha (livre-arbítrio).",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Livre-arb%C3%ADtrio"
+  },
+  {
+    "id": 35,
+    "title": "Efeito Borboleta",
+    "author_or_source": "Teoria do Caos",
+    "description": "A ideia de que pequenas mudanças nas condições iniciais de um sistema podem levar a consequências drásticas e imprevisíveis (ex: o bater de asas de uma borboleta).",
+    "category": "Ciência",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Efeito_borboleta"
+  },
+  {
+    "id": 36,
+    "title": "O Príncipe",
+    "author_or_source": "Nicolau Maquiavel",
+    "description": "Tratado político do século XVI que analisa pragmática e brutalmente como o poder é conquistado e mantido, separando a política da moral clássica.",
+    "category": "Política",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/O_Pr%C3%ADncipe"
+  },
+  {
+    "id": 37,
+    "title": "Grande Sertão: Veredas",
+    "author_or_source": "João Guimarães Rosa",
+    "description": "Obra-prima da literatura brasileira narrada pelo jagunço Riobaldo. Uma epopeia sertaneja que explora temas existenciais, o bem e o mal, e o diabo no sertão.",
+    "category": "Literatura",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Grande_Sert%C3%A3o:_Veredas"
+  },
+  {
+    "id": 38,
+    "title": "Rizoma",
+    "author_or_source": "Gilles Deleuze e Félix Guattari",
+    "description": "Conceito botânico adaptado à filosofia para descrever teorias e pesquisas não hierárquicas, onde qualquer ponto pode se conectar a qualquer outro, sem um centro principal.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Rizoma_(filosofia)"
+  },
+  {
+    "id": 39,
+    "title": "Iluminismo",
+    "author_or_source": "História Moderna",
+    "description": "Movimento intelectual do século XVIII que enfatizou a razão, a ciência, e os direitos individuais em oposição à tradição e ao fanatismo religioso.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Iluminismo"
+  },
+  {
+    "id": 40,
+    "title": "Hermenêutica",
+    "author_or_source": "Filosofia / Teologia",
+    "description": "A teoria e a metodologia da interpretação de textos. Evoluiu da interpretação de textos sagrados para abranger a compreensão humana do mundo.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Hermen%C3%AAutica"
+  },
+  {
+    "id": 41,
+    "title": "A Metamorfose",
+    "author_or_source": "Franz Kafka",
+    "description": "Novela sobre Gregor Samsa, que um dia acorda transformado em um inseto monstruoso. Explora a alienação na sociedade capitalista moderna.",
+    "category": "Literatura",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/A_Metamorfose"
+  },
+  {
+    "id": 42,
+    "title": "Ação Comunicativa",
+    "author_or_source": "Jürgen Habermas",
+    "description": "Teoria sociológica baseada na ideia de que a comunicação linguística voltada para o entendimento mútuo é o fundamento para uma sociedade racional e democrática.",
+    "category": "Sociologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/A%C3%A7%C3%A3o_comunicativa"
+  },
+  {
+    "id": 43,
+    "title": "Revolução Industrial",
+    "author_or_source": "História",
+    "description": "A transição massiva de métodos de produção artesanal para máquinas na Europa e EUA a partir do século XVIII, que mudou para sempre a economia e sociedade globais.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Industrial"
+  },
+  {
+    "id": 44,
+    "title": "Mecânica dos Fluidos de Navier-Stokes",
+    "author_or_source": "Física e Matemática",
+    "description": "Equações complexas que descrevem o movimento de substâncias fluidas, fundamentais para prever o clima e construir aviões. A prova de sua solução exata ainda é um 'Problema do Milênio'.",
+    "category": "Matemática",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Equa%C3%A7%C3%B5es_de_Navier-Stokes"
+  },
+  {
+    "id": 45,
+    "title": "O Manifesto Comunista",
+    "author_or_source": "Karl Marx e Friedrich Engels",
+    "description": "Um dos tratados políticos mais influentes da história, resumindo as ideias do marxismo sobre a luta de classes e criticando o sistema capitalista.",
+    "category": "Política",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Manifesto_Comunista"
+  },
+  {
+    "id": 46,
+    "title": "Dualismo Mente-Corpo",
+    "author_or_source": "René Descartes",
+    "description": "A visão de que a mente (uma substância não física e pensante) e o corpo (uma substância material) são entidades completamente separadas e distintas.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Dualismo_mente-corpo"
+  },
+  {
+    "id": 47,
+    "title": "Peste Negra",
+    "author_or_source": "História Medieval",
+    "description": "Uma pandemia devastadora no século XIV, causada pela bactéria Yersinia pestis, que exterminou cerca de um terço da população da Europa.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Peste_Negra"
+  },
+  {
+    "id": 48,
+    "title": "A Sociedade do Espetáculo",
+    "author_or_source": "Guy Debord",
+    "description": "Crítica filosófica afirmando que na sociedade contemporânea, todas as relações sociais são mediadas por imagens; a vida real é substituída por uma representação superficial.",
+    "category": "Sociologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/A_Sociedade_do_Espet%C3%A1culo"
+  },
+  {
+    "id": 49,
+    "title": "Os Lusíadas",
+    "author_or_source": "Luís de Camões",
+    "description": "O grande épico da literatura portuguesa, que glorifica as navegações e os descobrimentos de Portugal, centrado na viagem de Vasco da Gama à Índia.",
+    "category": "Literatura",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Os_Lus%C3%ADadas"
+  },
+  {
+    "id": 50,
+    "title": "Bóson de Higgs",
+    "author_or_source": "Física de Partículas",
+    "description": "A partícula elementar apelidada de 'A partícula de Deus'. A sua comprovação, em 2012, explicou fundamentalmente como a matéria adquire massa no universo.",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/B%C3%B3son_de_Higgs"
+  },
+  {
+    "id": 51,
+    "title": "Inteligência Artificial (IA)",
+    "author_or_source": "Ciência da Computação",
+    "description": "A simulação da inteligência humana por sistemas computacionais. Aborda desde aprendizado de máquina até questões éticas profundas sobre o futuro do trabalho.",
+    "category": "Tecnologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_artificial"
+  },
+  {
+    "id": 52,
+    "title": "O Estrangeiro",
+    "author_or_source": "Albert Camus",
+    "description": "Obra existencialista absurda sobre Meursault, um homem apático e indiferente às convenções sociais, que acaba cometendo um assassinato inexplicável sob o sol argelino.",
+    "category": "Literatura",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/O_Estrangeiro_(romance)"
+  },
+  {
+    "id": 53,
+    "title": "Macunaíma",
+    "author_or_source": "Mário de Andrade",
+    "description": "Um romance marco do Modernismo brasileiro que conta a saga do 'herói sem nenhum caráter', misturando lendas indígenas, folclore nacional e uma crítica feroz ao Brasil.",
+    "category": "Literatura",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Macuna%C3%ADma_(livro)"
+  },
+  {
+    "id": 54,
+    "title": "Falácia do Custo Irrecuperável",
+    "author_or_source": "Economia Comportamental",
+    "description": "O viés cognitivo que nos faz continuar um comportamento (como assistir um filme ruim) apenas porque já investimos recursos irrecuperáveis (tempo ou dinheiro) naquilo.",
+    "category": "Psicologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Fal%C3%A1cia_do_custo_irrecuper%C3%A1vel"
+  },
+  {
+    "id": 55,
+    "title": "Sistema Solar",
+    "author_or_source": "Astronomia",
+    "description": "O conjunto de planetas, luas, asteroides e cometas que orbitam ao redor do nosso Sol, formando a nossa 'vizinhança' cósmica mais imediata.",
+    "category": "Ciência",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Sistema_Solar"
+  },
+  {
+    "id": 56,
+    "title": "Sócrates",
+    "author_or_source": "Wikipédia",
+    "description": "Sócrates foi um filósofo ateniense do período clássico da Grécia Antiga. Creditado como um dos fundadores da filosofia ocidental, é até hoje uma figura enigmática, conhecida principalmente através dos relatos em obras de escritores que viveram mais tarde, especialmente dois de seus alunos, Platão e Xenofonte, bem como pelas peças teatrais de seu contemporâneo Aristófanes. Muitos defendem que os diálogos de Platão seriam o relato mais abrangente de Sócrates a ter perdurado da Antiguidade aos dias de hoje.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/S%C3%B3crates"
+  },
+  {
+    "id": 57,
+    "title": "Aristóteles",
+    "author_or_source": "Wikipédia",
+    "description": "Aristóteles foi um filósofo e polímata da Grécia Antiga. Ao lado de Platão, de quem foi discípulo na Academia, foi um dos pensadores mais influentes da história da civilização ocidental. Aristóteles abordou quase todos os campos do conhecimento de sua época: biologia, física, metafísica, lógica, poética, política, retórica, ética e, de forma mais marginal, a economia. A filosofia, definida como \"amor à sabedoria\", passou a ser compreendida por Aristóteles em sentido mais amplo, buscando se tornar uma ciência das ciências. Embora o estagirita tenha escrito muitos tratados e diálogos formatados para a publicação, apenas cerca de um terço de sua produção original sobreviveu, nenhuma delas destinada à publicação.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Arist%C3%B3teles"
+  },
+  {
+    "id": 58,
+    "title": "Platão",
+    "author_or_source": "Wikipédia",
+    "description": "Platão foi um filósofo e matemático do período clássico da Grécia Antiga, autor de diversos diálogos filosóficos e fundador da Academia em Atenas, a primeira instituição de educação superior do mundo ocidental. Ele é amplamente considerado a figura central na história do grego antigo e da filosofia ocidental, juntamente com seu mentor, Sócrates, e seu pupilo, Aristóteles. Platão ajudou a construir os alicerces da filosofia natural, da ciência e da filosofia ocidental, e também tem sido frequentemente citado como um dos fundadores da religião ocidental, da ciência e da espiritualidade. O assim chamado neoplatonismo de filósofos como Plotino e Porfírio influenciou Santo Agostinho e, portanto, o cristianismo, bem como a filosofia árabe e judaica. Alfred North Whitehead observou certa vez: \"a caracterização geral mais segura da tradição filosófica europeia é de que ela consiste em uma série de notas de rodapé sobre Platão\".",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Plat%C3%A3o"
+  },
+  {
+    "id": 59,
+    "title": "Immanuel Kant",
+    "author_or_source": "Wikipédia",
+    "description": "Immanuel Kant ou Emanuel Kant, foi um filósofo alemão e um dos principais pensadores do Iluminismo. Seus abrangentes e sistemáticos trabalhos em epistemologia, metafísica, ética e estética tornaram-no uma das figuras mais influentes da filosofia ocidental moderna.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Immanuel_Kant"
+  },
+  {
+    "id": 60,
+    "title": "Friedrich Nietzsche",
+    "author_or_source": "Wikipédia",
+    "description": "Friedrich Wilhelm Nietzsche foi um filósofo, filólogo, crítico cultural, poeta e compositor alemão. Escreveu vários textos criticando a religião, a moral, a cultura contemporânea, a filosofia e a ciência, exibindo certa predileção por metáfora, ironia e aforismo.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Friedrich_Nietzsche"
+  },
+  {
+    "id": 61,
+    "title": "René Descartes",
+    "author_or_source": "Wikipédia",
+    "description": "René Descartes foi um filósofo, físico e matemático francês. Durante a Idade Moderna, também era conhecido por seu nome latino Renatus Cartesius.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+  },
+  {
+    "id": 62,
+    "title": "John Locke",
+    "author_or_source": "Wikipédia",
+    "description": "John Locke foi um filósofo inglês conhecido como o \"pai do liberalismo\", sendo considerado o principal representante do empirismo britânico e um dos principais teóricos do contrato social.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/John_Locke"
+  },
+  {
+    "id": 63,
+    "title": "Jean-Jacques Rousseau",
+    "author_or_source": "Wikipédia",
+    "description": "Jean-Jacques Rousseau, foi um importante filósofo, teórico político, escritor e compositor genebrino. As ideias de Rousseau influenciaram profundamente todo o Direito e outras áreas das ciências humanas na medida em que desenvolveram e aprofundaram conceitos como Estado, poder e soberania, tais quais conhecemos atualmente.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Jean-Jacques_Rousseau"
+  },
+  {
+    "id": 64,
+    "title": "Voltaire",
+    "author_or_source": "Wikipédia",
+    "description": "François-Marie Arouet foi um escritor, historiador e filósofo iluminista francês. Conhecido por seu pseudônimo M. de Voltaire,, ele era famoso por sua sagacidade e suas críticas ao cristianismo — especialmente à Igreja Católica Romana — e à escravidão. Voltaire defendia a liberdade de expressão, liberdade de religião e separação entre igreja e estado.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Voltaire"
+  },
+  {
+    "id": 65,
+    "title": "Karl Marx",
+    "author_or_source": "Wikipédia",
+    "description": "Karl Marx RSA foi um advogado, filósofo, economista, historiador, sociólogo, teórico político, jornalista e revolucionário socialista alemão. Nascido em Tréveris, Prússia, Marx estudou direito e filosofia nas universidades de Bona e Berlim. Casou-se com a crítica de teatro e ativista política alemã Jenny von Westphalen em 1843. Devido às suas publicações políticas, Marx tornou-se apátrida e viveu no exílio com a sua mulher e filhos em Londres durante décadas, onde continuou a desenvolver o seu pensamento em colaboração com o pensador alemão Friedrich Engels e a publicar os seus escritos, pesquisando na Sala de Leitura do Museu Britânico. Os seus títulos mais conhecidos são o panfleto Manifesto Comunista de 1848 e o triplo volume O Capital (1867–1883). O pensamento político e filosófico de Marx teve uma enorme influência na história intelectual, económica e política subsequente. O seu nome tem sido usado como adjetivo, substantivo e escola de teoria social.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Karl_Marx"
+  },
+  {
+    "id": 66,
+    "title": "Sigmund Freud",
+    "author_or_source": "Wikipédia",
+    "description": "Sigmund Freud foi um médico neurologista e importante psicanalista austríaco. Reconhecido como o fundador da psicanálise, tornou-se a figura mais influente da história da psicologia. A influência de Freud pode ser observada ainda em diversos outros campos do conhecimento e até mesmo na cultura popular, inclusive no uso cotidiano de palavras que se tornaram recorrentes, mas que surgiram a partir de suas teorias. Expressões como \"neurose\", \"repressões\", \"projeções\" popularizaram-se a partir de seus escritos.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Sigmund_Freud"
+  },
+  {
+    "id": 67,
+    "title": "Simone de Beauvoir",
+    "author_or_source": "Wikipédia",
+    "description": "Simone Lucie-Ernestine-Marie Bertrand de Beauvoir, mais conhecida como Simone de Beauvoir, foi uma escritora, intelectual, filósofa existencialista, ativista política, feminista e teórica social francesa. Embora não se considerasse uma filósofa, De Beauvoir teve uma influência significativa tanto no existencialismo feminista quanto na teoria feminista.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Simone_de_Beauvoir"
+  },
+  {
+    "id": 68,
+    "title": "Michel Foucault",
+    "author_or_source": "Wikipédia",
+    "description": "Paul-Michel Foucault ; foi um filósofo, historiador das ideias, teórico social, crítico literário e professor da catedrático de História dos Sistemas do Pensamento, no célebre Collège de France, de 1970 até 1984. Suas teorias abordam a relação entre poder e conhecimento e como eles são usados ​​como uma forma de controle social por meio de instituições sociais. Embora muitas vezes seja citado como um pós-estruturalista e pós-modernista, Foucault acabou rejeitando esses rótulos, preferindo classificar seu pensamento como uma história crítica da modernidade. Seu pensamento foi muito influente tanto para grupos acadêmicos, quanto para ativistas.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Michel_Foucault"
+  },
+  {
+    "id": 69,
+    "title": "Gravidade",
+    "author_or_source": "Wikipédia",
+    "description": "Na física, gravidade (lat: gravitas, «peso»)? é uma interação fundamental que causa atração mútua entre todas as coisas que têm massa. É, de longe, a mais fraca das quatro interações fundamentais, aproximadamente 1038 vezes mais fraca que a interação forte, 1036 vezes mais fraca que a força eletromagnética e 1029 vezes mais fraca que a interação fraca. Como resultado, não tem influência significativa ao nível das partículas subatómicas. No entanto, a gravidade é a interação mais significativa entre objetos em escala macroscópica e determina o movimento dos planetas, estrelas, galáxias e até mesmo da luz.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Gravidade"
+  },
+  {
+    "id": 70,
+    "title": "Neuroplasticidade",
+    "author_or_source": "Wikipédia",
+    "description": "Neuroplasticidade, também conhecida como plasticidade neuronal ou plasticidade cerebral, refere-se à capacidade do sistema nervoso central de adaptar-se e moldar-se a novas situações. O sistema nervoso central é uma estrutura que está em constante mudança, da qual a neuroplasticidade é uma propriedade integral, e a consequência de cada entrada sensorial, ato motor, associação, sinal de recompensa, plano de ação ou consciência. Assim, a neuroplasticidade não é um estado ocasional, mas sim o estado normal e contínuo do sistema nervoso central ao longo da vida.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Neuroplasticidade"
+  },
+  {
+    "id": 71,
+    "title": "Criptografia",
+    "author_or_source": "Wikipédia",
+    "description": "Criptografia, ou criptologia, é a prática e o estudo de técnicas para comunicação segura na presença de comportamento adversário. De forma mais geral, a criptografia trata da construção e análise de protocolos que impedem terceiros ou o público de ler mensagens privadas. A criptografia moderna existe na intersecção das disciplinas de matemática, ciência da computação, segurança da informação, engenharia elétrica, processamento de sinais digitais, física e outras. Conceitos básicos relacionados à segurança da informação também são centrais para a criptografia. As aplicações práticas da criptografia incluem comércio eletrônico, cartões de pagamento baseados em chip, moedas digitais, senhas de computador e comunicações militares.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Criptografia"
+  },
+  {
+    "id": 72,
+    "title": "Democracia",
+    "author_or_source": "Wikipédia",
+    "description": "Democracia é um sistema de governo no qual o poder do Estado é investido no povo ou em sua população em geral. Numa definição minimalista de democracia, os governantes são eleitos através de eleições justas e competitivas, enquanto definições mais abrangentes associam também a democracia às garantias de liberdades civis e direitos humanos. Contrasta com formas de governo em que o poder não é investido na população geral, como em sistemas autoritários. A opinião pública do mundo ocidental é fortemente favorável aos sistemas democráticos de governo. De acordo com os Índices de Democracia V-Dem e The Economist Democracy Index, menos de metade da população mundial vivia numa democracia em 2022.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Democracia"
+  },
+  {
+    "id": 73,
+    "title": "Anarquismo",
+    "author_or_source": "Wikipédia",
+    "description": "Anarquismo é uma ideologia política que se opõe a toda e qualquer forma de opressão, hierarquia e dominação, seja ela política, econômica, social ou cultural, como o Estado, o capitalismo, as instituições religiosas, o racismo, o imperialismo e o patriarcado. Através de uma análise crítica da dominação, o anarquismo pretende superar a ordem social na qual esta se faz presente através de um projeto construtivo baseado na defesa da autogestão, tendo em vista a constituição de uma sociedade libertária baseada na cooperação e na ajuda mútua entre os indivíduos e onde estes possam associar-se livremente.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Anarquismo"
+  },
+  {
+    "id": 74,
+    "title": "Globalização",
+    "author_or_source": "Wikipédia",
+    "description": "A Globalização é um conceito das ciências humanas que designa os processos de aprofundamento internacional da integração econômica, social, cultural e política, que teriam sido impulsionados pela redução de custos dos meios de transporte e comunicações no final do século XX e início do século XXI sendo considerada a maior mudança da história econômica nos últimos 40 anos. O marco histórico que daria início ao processo de globalização é alvo de disputa acadêmica, ao passo que alguns estudiosos defendem que ele se deu no início da Era Moderna, enquanto outros traçam a sua história muito antes da era das descobertas e viagens ao Novo Mundo pelos europeus. Alguns até mesmo traçam as origens ao terceiro milênio a.C.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Globaliza%C3%A7%C3%A3o"
+  },
+  {
+    "id": 75,
+    "title": "Ilíada",
+    "author_or_source": "Wikipédia",
+    "description": "A Ilíada é um dos dois principais poemas épicos da Grécia Antiga, de autoria atribuída ao poeta Homero, que narra os acontecimentos decorridos no período de 51 dias durante o nono e penúltimo ano dos dez anos da Guerra de Troia, conflito empreendido para a conquista de Troia, cuja gênese radica na ira de Aquiles.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Il%C3%ADada"
+  },
+  {
+    "id": 76,
+    "title": "Fausto",
+    "author_or_source": "Wikipédia",
+    "description": "Fausto é o protagonista de uma popular lenda alemã de um pacto com o demônio, baseada no médico, mago e alquimista alemão Dr. Johannes Georg Faust (1480-1540). O nome Fausto tem sido usado como base de diversos textos literários, o mais famoso deles a peça teatral do autor Goethe, que foi produzida em duas partes, escrita e reescrita ao longo de quase sessenta anos. A primeira parte — mais famosa — foi publicada em 1806 e a segunda, em 1832 — às vésperas da morte do autor.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Fausto"
+  },
+  {
+    "id": 78,
+    "title": "Claude Monet",
+    "author_or_source": "Wikipédia",
+    "description": "Oscar-Claude Monet foi um pintor francês e o mais célebre entre os pintores impressionistas.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Claude_Monet"
+  },
+  {
+    "id": 79,
+    "title": "Tarsila do Amaral",
+    "author_or_source": "Wikipédia",
+    "description": "Tarsila de Aguiar do Amaral foi uma pintora, desenhista, escultora, ilustradora, cronista e tradutora brasileira. É considerada uma das principais artistas modernistas latino-americanas, além de ser considerada a pintora que melhor alcançou as aspirações brasileiras de expressão nacionalista nesse estilo artístico.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Tarsila_do_Amaral"
+  },
+  {
+    "id": 80,
+    "title": "Jazz",
+    "author_or_source": "Wikipédia",
+    "description": "O jazz é uma manifestação artístico-musical originária de comunidades de Nova Orleans, nos Estados Unidos. Tal manifestação teria surgido por volta do final do século XIX, tendo origem na cultura popular e na criatividade das comunidades negras que ali viviam, um de seus espaços de desenvolvimento mais importantes.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Jazz"
+  },
+  {
+    "id": 81,
+    "title": "Tropicália",
+    "author_or_source": "Wikipédia",
+    "description": "Tropicália, tropicalismo ou movimento tropicalista foi um movimento cultural brasileiro da segunda metade da década de 1960. Embora a música fosse sua expressão principal, o movimento tropicalista se expressava por outras formas de arte, como cinema, teatro e poesia.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Tropic%C3%A1lia"
+  },
+  {
+    "id": 82,
+    "title": "Matemática",
+    "author_or_source": "Wikipédia",
+    "description": "Matemática é uma área do conhecimento que inclui os tópicos dos números, fórmulas e estruturas relacionadas, formas e os espaços em que estão contidos, e quantidades e suas mudanças. Esses tópicos são representados na matemática moderna com as principais subdisciplinas da teoria dos números, álgebra, geometria e análise, respectivamente. No entanto, não há consenso entre os matemáticos sobre uma definição comum para a disciplina acadêmica que estudam.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Matem%C3%A1tica"
+  },
+  {
+    "id": 83,
+    "title": "Estatística",
+    "author_or_source": "Wikipédia",
+    "description": "Estatística é a ciência que utiliza as teorias probabilísticas para explicar a frequência da ocorrência de eventos, tanto em estudos observacionais quanto em experimentos para modelar a aleatoriedade e a incerteza de forma a estimar ou possibilitar a previsão de fenômenos futuros, conforme o caso.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Estat%C3%ADstica"
+  },
+  {
+    "id": 84,
+    "title": "Pi",
+    "author_or_source": "Wikipédia",
+    "description": "O número π é uma constante matemática que é razão entre o comprimento de uma circunferência e seu diâmetro, aproximadamente igual a 3,14159. Ele aparece em diversas fórmulas matemáticas e físicas. É um número irracional, que significa que não pode ser expresso como a razão de dois inteiros, embora frações como ⁠22/7⁠ são comumente utilizadas para aproximar o seu valor. Consequentemente, sua representação decimal nunca acaba, nem entra num padrão que se repete infinitamente. Também é um número transcendente, ou seja, não é a solução de uma equação algébrica que envolva apenas uma quantidade finita de somas, produtos, potências e coeficientes inteiros. Este último fato implica que resolver o antigo problema da quadratura do círculo com régua e compasso é impossível. Os dígitos decimais de π são aparentemente distribuídos aleatoriamente, mas nenhuma prova para essa conjectura foi encontrada.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Pi"
+  },
+  {
+    "id": 85,
+    "title": "Nikola Tesla",
+    "author_or_source": "Wikipédia",
+    "description": "Nikola Tesla foi um inventor, físico experimental, engenheiro eletricista e engenheiro mecânico sérvio, mais conhecido por suas contribuições ao projeto do moderno sistema de fornecimento de eletricidade em corrente alternada (CA).",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Nikola_Tesla"
+  },
+  {
+    "id": 86,
+    "title": "Arquitetura",
+    "author_or_source": "Wikipédia",
+    "description": "Arquitetura (português brasileiro) ou arquitectura (português europeu) é a disciplina que tem como finalidade a organização do espaço antropizado em que vive o ser humano. É a arte e a técnica de projetar, construir e decorar abrigos, edifícios e estruturas distinguindo-se das habilidades associadas à construção. É tanto o processo quanto o produto de esboçar, conceber, planear, projetar e construir edifícios ou outras estruturas, de acordo com as suas aspirações, possibilidades técnicas contemporâneas e visões estéticas. É a arte de moldar e criar espaços utilizáveis para as necessidades humanas. O termo em latim: architectūra; em grego clássico: ἀρχιτέκτων ; em grego clássico: ἀρχι- em grego clássico: τέκτων.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Arquitetura"
+  },
+  {
+    "id": 87,
+    "title": "Coliseu",
+    "author_or_source": "Wikipédia",
+    "description": "Coliseu, também conhecido como Anfiteatro Flaviano, é um anfiteatro oval localizado no centro da cidade de Roma, capital da Itália. Construído com tijolos revestidos de argamassa e areia, e originalmente cobertos com travertino é o maior anfiteatro já construído e está situado a leste do Fórum Romano.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Coliseu"
+  },
+  {
+    "id": 88,
+    "title": "Machu Picchu",
+    "author_or_source": "Wikipédia",
+    "description": "Machu Picchu é uma cidadela inca do século XV localizada na Cordilheira Oriental do sul do Peru, em uma crista montanhosa a 2.430 metros de altura. Está situado no distrito de Machupicchu, na província de Urubamba, cerca de 80 quilômetros a noroeste de Cusco, acima do Vale Sagrado e ao longo do rio Urubamba, que forma um cânion profundo com um clima subtropical de montanha.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Machu_Picchu"
+  },
+  {
+    "id": 89,
+    "title": "Torre Eiffel",
+    "author_or_source": "Wikipédia",
+    "description": "Torre Eiffel é uma torre de treliça de ferro forjado no Champ de Mars, em Paris, França. Tem o nome do engenheiro Gustave Eiffel, cuja empresa projetou e construiu a torre.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Torre_Eiffel"
+  },
+  {
+    "id": 90,
+    "title": "Cristianismo",
+    "author_or_source": "Wikipédia",
+    "description": "Cristianismo é uma religião monoteísta abraâmica baseada na vida e nos ensinamentos de Jesus de Nazaré. É a maior e mais difundida religião do mundo, com cerca de 2,4 bilhões* de seguidores, representando um terço da população global. Estima-se que seus adeptos, conhecidos como cristãos, constituem a maioria da população em 157 países e territórios. A maioria dos cristãos acredita que Jesus é o Filho de Deus, cuja vinda como o Messias foi profetizada na Bíblia hebraica e registrada no Novo Testamento.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Cristianismo"
+  },
+  {
+    "id": 91,
+    "title": "Existencialismo",
+    "author_or_source": "Wikipédia",
+    "description": "O existencialismo é uma família de visões e investigações filosóficas que exploram a luta do indivíduo humano para levar uma vida autêntica, apesar do aparente absurdo ou incompreensibilidade da existência. Ao examinar o sentido, o propósito e o valor, o pensamento existencialista frequentemente inclui conceitos como crises existenciais, angústia, coragem e liberdade.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Existencialismo"
+  },
+  {
+    "id": 92,
+    "title": "Pragmatismo",
+    "author_or_source": "Wikipédia",
+    "description": "O pragmatismo constitui uma escola de filosofia estabelecida no final do século XIX, com origem no Metaphysical Club, um grupo de especulação filosófica liderado pelo lógico Charles Sanders Peirce, pelo psicólogo William James e pelo jurista Oliver Wendell Holmes, Jr., congregando em seguida acadêmicos importantes dos Estados Unidos. Segundo essa doutrina filosófica, o sentido de uma ideia corresponde ao conjunto dos seus desdobramentos práticos.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Pragmatismo"
+  },
+  {
+    "id": 93,
+    "title": "Tragédia",
+    "author_or_source": "Wikipédia",
+    "description": "Tragédia é uma forma de drama que se caracteriza pela sua seriedade e dignidade, pondo frequentemente em causa os deuses, o destino ou a sociedade.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Trag%C3%A9dia"
+  },
+  {
+    "id": 94,
+    "title": "Fotografia",
+    "author_or_source": "Wikipédia",
+    "description": "Fotografia: do grego φῶς [fós] (\"luz\") e γραφίς [grafis] ou γραφή [grafé] (“escrita”), significa \"escrever ou desenhar com luz e contraste\"; noutros termos, é essencialmente a técnica de criação de imagens por meio de exposição luminosa, fixando-as em uma superfície sensível. A primeira fotografia reconhecida remonta ao ano de 1826 e é atribuída ao francês Joseph Nicéphore Niépce. Contudo, a invenção da fotografia não é obra de um só autor, mas um processo de acúmulo de avanços por parte de muitas pessoas, trabalhando, juntas ou em paralelo, ao longo de muitos anos. Se por um lado os princípios fundamentais da fotografia se estabeleceram há décadas e, desde a introdução do filme fotográfico colorido, quase não sofreram mudanças, por outro, os avanços tecnológicos têm sistematicamente possibilitado melhorias na qualidade das imagens produzidas, agilização das etapas do processo de produção e a redução de custos, popularizando o uso da fotografia.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Fotografia"
+  },
+  {
+    "id": 95,
+    "title": "Escultura",
+    "author_or_source": "Wikipédia",
+    "description": "Escultura é uma arte que representa ou ilustra imagens plásticas em relevo total ou parcial. Existem várias técnicas de trabalhar os materiais, como a cinzelação, a fundição, a moldagem ou a aglomeração de partículas para a criação de um objeto.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Escultura"
+  },
+  {
+    "id": 96,
+    "title": "Dança",
+    "author_or_source": "Wikipédia",
+    "description": "A dança é a arte de fazer movimentos ritmados com o corpo. É uma expressão artística e cênica que envolvem os movimentos corporais em sua relação com diferentes estilos musicais. É o uso do corpo seguindo movimentos previamente estabelecidos (coreografia) ou improvisados, com passos ritmados ao som e compasso de uma música, A dança é praticada desde os tempos pré-históricos, e por isso geralmente se diz que ela é uma expressão cultural que acompanha a humanidade. É uma das três principais artes cênicas da antiguidade, ao lado do teatro e da música, pois no antigo Egito existia danças astro-teológicas e na Grécia era frequentemente vinculada aos jogos.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Dan%C3%A7a"
+  },
+  {
+    "id": 97,
+    "title": "Copa do Mundo FIFA",
+    "author_or_source": "Wikipédia",
+    "description": "Copa do Mundo da FIFA (português brasileiro) ou Campeonato Mundial de Futebol da FIFA (português europeu), popularmente conhecida como Copa ou Mundial, é uma competição internacional de futebol entre seleções masculinas organizada pela Federação Internacional de Futebol (FIFA). Ocorre a cada quatro anos, com exceção de 1942 e 1946, quando não aconteceu devido à Segunda Guerra Mundial. Instituída em 1928, sob a liderança do então presidente da FIFA, Jules Rimet, está aberta a todas as federações reconhecidas pela FIFA. A primeira edição ocorreu em 1930 no Uruguai, escolhido como país-sede e cuja seleção saiu vencedora. Com exceção da Copa do Mundo de 1934 e 1938, o torneio sempre foi realizado em duas fases. Organizada pelas confederações continentais, as Eliminatórias da Copa do Mundo permitem que as melhores seleções de cada continente participem da competição, que ocorre em um ou mais países-sede. O formato atual da Copa do Mundo é com quarenta e oito equipes nacionais, implementado a partir da edição de 2026, por um período de cerca de um mês.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA"
+  },
+  {
+    "id": 99,
+    "title": "Galáxia de Andrômeda",
+    "author_or_source": "Wikipédia",
+    "description": "A galáxia de Andrômeda (português brasileiro) ou galáxia de Andrómeda (português europeu) (Messier 31, NGC 224) é uma galáxia espiral localizada a cerca de 2,54 milhões de anos-luz de distância da Terra, na direção da constelação de Andrômeda. É a galáxia espiral mais próxima da Via Láctea e seu nome é derivado da constelação onde está situada, que, por sua vez, tem o nome derivado da princesa mitológica Andrômeda. É a maior galáxia do Grupo Local, que também contém a Via Láctea, a galáxia do Triângulo e aproximadamente 30 outras menores. O levantamento feito pelo Telescópio Espacial Spitzer em 2006 determinou que sua massa é de aproximadamente ~0,8-1,5 × 1012 massas solares enquanto a Via Láctea tem uma massa estimada em 8,5 × 1011 massas solares. Sua população estelar atinge aproximadamente 1 trilhão (escala longa, usada em Portugal: um bilião) de estrelas enquanto a Via Láctea conta com algo entre 200 a 400 bilhões (escala longa: 200 a 400 mil milhões) de estrelas.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Gal%C3%A1xia_de_Andr%C3%B4meda"
+  },
+  {
+    "id": 100,
+    "title": "Buraco negro supermassivo",
+    "author_or_source": "Wikipédia",
+    "description": "Um buraco negro supermassivo é uma classe de buracos negros encontrados principalmente no centro das galáxias. Ao contrário dos buracos negros estelares, que são originados a partir da evolução de estrelas de massa elevada, os buracos negros supermassivos foram formados por imensas nuvens de gás ou por aglomerados de milhões de estrelas que colapsaram sobre a sua própria gravidade quando o universo ainda era bem mais jovem e denso. Os buracos negros supermassivos possuem uma massa milhões ou até bilhões de vezes maior que a massa do Sol. A maioria dos buracos negros supermassivos já catalogados estão em forte atividade, ou seja, continuam atraindo matéria para si, aumentando ainda mais a sua massa.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Buraco_negro_supermassivo"
+  },
+  {
+    "id": 101,
+    "title": "Internet",
+    "author_or_source": "Wikipédia",
+    "description": "A Internet é um sistema global de redes de computadores interligadas que utilizam um conjunto próprio de protocolos com o propósito de servir progressivamente usuários no mundo inteiro. É uma rede de várias outras redes, que consiste de milhões de empresas privadas, públicas, acadêmicas e de governo, com alcance local e global e que está ligada por uma ampla variedade de tecnologias de rede eletrônica, sem fio e ópticas. A Internet traz uma extensa gama de recursos de informação e serviços, tais como os documentos inter-relacionados de hipertextos da World Wide Web (WWW), redes ponto a ponto (peer-to-peer) e infraestrutura de apoio a correio eletrônico (e-mails).",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Internet"
+  },
+  {
+    "id": 102,
+    "title": "Algoritmo",
+    "author_or_source": "Wikipédia",
+    "description": "Em matemática e ciência da computação, um algoritmo é uma sequência finita de ações executáveis que visam obter uma solução para um determinado tipo de problema. Segundo Dasgupta, Papadimitriou e Vazirani; \"Algoritmos são procedimentos precisos, não ambíguos, padronizados, eficientes e corretos.\".",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Algoritmo"
+  },
+  {
+    "id": 103,
+    "title": "Economia",
+    "author_or_source": "Wikipédia",
+    "description": "Economia é a ciência que consiste na análise da produção, distribuição e consumo de bens e serviços. Portanto, a economia é o estudo das escolhas dos indivíduos e do que possibilita a compatibilidade nas escolhas de todos. Esta ciência social estuda a atividade económica, através da aplicação da teoria económica, tendo, na gestão, a sua aplicabilidade prática.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Economia"
+  },
+  {
+    "id": 104,
+    "title": "Bolsa de valores",
+    "author_or_source": "Wikipédia",
+    "description": "Bolsa de valores é o mercado organizado onde se negociam ações de sociedades de capital aberto e outros valores mobiliários, tais como as opções.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Bolsa_de_valores"
+  },
+  {
+    "id": 105,
+    "title": "Vacina",
+    "author_or_source": "Wikipédia",
+    "description": "Vacina é uma preparação biológica que fornece imunidade adquirida ativa para uma doença particular. Uma vacina tipicamente contém um agente que se assemelha a um microrganismo causador de doenças e é muitas vezes feita de formas enfraquecidas ou mortas do micróbio, das suas toxinas ou de uma das suas proteínas de superfície. O agente estimula o sistema imunológico do corpo a reconhecê-lo como uma ameaça, destruí-lo e a manter um registro seu para que possa mais facilmente reconhecer e destruir qualquer um desses microrganismos que mais tarde encontre. As vacinas podem ser profilácticas, ou terapêuticas.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Vacina"
+  },
+  {
+    "id": 106,
+    "title": "Astrologia",
+    "author_or_source": "Wikipédia",
+    "description": "Astrologia é uma gama de práticas divinatórias, reconhecida como pseudocientífica desde o século XVIII, segundo a qual as posições relativas dos corpos celestes poderiam prover informação sobre a personalidade, as relações humanas, e outros assuntos relacionados à vida do ser humano.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Astrologia"
+  },
+  {
+    "id": 107,
+    "title": "Avião",
+    "author_or_source": "Wikipédia",
+    "description": "Avião ou aeroplano é uma aeronave de asa fixa que é impulsionada pelo empuxo de um motor a jato, hélice ou motor de foguete. Os aviões vêm em uma variedade de tamanhos, formatos e configurações de asas. O amplo espectro de usos dos aviões inclui recreação, transporte de mercadorias e pessoas, militar e experimental.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Avi%C3%A3o"
+  },
+  {
+    "id": 108,
+    "title": "Telefone",
+    "author_or_source": "Wikipédia",
+    "description": "Um telefone é um dispositivo de telecomunicações que permite que dois ou mais usuários conduzam uma conversa quando estão muito distantes um do outro para serem facilmente ouvidos diretamente. Um telefone converte o som, normalmente e de forma mais eficiente a voz humana, em sinais eletrônicos que são transmitidos por meio de cabos e outros canais de comunicação para outro telefone que reproduz o som para o usuário receptor. O termo é derivado do em grego clássico: τῆλε; romaniz.: tēle – trad.: “distante” e φωνή, que juntos significam voz distante.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Telefone"
+  },
+  {
+    "id": 109,
+    "title": "Refugiado",
+    "author_or_source": "Wikipédia",
+    "description": "Refugiado é toda pessoa que, em razão de fundados temores de perseguição devido à sua raça, religião, nacionalidade, associação a determinado grupo social, opinião política, sexualidade ou identidade de gênero, encontra-se fora de seu país de origem e que, por causa dos ditos temores, não pode ou não quer regressar ao mesmo. Devido a grave e generalizada violação de direitos humanos, é obrigado a deixar o seu país de nacionalidade para buscar refúgio em outros países.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Refugiado"
+  },
+  {
+    "id": 110,
+    "title": "Cultura",
+    "author_or_source": "Wikipédia",
+    "description": "Cultura é um conceito que abrange o comportamento social, as instituições e as normas encontradas nas sociedades humanas, bem como o conhecimento, as crenças, as artes, as leis, os costumes, as capacidades, as atitudes e os hábitos dos indivíduos nesses grupos. A cultura geralmente se origina ou é atribuída a uma região ou local específico.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Cultura"
+  },
+  {
+    "id": 111,
+    "title": "Folclore",
+    "author_or_source": "Wikipédia",
+    "description": "Folclore é um gênero da cultura de origem popular, que representa a identidade social de uma comunidade através de atividades culturais que nasceram, individualmente ou coletivamente, e se desenvolveram com o povo transmitidos entre gerações.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Folclore"
+  },
+  {
+    "id": 112,
+    "title": "Curupira",
+    "author_or_source": "Wikipédia",
+    "description": "Curupira é uma entidade da mitologia tupi e do folclore brasileiro, conhecido como o protetor e guardião das florestas e dos animais e por ter os pés voltados para trás.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Curupira"
+  },
+  {
+    "id": 113,
+    "title": "Iara",
+    "author_or_source": "Wikipédia",
+    "description": "Iara ou Uiara é uma entidade lendária da Amazônia, a sereia do folclore brasileiro, metade mulher e metade peixe, de canto irresistível, e confundida com a Mãe-d'Água.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Iara"
+  },
+  {
+    "id": 114,
+    "title": "Antártida",
+    "author_or_source": "Wikipédia",
+    "description": "Antártida ou Antártica (ver questão do nome) é o mais meridional e o segundo menor dos continentes, com uma superfície de 14 milhões de quilômetros quadrados. Rodeia o polo Sul, e por esse motivo está quase completamente coberta por enormes geleiras (glaciares), exceção feita a algumas zonas de elevado aclive nas cadeias montanhosas e à extremidade norte da península Antártica. Sua formação se deu pela separação do antigo supercontinente Gondwana há aproximadamente 100 milhões de anos e seu resfriamento aconteceu nos últimos 35 milhões de anos.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Ant%C3%A1rtida"
+  },
+  {
+    "id": 115,
+    "title": "Café",
+    "author_or_source": "Wikipédia",
+    "description": "O café é uma bebida preparada a partir dos grãos torrados do fruto do cafeeiro. Tradicionalmente consumido quente, também pode ser servido gelado. A bebida contém cafeína, substância com efeito estimulante, cuja concentração varia conforme o método de preparo, situando-se geralmente entre 80 e 140 mg por cerca de 207 ml.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Caf%C3%A9"
+  },
+  {
+    "id": 116,
+    "title": "Chá",
+    "author_or_source": "Wikipédia",
+    "description": "O chá é uma bebida preparada através da infusão de folhas secas de planta do chá, geralmente preparada com água quente. Cada variedade adquire um sabor definido, de acordo com o processamento utilizado, que pode incluir oxidação, fermentação, e o contato com outras ervas, especiarias e frutos. A palavra \"chá\" é usada popularmente em Portugal e no Brasil, como sinônimo de infusão de frutos, folhas, raízes e ervas, contendo ou não folhas de chá. Este artigo trata do chá em sentido estrito e, portanto, não se refere a infusões como, por exemplo, a camomila ou a cidreira.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Ch%C3%A1"
+  },
+  {
+    "id": 117,
+    "title": "Cobre",
+    "author_or_source": "Wikipédia",
+    "description": "O cobre é um elemento químico de símbolo Cu, número atômico 29 e de massa atómica 63,54 u. À temperatura ambiente o cobre encontra-se no estado sólido.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Cobre"
+  },
+  {
+    "id": 118,
+    "title": "Justiça",
+    "author_or_source": "Wikipédia",
+    "description": "Justiça é um conceito abstrato que se refere a um estado de interação social ideal onde há um equilíbrio, por si só, razoável e imparcial, entre os interesses, riquezas e oportunidades das pessoas envolvidas em determinado grupo social. Trata-se de um conceito presente no estudo do direito, filosofia, ética, moral e religião. As suas concepções e aplicações práticas variam de acordo com o contexto social em uma determinada região e a sua perspectiva interpretativa, sendo comumente alvo de controvérsias entre pensadores e estudiosos.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Justi%C3%A7a"
+  },
+  {
+    "id": 119,
+    "title": "Beleza",
+    "author_or_source": "Wikipédia",
+    "description": "A beleza é comumente descrita como uma característica de seres ou objetos que torna esses objetos prazerosos de perceber. Tais objetos incluem paisagens, pores-do-sol, seres humanos e obras de arte. A beleza, junto com a arte e o gosto, é o tema principal da estética, um dos ramos maiores da filosofia. Como valor estético positivo, ela é contrastada com a fealdade como sua contraparte negativa. Junto com a verdade e o bem, é um dos transcendentais, que muitas vezes são considerados os três conceitos fundamentais da compreensão humana.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Beleza"
+  },
+  {
+    "id": 120,
+    "title": "Tempo",
+    "author_or_source": "Wikipédia",
+    "description": "Tempo é uma grandeza física fundamental, presente tanto no cotidiano quanto em diversas áreas científicas. Uma definição precisa de tempo é não apenas essencial, mas também um requisito básico para a compreensão científica, no entanto, isso não implica que a ciência detenha uma definição absoluta de tempo, de fato, o conceito de tempo é relativo, não apenas em um contexto cronológico considerando a evolução das teorias científicas mas também dentro dos próprios paradigmas científicos vigentes, essa relatividade revela a complexidade do tempo e sua interpretação em diferentes contextos científicos.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Tempo"
+  },
+  {
+    "id": 121,
+    "title": "Xadrez",
+    "author_or_source": "Wikipédia",
+    "description": "Xadrez, também chamado de xadrez ocidental ou xadrez internacional, é um esporte(pt-BR) ou desporto(pt-PT?) de dois jogadores, que pode ser classificado como um jogo de tabuleiro estratégico, tanto recreativo quanto competitivo. O tipo ocidental é diferente dos seus antecessores antigos e de outras variantes atuais. A forma atual do jogo surgiu no sudoeste da Europa na segunda metade do século XV, durante o Renascimento, após ser desenvolvido de suas antigas origens. O xadrez pertence a uma família dos jogos e atualmente segundo historiadores do enxadrismo(pt-BR) ou xadrezismo(pt-PT?), todos eles se originaram do jogo Chaturanga, que se praticava na Índia no século VI.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Xadrez"
+  },
+  {
+    "id": 122,
+    "title": "Futebol",
+    "author_or_source": "Wikipédia",
+    "description": "Futebol - originalmente futebol associado, e também referido como futebol de campo ou futebol de onze - é um esporte de equipe jogado entre dois times de 11 jogadores cada um e um árbitro que se ocupa da correta aplicação das normas. É considerado o desporto mais popular do mundo, pois cerca de 270 milhões de pessoas participam das suas várias competições. É jogado num campo retangular gramado, com uma baliza em cada lado do campo. O objetivo do jogo é deslocar uma bola através do campo para colocá-la dentro da baliza adversária, ação que se denomina gol(pt-BR) ou golo(pt-PT?). A equipe que marca mais gols ao término da partida é a vencedora.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Futebol"
+  },
+  {
+    "id": 123,
+    "title": "Basquetebol",
+    "author_or_source": "Wikipédia",
+    "description": "O basquetebol, popularmente conhecido como basquete (português brasileiro) ou básquete (português europeu), é um esporte coletivo inventado em 1891 pelo professor de educação física canadense James Naismith, na Associação Cristã de Moços de Springfield, em Massachusetts, nos Estados Unidos. É disputado por duas equipes de 12 jogadores que têm como objetivo passar a bola por dentro de uma cesta e evitar que a bola entre na sua cesta colocada nas extremidades da quadra, seja num ginásio ou ao ar livre. Os jogadores podem caminhar na quadra, desde que driblem a cada passo dado. Também é possível executar um passe, ou seja, passar a bola em direção a um companheiro de equipe.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Basquetebol"
+  },
+  {
+    "id": 124,
+    "title": "Voleibol",
+    "author_or_source": "Wikipédia",
+    "description": "Voleibol é um esporte praticado numa quadra dividida em duas partes por uma rede, possuindo duas equipes de seis jogadores em cada lado. O voleibol foi originalmente chamado de Mintonette, devido à sua semelhança com o Badminton. Ele também tem alguns elementos de tênis e handebol e até beisebol porque no conjunto de regras original havia 9 entradas com três saídas (saques). O objetivo da modalidade é fazer a bola passar sobre a rede de modo a que a bola toque no chão dentro da quadra adversária, ao mesmo tempo que se evita que os adversários consigam fazer o mesmo. O voleibol é um desporto olímpico, regulado pela Fédération Internationale de Volleyball (FIVB).",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Voleibol"
+  },
+  {
+    "id": 125,
+    "title": "Automobilismo",
+    "author_or_source": "Wikipédia",
+    "description": "Automobilismo é um desporto relacionado com competição com automóveis. É um dos desportos mais populares do mundo e talvez aquele em que a comercialização seja mais intensa e de forte influência midiática.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Automobilismo"
+  },
+  {
+    "id": 126,
+    "title": "Alcorão",
+    "author_or_source": "Wikipédia",
+    "description": "O Alcorão é o texto religioso central do islamismo, que os muçulmanos acreditam ser uma revelação diretamente de Deus (Alá). É organizado em 114 capítulos, que consistem em versículos individuais. Além de sua importância religiosa, é amplamente considerado a melhor obra da literatura árabe e influenciou significativamente a língua árabe.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Alcor%C3%A3o"
+  },
+  {
+    "id": 127,
+    "title": "Mahabharata",
+    "author_or_source": "Wikipédia",
+    "description": "O Mahabharata, conhecido também como Maabárata, Mahabarata e Maha-Bharata, é um dos dois principais textos Smriti e épicos sânscritos da Índia antiga reverenciados no hinduísmo, sendo o outro o Rāmāyaṇa. Ele narra os eventos e as consequências da Guerra de Kurukshetra, uma guerra de sucessão entre dois grupos de primos principescos, os Kauravas e os Pāṇḍavas.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Mahabharata"
+  },
+  {
+    "id": 128,
+    "title": "Ramáiana",
+    "author_or_source": "Wikipédia",
+    "description": "O Ramáiana, também conhecido como Ramayana ou Ramaiana é um épico sânscrito atribuído ao poeta Valmiki, parte importante do cânon hindu (smṛti). O nome Rāmāyaṇa é um composto tatpurusa de Rāma e ayana \"indo, avançando\", cuja tradução é \"a viagem de Rama\". O Rāmāyaṇa consiste de 24.000 versos em sete cantos e conta a história de um príncipe, Rama de Aiódia, cuja esposa Sita é abduzida pelo demônio (Rākshasa) rei de Lanka, Ravana. Seus versos são escritos numa métrica de trinta e duas sílabas chamada de Anustubh. Na sua forma atual, o Ramáiana de Valmiki data variadamente de 500 a 100 a.C., ou quase contemporâneo às versões mais antigas do Maabárata. Como os épicos mais tradicionais, como passou por um longo processo de interpolações e redações, é impossível datá-lo com precisão. \nO Ramáiana teve uma importante influência na poesia sânscrita posterior, principalmente devido ao uso da métrica Sloka. Mas, como o seu primo épico Maabárata, o Ramáiana não é só uma história ordinária. Contém os ensinamentos dos antigos sábios hindus e os apresenta através de alegorias na narrativa e a intercalação do filosófico e o devocional. Os personagens de Rama, Sita, Lakshmana, Bharata, Hanumān e Rāvana são todos fundamentais à consciência cultural da Índia.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Ram%C3%A1iana"
+  },
+  {
+    "id": 129,
+    "title": "Abdução (lógica filosófica)",
+    "author_or_source": "Wikipédia",
+    "description": "A abdução é uma das três formas canônicas de inferência para estabelecer hipóteses científicas. As outras duas são a indução e a dedução. A abdução foi a noção que Charles Sanders Peirce adaptou, usando-a no suposto sentido aristotélico, e contemporaneamente é utilizada em pesquisas acadêmicas, principalmente na Semiótica e nas Ciências da Comunicação.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Abdu%C3%A7%C3%A3o_(l%C3%B3gica_filos%C3%B3fica)"
+  },
+  {
+    "id": 130,
+    "title": "Absoluto",
+    "author_or_source": "Wikipédia",
+    "description": "Absoluto, em Filosofia, é definido como a \"realidade suprema e fundamental, independente de todas as demais\". Às vezes é usado como um termo alternativo para \"Deus\" ou \"o divino\". Na filosofia analítica e na filosofia pragmática, absoluto é tudo aquilo que não se deixa falsear. Na filosofia idealista, Absoluto é \"a soma de todo ser, atual e potencial\". No monismo idealista, serve como um conceito para a \"realidade incondicionada, que é o fundamento espiritual de todo ser ou a totalidade das coisas consideradas como uma unidade espiritual\".",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Absoluto"
+  },
+  {
+    "id": 131,
+    "title": "Abstrato e concreto",
+    "author_or_source": "Wikipédia",
+    "description": "Em Metafísica, a distinção entre abstrato e concreto refere-se a uma divisão entre dois tipos de entidades. Muitos filósofos sustentam que essa diferença tem significado metafísico fundamental. Exemplos de objetos concretos incluem plantas, seres humanos e planetas, enquanto coisas como números, conjuntos e proposiçãos são objetos abstratos. Não há um consenso geral sobre quais são as características distintivas do concreto e do abstrato. Sugestões populares incluem definir a distinção em termos da diferença entre (1) existência dentro ou fora do espaço-tempo, (2) ter causas e efeitos ou não, (3) ter existência contingente ou necessária, (4) ser particular ou universal e (5) pertencer ao reino físico ou mental ou a nenhum dos dois. Apesar desta diversidade de visões, há um amplo consenso sobre a maioria dos objetos quanto a serem abstratos ou concretos. Assim, sob a maioria das interpretações, todas essas visões concordariam que, por exemplo, plantas são objetos concretos enquanto números são objetos abstratos.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Abstrato_e_concreto"
+  },
+  {
+    "id": 132,
+    "title": "Acatalepsia",
+    "author_or_source": "Wikipédia",
+    "description": "Acatalepsia em filosofia, é a incompreensão ou a impossibilidade de compreender ou conceber uma coisa Os pirrônicos tentaram mostrar, enquanto céticos da Academia Platônica uma acatalepsia absoluta; todas ciências ou conhecimentos humanos, de acordo com eles, não vão além das aparências e verossimilhança. Na Antiguidade, doutrina dos filósofos céticos, segundo a qual o conhecimento humano não passa de probabilidade e nunca chega à certeza; adiaforia, adiaforismo.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Acatalepsia"
+  },
+  {
+    "id": 133,
+    "title": "Acrasia",
+    "author_or_source": "Wikipédia",
+    "description": "Em filosofia prática, acrasia é a ação de uma pessoa que contraria seu melhor juízo sobre o que fazer em determinada situação.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Acrasia"
+  },
+  {
+    "id": 134,
+    "title": "Adiáfora",
+    "author_or_source": "Wikipédia",
+    "description": "Adiáfora é uma palavra de uso polissêmico, tendo sido utilizada primeiramente pelos estoicos, como algo que não era nem obrigatório, nem proibido. Em outros contextos, possui também um sentido de \"insignificante\". Assim, esse termo seria utilizado para definir o debate de temas que não tem nenhuma importância ou que não chegam a qualquer conclusão.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Adi%C3%A1fora"
+  },
+  {
+    "id": 135,
+    "title": "Agenciamento",
+    "author_or_source": "Wikipédia",
+    "description": "Agenciamento é um conceito filosófico criado por Gilles Deleuze e Félix Guattari desenvolvido principalmente no livro Kafka: por uma literatura menor (1975), mas já mencionado em O anti-Édipo (1972). O agenciamento está relacionado à teoria das multiplicidades, que está presente na própria obra de Deleuze desde o livro Diferença e Repetição (1968).",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Agenciamento"
+  },
+  {
+    "id": 136,
+    "title": "Agnosticismo forte",
+    "author_or_source": "Wikipédia",
+    "description": "O agnosticismo forte é o estilo de agnosticismo adequado às dúvidas que não podem ser respondidas através do método científico, uma vez que a ideia de “prova” não pode ser aplicada devido à natureza da questão. A dúvida se encontra numa dimensão além da que as provas podem alcançar.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Agnosticismo_forte"
+  },
+  {
+    "id": 137,
+    "title": "Antítese",
+    "author_or_source": "Wikipédia",
+    "description": "Antítese é uma figura de linguagem que consiste na exposição de ideias opostas. Ocorre quando há uma aproximação de palavras ou expressões de sentidos opostos. Esse recurso foi especialmente utilizado pelos autores do período Barroco. O contraste que se estabelece serve, essencialmente, para dar uma ênfase aos conceitos envolvidos, que não se conseguiria com a exposição isolada destes. É uma figura relacionada e muitas vezes confundida com o paradoxo.",
+    "category": "Conhecimento Geral",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Ant%C3%ADtese"
+  },
+  {
+    "id": 138,
+    "title": "Conhecimento",
+    "author_or_source": "Wikipédia",
+    "description": "Conhecimento é uma consciência dos fatos ou uma habilidade prática. O conhecimento dos fatos, também chamado de conhecimento proposicional, é frequentemente caracterizado como uma crença verdadeira que é distinta da opinião ou suposição em virtude da justificação. Embora exista um amplo acordo entre os filósofos de que o conhecimento proposicional é uma forma de crença verdadeira, muitas controvérsias centram-se na justificação. Essas controvérsias intensificaram-se na segunda metade do século XX devido a uma série de experimentos mentais chamados de casos de Gettier, que provocaram definições alternativas.",
+    "category": "Conhecimento Geral",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Conhecimento"
+  },
+  {
+    "id": 139,
+    "title": "Filosofia",
+    "author_or_source": "Wikipédia",
+    "description": "Filosofia é o estudo de questões gerais e fundamentais relacionadas com natureza da existência humana; do conhecimento; da verdade; valores moral e estético; da razão; da mente; tanto da língua como do universo no seu todo, frequentemente colocadas como problemas a se resolver. O termo provavelmente foi cunhado por Pitágoras.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia"
+  },
+  {
+    "id": 140,
+    "title": "Ética",
+    "author_or_source": "Wikipédia",
+    "description": "Ética é o conjunto de padrões e valores morais de um grupo ou indivíduo. Contudo, em Filosofia, a ética, filosofia ética ou filosofia moral é a disciplina filosófica que estuda os fundamentos da ação moral, procurando justificar a moralidade de uma ação e distinguir as ações morais das ações imorais e amorais. A Ética procura responder a várias questões de âmbito moral, sendo as principais: Como devemos viver? ou Como devemos agir?.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/%C3%89tica"
+  },
+  {
+    "id": 141,
+    "title": "Filosofia política",
+    "author_or_source": "Wikipédia",
+    "description": "Filosofia política é o campo de investigação filosófica das questões da vida política dos seres humanos. No seu amplo alcance de questões destacam-se algumas como os princípios de justificação do poder e do governo, este último em sua origem, natureza e propósito; e as obrigações dos membros constituintes de uma sociedade. Pode-se dizer que o problema central da filosofia política é como implementar ou limitar o poder público para manter a sobrevivência e melhorar a qualidade da vida humana.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_pol%C3%ADtica"
+  },
+  {
+    "id": 142,
+    "title": "Filosofia antiga",
+    "author_or_source": "Wikipédia",
+    "description": "Filosofia antiga é o período da história da filosofia que compreende o surgimento da filosofia na Jônia, no século VI a.C., até o fim da antiguidade, no momento posterior à queda do Império Romano do Ocidente.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_antiga"
+  },
+  {
+    "id": 143,
+    "title": "Filosofia helenística",
+    "author_or_source": "Wikipédia",
+    "description": "A filosofia helenística estende-se, em um primeiro momento, da morte de Alexandre ao fim da República Romana e coroação de Augusto como imperador romano, portanto durante aquilo que historiadores da cultura convencionaram como helenismo. As correntes formadas neste período, todavia, influenciam vastamente a filosofia posterior, permitindo considerar-se como filosofia helenística muito da filosofia ocidental que se estende até o século III d.C., como o posterior neoplatonismo.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_helen%C3%ADstica"
+  },
+  {
+    "id": 144,
+    "title": "Filosofia da história",
+    "author_or_source": "Wikipédia",
+    "description": "Filosofia da história é o estudo do processo histórico e de seu desenvolvimento. Também remete à reflexão sobre o conhecimento histórico, assim como às possibilidades e os modos de obtê-lo. Ela se preocupa com questionamentos básicos a respeito da história e de sua epistemologia. É comum atribuir ao século XVIII o nascimento da filosofia da história, a partir dos escritos de filósofos como Giambattista Vico, Johann Gottfried von Herder, e Voltaire, sendo o último o primeiro a usar esse termo. Apesar disso, elementos da filosofia da história, presentes em reflexões sobre o tempo, existem desde a Antiguidade e o Medievo. Também vale ressaltar que a filosofia da história não se restringe à Europa Ocidental. Filosofias da história se desenvolveram no mundo muçulmano e na Índia. Ainda que não seja uma regra, as filosofias da história elaboradas desde o século XVIII até meados do século XIX se preocuparam com uma história universal de cunho metafísico, ou seja, procuravam um sentido para o curso da humanidade. Com a disciplinarização das áreas do conhecimento ocorridas no século XIX, principalmente a partir do positivismo lógico, o valor universal dessas filosofias passa a ser questionado. Isso dá lugar a novas questões, agora, mais relacionadas à natureza e ao processo de obtenção do conhecimento histórico. Os eventos históricos do século XX, como as Guerras Mundiais, o processo de descolonização, a intensificação do consumo de bens e o giro linguístico, vão tecer um panorama controverso da própria história, diversificando ainda mais o posicionamento de historiadores, filósofos e críticos literários a respeito da filosofia da história.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_da_hist%C3%B3ria"
+  },
+  {
+    "id": 145,
+    "title": "Filosofia da ciência",
+    "author_or_source": "Wikipédia",
+    "description": "Filosofia da ciência é o campo da pesquisa filosófica que estuda os fundamentos, pressupostos e implicações filosóficas da ciência, incluindo as ciências naturais como física e biologia, e as ciências sociais, como psicologia e economia. Neste sentido, a filosofia da ciência está intimamente relacionada à epistemologia e à ontologia. Mais do que tentar explicar, tenta problematizar os seguintes aspectos:a natureza das afirmações e conceitos científicos;\na forma como são produzidos;\nos meios para determinar a validade da informação;\ncomo a ciência explica, prediz e, através da tecnologia, domina a natureza;\na formulação e uso do método científico;\nos tipos de argumentos usados para chegar a conclusões;\nas implicações dos métodos e modelos científicos para a sociedade e para as próprias ciências.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_da_ci%C3%AAncia"
+  },
+  {
+    "id": 146,
+    "title": "História da filosofia",
+    "author_or_source": "Wikipédia",
+    "description": "A história da filosofia é a sub-disciplina da filosofia, que possuiu diversos propósitos e metodologias ao longo da história. Apesar de presente no modelo biográfico da obra Vidas e Doutrinas dos Filósofos Ilustres, de Diógenes Laércio, a história da filosofia só vai ser elaborada enquanto disciplina auto-consciente no Século XVIII, no contexto do ecletismo alemão. Recebendo sua fundação metodológica pelo filologista alemão Christoph August Heumann, foi estendida e aplicada de maneira notória na obra Historia critica philosophiae, de Johann Jakob Brucker, que buscou estudar a sucessão dos sistemas filosóficos considerados enquanto complexos autônomos e abrangentes de princípios e doutrinas. O surgimento da disciplina da história da filosofia partia de uma crítica ao modelo biográfico derivado de Laércio, e usado até então, esse foi criticado por não fazer avaliações críticas da coerência e verdade do pensamento filosófico passado, dado que a maioria das biografias eram elogiosas aos filósofos, sendo feitas por seguidores ou alunos próximos. A história da filosofia, segundo o modelo de Heumann e Brucker, utilizava a noção de princípios, em um sentido metafísico, como base para a organização e reconstrução dos sistemas filosóficos do passado.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_filosofia"
+  },
+  {
+    "id": 147,
+    "title": "Filosofia religiosa",
+    "author_or_source": "Wikipédia",
+    "description": "A filosofia religiosa é um pensamento filosófico que está influenciado e dirigido como consequência dos ensinos de uma religião em particular. Pode-se fazer de maneira objectiva, mas também se pode fazer como uma ferramenta de persuasão para os crentes nessa fé. A filosofia religiosa ocupa-se predominantemente das concepções de Deus, deuses ou a divinidada.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_religiosa"
+  },
+  {
+    "id": 148,
+    "title": "Filosofia medieval",
+    "author_or_source": "Wikipédia",
+    "description": "A filosofia medieval é uma tradição e um período da história da filosofia, formada pela convergência de filosofias cristãs latinas, árabes ou islâmicas, judias, e também, em menor medida, filosofias persas e bizantinas - escritas em latim, árabe, grego, hebreu e farsi. Tem seu início em torno do século VIII, com variações cronológicas dependendo do local, e por vezes com poucas distinções em relação ao período helenístico anterior. Já seu fim não possui ponto exato, coincidindo com a chamada filosofia renascentista, e preservando referências, técnicas e temas, em alguns locais, ao longo dos séculos XVI e XVII.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_medieval"
+  },
+  {
+    "id": 149,
+    "title": "Filosofia oriental",
+    "author_or_source": "Wikipédia",
+    "description": "A filosofia oriental ou filosofia asiática inclui as várias filosofias que se originaram no Leste e na Ásia Meridional, incluindo a filosofia chinesa, a filosofia indiana, a filosofia japonesa e a filosofia coreana que são dominantes no Leste e Sudeste Asiático.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_oriental"
+  },
+  {
+    "id": 150,
+    "title": "Filosofia da Grécia Antiga",
+    "author_or_source": "Wikipédia",
+    "description": "A filosofia grega antiga surgiu no século VI a.C. e continuou durante todo o período helenístico e no período em que a Grécia e a maioria das terras habitadas por gregos faziam parte do Império Romano. A filosofia foi usada para extrair sentido do mundo de uma maneira não religiosa. Tratava-se de uma ampla variedade de assuntos, incluindo astronomia, matemática, filosofia política, ética, metafísica, ontologia, lógica, biologia, retórica e estética.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_da_Gr%C3%A9cia_Antiga"
+  },
+  {
+    "id": 151,
+    "title": "Filosofia africana",
+    "author_or_source": "Wikipédia",
+    "description": "A expressão filosofia africana é usada de múltiplas formas por diferentes filósofos. Embora diversos filósofos africanos tenham contribuído para diversas áreas, com a metafísica, epistemologia, filosofia moral e filosofia política, uma grande parte dos filósofos discute se a filosofia africana de fato existe, embora o registro de pensamento africano remonte a pelo menos cinco milênios atrás na filosofia egípcia antiga. Um dos mais básicos motivos de discussão sobre a filosofia africana gira em torno da aplicação do termo \"africano\", ou sejaː se o termo se refere ao conteúdo da filosofia ou à identidade dos filósofos. Na primeira visão, a filosofia africana seria aquela que envolve temas africanos ou que utiliza métodos que são distintamente africanos. Na segunda visão, a filosofia africana seria qualquer filosofia praticada por africanos ou pessoas de origem africana.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_africana"
+  },
+  {
+    "id": 152,
+    "title": "Filosofia do direito",
+    "author_or_source": "Wikipédia",
+    "description": "Filosofia do direito é o campo de investigação filosófica que tem por objeto o direito. Com o intuito de obter decisões mais justas, a Filosofia do Direito, por meio de reflexões e questionamentos, busca a verdade real e processual visando aplicá-las no mundo jurídico. Ela pode ser definida como o conjunto de respostas à pergunta “o que é o direito?”, ou ainda como o entendimento da natureza e do contexto do empreendimento jurídico. Não só diz respeito a perguntas sobre a natureza do fenômeno jurídico, mas ainda sobre quais elementos estão em jogo quando ele é discutido. Tem sido abordada tanto de um prisma filosófico, por filósofos de formação, quanto de um prisma jurídico, por juristas de formação.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_do_direito"
+  },
+  {
+    "id": 153,
+    "title": "História da filosofia no Brasil",
+    "author_or_source": "Wikipédia",
+    "description": "História da Filosofia no Brasil refere-se à tradição do pensamento filosófico realizada por brasileiros dentro ou fora do Brasil. As atividades de reflexão filosófica foram trazidas pelos padres jesuítas na segunda metade do século XVI com as atividades da colonização europeia das Américas, e se estende até os dias atuais com o processo de profissionalização universitária.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_filosofia_no_Brasil"
+  },
+  {
+    "id": 154,
+    "title": "Filosofia da filosofia",
+    "author_or_source": "Wikipédia",
+    "description": "Filosofia da filosofia ou Metafilosofia é a filosofia da filosofia. A metafilosofia, consiste no filosofar sobre o próprio papel da Filosofia enquanto ramo do saber humano. Enquanto o que ela é, em si mesma. Que é Filosofia? Qual o seu papel? Quais as suas limitações? Quais seus objetivos? Há objetivos pré-definidos? Qual a sua forma de atuação? Seu modus de atuar, enquanto produtora de conhecimento?",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Filosofia_da_filosofia"
+  },
+  {
+    "id": 155,
+    "title": "Doutor em filosofia",
+    "author_or_source": "Wikipédia",
+    "description": "Um Doutor, abreviado nos países anglófonos: PhD, Ph.D., DPhil, é um título fornecido pelas universidades reconhecido como grau terminal nos países de língua inglesa. Ou seja, é o maior grau universitário conferido ao final de um curso de estudos das mais variadas áreas na maioria dos países, obtido através de pesquisa científica. Os indivíduos que obtém o PhD podem usar o título de \"doutor\". Aqueles que lecionam ou trabalham em ambientes acadêmicos, de pesquisa ou educacionais geralmente usam o título como forma de reconhecimento e respeito.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Doutor_em_filosofia"
+  },
+  {
+    "id": 156,
+    "title": "Transcendência (filosofia)",
+    "author_or_source": "Wikipédia",
+    "description": "Transcendência é um termo que, em filosofia, pode conduzir a três diferentes - embora relacionados - significados, todos eles originários da raiz latina que significa 'ascender' ou 'indo além', sendo um significado oriundo da filosofia antiga; outro, da filosofia medieval, e o último, ligado à filosofia moderna.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Transcend%C3%AAncia_(filosofia)"
+  },
+  {
+    "id": 157,
+    "title": "Buraco Branco",
+    "author_or_source": "Astrofísica",
+    "description": "Região hipotética do espaço-tempo que não pode ser acessada do exterior, mas de onde matéria e luz podem escapar.",
+    "category": "Astronomia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Buraco%20Branco"
+  },
+  {
+    "id": 158,
+    "title": "Maias",
+    "author_or_source": "Civilizações Antigas",
+    "description": "Uma civilização mesoamericana notável por sua escrita logosilábica, arte, arquitetura, matemática e sistemas astronômicos.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Maias"
+  },
+  {
+    "id": 159,
+    "title": "Trovadorismo",
+    "author_or_source": "História da Literatura",
+    "description": "Primeiro movimento literário da língua portuguesa, consistindo em cantigas líricas e satíricas.",
+    "category": "Literatura",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Trovadorismo"
+  },
+  {
+    "id": 160,
+    "title": "Fissão Nuclear",
+    "author_or_source": "Física",
+    "description": "A quebra do núcleo de um átomo instável em dois núcleos menores, liberando uma quantidade imensa de energia.",
+    "category": "Ciência",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Fiss%C3%A3o%20Nuclear"
+  },
+  {
+    "id": 161,
+    "title": "Fusão Nuclear",
+    "author_or_source": "Física",
+    "description": "Processo no qual dois ou mais núcleos atômicos se juntam para formar um núcleo maior, sendo a fonte de energia das estrelas.",
+    "category": "Ciência",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Fus%C3%A3o%20Nuclear"
+  },
+  {
+    "id": 162,
+    "title": "Mitologia Grega",
+    "author_or_source": "História",
+    "description": "Conjunto de mitos e lendas sobre deuses, heróis e a natureza do mundo, fundamentais para a cultura ocidental.",
+    "category": "Mitologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Mitologia%20Grega"
+  },
+  {
+    "id": 163,
+    "title": "Paradoxo do Avô",
+    "author_or_source": "Física Teórica",
+    "description": "Um paradoxo de viagem no tempo em que um viajante altera o passado, impedindo sua própria existência.",
+    "category": "Ciência",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Paradoxo%20do%20Av%C3%B4"
+  },
+  {
+    "id": 164,
+    "title": "Proporção Áurea",
+    "author_or_source": "Matemática",
+    "description": "Constante matemática frequentemente encontrada na natureza, arte e arquitetura, considerada esteticamente perfeita.",
+    "category": "Matemática",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Propor%C3%A7%C3%A3o%20%C3%81urea"
+  },
+  {
+    "id": 165,
+    "title": "Microbioma Humano",
+    "author_or_source": "Biologia",
+    "description": "O conjunto de todos os microrganismos (bactérias, fungos, vírus) que habitam o corpo humano e são vitais para nossa saúde.",
+    "category": "Ciência",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Microbioma%20Humano"
+  },
+  {
+    "id": 166,
+    "title": "Antimatéria",
+    "author_or_source": "Física de Partículas",
+    "description": "Material composto de antipartículas, que têm a mesma massa das partículas de matéria comum, mas cargas opostas.",
+    "category": "Ciência",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Antimat%C3%A9ria"
+  },
+  {
+    "id": 167,
+    "title": "Neoliberalismo",
+    "author_or_source": "Economia",
+    "description": "Ressurgimento das ideias do liberalismo clássico a partir da década de 1970, focando no livre mercado e redução da intervenção estatal.",
+    "category": "Política",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Neoliberalismo"
+  },
+  {
+    "id": 168,
+    "title": "Teoria do Caos",
+    "author_or_source": "Matemática",
+    "description": "Ramo que estuda o comportamento de sistemas dinâmicos altamente sensíveis às condições iniciais (efeito borboleta).",
+    "category": "Matemática",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Teoria%20do%20Caos"
+  },
+  {
+    "id": 169,
+    "title": "Impressionismo",
+    "author_or_source": "Arte",
+    "description": "Movimento artístico do século XIX caracterizado por pinceladas pequenas e visíveis que ênfase na percepção visual da luz e cor.",
+    "category": "Arte",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Impressionismo"
+  },
+  {
+    "id": 170,
+    "title": "Id, Ego e Superego",
+    "author_or_source": "Sigmund Freud",
+    "description": "O modelo estrutural da psique na psicanálise, dividindo a mente em impulsos instintivos, realidade e moralidade.",
+    "category": "Psicologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Id%2C%20Ego%20e%20Superego"
+  },
+  {
+    "id": 171,
+    "title": "Teoria da Relatividade",
+    "author_or_source": "Albert Einstein",
+    "description": "Transformou a compreensão teórica do espaço, tempo e gravidade, demonstrando que o tempo não é absoluto.",
+    "category": "Ciência",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Teoria%20da%20Relatividade"
+  },
+  {
+    "id": 172,
+    "title": "Dadaísmo",
+    "author_or_source": "Arte Moderna",
+    "description": "Movimento de vanguarda que rejeitava a lógica e a razão da sociedade capitalista moderna, valorizando o absurdo e a irracionalidade.",
+    "category": "Arte",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Dada%C3%ADsmo"
+  },
+  {
+    "id": 173,
+    "title": "Viés de Confirmação",
+    "author_or_source": "Psicologia",
+    "description": "A tendência das pessoas de pesquisar, interpretar e favorecer informações que confirmem suas crenças ou hipóteses preexistentes.",
+    "category": "Psicologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Vi%C3%A9s%20de%20Confirma%C3%A7%C3%A3o"
+  },
+  {
+    "id": 174,
+    "title": "Arquétipos",
+    "author_or_source": "Carl Jung",
+    "description": "Padrões, imagens ou temas universais e inatos que derivam do inconsciente coletivo e aparecem na mitologia e na arte.",
+    "category": "Psicologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Arqu%C3%A9tipos"
+  },
+  {
+    "id": 175,
+    "title": "Solipsismo",
+    "author_or_source": "Filosofia",
+    "description": "A ideia filosófica de que apenas a própria mente é certa de existir. Todo o resto (o mundo exterior) pode ser uma ilusão.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Solipsismo"
+  },
+  {
+    "id": 176,
+    "title": "Paradoxo de Sorites",
+    "author_or_source": "Lógica",
+    "description": "Problema clássico sobre a imprecisão: Se removermos um grão de areia de um monte, continua sendo um monte? Quando deixa de ser?",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Paradoxo%20de%20Sorites"
+  },
+  {
+    "id": 177,
+    "title": "Capitalismo",
+    "author_or_source": "Economia",
+    "description": "Sistema econômico baseado na propriedade privada dos meios de produção e na sua operação com fins lucrativos.",
+    "category": "Sociologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Capitalismo"
+  },
+  {
+    "id": 178,
+    "title": "Tabela Periódica",
+    "author_or_source": "Dmitri Mendeleiev",
+    "description": "Uma exibição tabular dos elementos químicos, organizados por número atômico, configurações eletrônicas e propriedades recorrentes.",
+    "category": "Ciência",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Tabela%20Peri%C3%B3dica"
+  },
+  {
+    "id": 179,
+    "title": "Guerra do Peloponeso",
+    "author_or_source": "História Antiga",
+    "description": "Conflito militar da Grécia Antiga entre a Liga de Delos, liderada por Atenas, e a Liga do Peloponeso, liderada por Esparta.",
+    "category": "História",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Guerra%20do%20Peloponeso"
+  },
+  {
+    "id": 180,
+    "title": "Catarso",
+    "author_or_source": "Aristóteles",
+    "description": "A purificação ou purgação das emoções (especialmente pena e medo) através da arte, conceito fundamental na tragédia grega.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Catarso"
+  },
+  {
+    "id": 181,
+    "title": "Existência precede a Essência",
+    "author_or_source": "Jean-Paul Sartre",
+    "description": "A ideia central do existencialismo: não há uma natureza humana predeterminada; nós criamos nossa própria essência através de nossas escolhas.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Exist%C3%AAncia%20precede%20a%20Ess%C3%AAncia"
+  },
+  {
+    "id": 182,
+    "title": "Seleção Natural",
+    "author_or_source": "Charles Darwin",
+    "description": "Processo pelo qual organismos mais bem adaptados ao seu ambiente tendem a sobreviver e produzir mais descendentes.",
+    "category": "Ciência",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o%20Natural"
+  },
+  {
+    "id": 183,
+    "title": "Navalha de Ockham",
+    "author_or_source": "William de Ockham",
+    "description": "Princípio de resolução de problemas que afirma que a explicação mais simples, com menos suposições, costuma ser a correta.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Navalha%20de%20Ockham"
+  },
+  {
+    "id": 184,
+    "title": "Transumanismo",
+    "author_or_source": "Filosofia Futurista",
+    "description": "Movimento intelectual que defende o uso da tecnologia para melhorar a condição humana, superar doenças, envelhecimento e a própria morte.",
+    "category": "Filosofia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Transumanismo"
+  },
+  {
+    "id": 185,
+    "title": "Máquina de Turing",
+    "author_or_source": "Alan Turing",
+    "description": "Um modelo matemático abstrato que definiu fundamentalmente o que é a computação, servindo como base teórica para todos os computadores modernos.",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/M%C3%A1quina%20de%20Turing"
+  },
+  {
+    "id": 186,
+    "title": "Contrato Social",
+    "author_or_source": "Rousseau / Hobbes",
+    "description": "Teoria que explica a origem da sociedade e do Estado através de um acordo imaginário onde os indivíduos abrem mão de liberdades em troca de segurança.",
+    "category": "Filosofia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Contrato%20Social"
+  },
+  {
+    "id": 187,
+    "title": "Antiguidade Clássica",
+    "author_or_source": "História do Mundo",
+    "description": "Um período fascinante da história humana marcado por transformações culturais, avanços sociais e mudanças políticas. Estudar a Antiguidade Clássica nos ajuda a compreender a evolução das sociedades.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Antiguidade%20Cl%C3%A1ssica"
+  },
+  {
+    "id": 188,
+    "title": "Alta Idade Média",
+    "author_or_source": "História do Mundo",
+    "description": "Um período fascinante da história humana marcado por transformações culturais, avanços sociais e mudanças políticas. Estudar a Alta Idade Média nos ajuda a compreender a evolução das sociedades.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Alta%20Idade%20M%C3%A9dia"
+  },
+  {
+    "id": 189,
+    "title": "Baixa Idade Média",
+    "author_or_source": "História do Mundo",
+    "description": "Um período fascinante da história humana marcado por transformações culturais, avanços sociais e mudanças políticas. Estudar a Baixa Idade Média nos ajuda a compreender a evolução das sociedades.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Baixa%20Idade%20M%C3%A9dia"
+  },
+  {
+    "id": 190,
+    "title": "Revolução Científica",
+    "author_or_source": "História do Mundo",
+    "description": "Um período fascinante da história humana marcado por transformações culturais, avanços sociais e mudanças políticas. Estudar a Revolução Científica nos ajuda a compreender a evolução das sociedades.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o%20Cient%C3%ADfica"
+  },
+  {
+    "id": 191,
+    "title": "Era Vitoriana",
+    "author_or_source": "História do Mundo",
+    "description": "Um período fascinante da história humana marcado por transformações culturais, avanços sociais e mudanças políticas. Estudar a Era Vitoriana nos ajuda a compreender a evolução das sociedades.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Era%20Vitoriana"
+  },
+  {
+    "id": 192,
+    "title": "Belle Époque",
+    "author_or_source": "História do Mundo",
+    "description": "Um período fascinante da história humana marcado por transformações culturais, avanços sociais e mudanças políticas. Estudar a Belle Époque nos ajuda a compreender a evolução das sociedades.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Belle%20%C3%89poque"
+  },
+  {
+    "id": 193,
+    "title": "Período Entreguerras",
+    "author_or_source": "História do Mundo",
+    "description": "Um período fascinante da história humana marcado por transformações culturais, avanços sociais e mudanças políticas. Estudar a Período Entreguerras nos ajuda a compreender a evolução das sociedades.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Per%C3%ADodo%20Entreguerras"
+  },
+  {
+    "id": 194,
+    "title": "Idade do Bronze",
+    "author_or_source": "História do Mundo",
+    "description": "Um período fascinante da história humana marcado por transformações culturais, avanços sociais e mudanças políticas. Estudar a Idade do Bronze nos ajuda a compreender a evolução das sociedades.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Idade%20do%20Bronze"
+  },
+  {
+    "id": 195,
+    "title": "Idade do Ferro",
+    "author_or_source": "História do Mundo",
+    "description": "Um período fascinante da história humana marcado por transformações culturais, avanços sociais e mudanças políticas. Estudar a Idade do Ferro nos ajuda a compreender a evolução das sociedades.",
+    "category": "História",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Idade%20do%20Ferro"
+  },
+  {
+    "id": 196,
+    "title": "Mecânica quântica",
+    "author_or_source": "Wikipédia",
+    "description": "A mecânica quântica é a teoria física que obtém sucesso no estudo dos sistemas físicos cujas dimensões são próximas ou abaixo da escala atômica, tais como moléculas, átomos, elétrons, prótons e outras partículas subatômicas, muito embora também possa descrever fenômenos macroscópicos em diversos casos.",
+    "category": "Ciência",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Mec%C3%A2nica_qu%C3%A2ntica"
+  },
+  {
+    "id": 197,
+    "title": "Relatividade geral",
+    "author_or_source": "Wikipédia",
+    "description": "Relatividade geral, também conhecida como teoria da relatividade geral, é uma teoria geométrica da gravitação publicada por Albert Einstein em 1915 e a descrição atual da gravitação na física moderna. É um conjunto de hipóteses que generaliza a relatividade especial e a lei da gravitação universal de Newton, fornecendo uma descrição unificada da gravidade como uma propriedade geométrica do espaço e do tempo, ou espaço-tempo. Em particular, a \"curvatura do espaço-tempo\" está diretamente relacionada à energia e ao momento de qualquer matéria e radiação presente. A relação é especificada pelas equações de campo de Einstein, um sistema de equações diferenciais parciais.",
+    "category": "Ciência",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Relatividade_geral"
+  },
+  {
+    "id": 198,
+    "title": "Termodinâmica",
+    "author_or_source": "Wikipédia",
+    "description": "A termodinâmica é o ramo da física que estuda as causas e os efeitos de mudanças na temperatura, pressão e volume — e de outras grandezas termodinâmicas fundamentais em casos menos gerais — em sistemas físicos em escala macroscópica. Grosso modo, calor significa \"energia\" em trânsito e dinâmica se relaciona com \"movimento\". Assim, a termodinâmica estuda o movimento da energia e como a energia cria movimento. Historicamente, a termodinâmica se desenvolveu pela necessidade de aumentar a eficiência das primeiras máquinas a vapor, sendo em essência uma ciência experimental, que busca entender as propriedades macroscópicas ou em grande escala da matéria-energia.",
+    "category": "Ciência",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Termodin%C3%A2mica"
+  },
+  {
+    "id": 199,
+    "title": "Epigenética",
+    "author_or_source": "Wikipédia",
+    "description": "Epigenética é a área da biologia que estuda mudanças no fenótipo que não são causadas por alterações na sequência de DNA que se perpetuam nas divisões celulares, meióticas ou mitóticas. É denominado um caráter epigenético quando o fenótipo é alterado por tais mudanças. No entanto, o termo foi originalmente referido por Waddington em 1942 a propósito de estudos sobre interações causais entre alterações nos genes e seus respectivos produtos que levam a mudanças no fenótipo ao longo dos anos. O termo foi alterado até a definição atual.",
+    "category": "Ciência",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Epigen%C3%A9tica"
+  },
+  {
+    "id": 200,
+    "title": "CRISPR",
+    "author_or_source": "Wikipédia",
+    "description": "O sistema CRISPR, ou seja, Repetições Palindrômicas Curtas Agrupadas e Regularmente Interespaçadas, consiste em pequenas porções do DNA bacteriano compostas por repetições de nucleotídeos. Cada uma dessas repetições encontra-se adjacente a um “protoespaçador”, que corresponde a uma região não-codificante inserida no DNA bacteriano após o contato com genomas invasores provenientes de bacteriófagos ou plasmídeos. A transcrição do locus CRISPR resulta em pequenos fragmentos de RNA com capacidade de desempenhar o reconhecimento de um DNA exógeno específico e atuar como um guia de modo a orientar a nuclease Cas, que irá promover a clivagem e consequente eliminação do DNA invasor caso este entre novamente em contato com a bactéria, atuando como importante mecanismo de defesa contra DNAs invasores.",
+    "category": "Ciência",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/CRISPR"
+  },
+  {
+    "id": 201,
+    "title": "Matéria escura",
+    "author_or_source": "Wikipédia",
+    "description": "Na cosmologia, matéria escura, popularmente chamado matéria perdida do universo, é uma forma postulada de matéria que não interage com a matéria comum, nem consigo mesma. Ela só interage gravitacionalmente e, por isso, sua presença pode ser inferida a partir de efeitos gravitacionais sobre a matéria visível, como estrelas, galáxias e aglomerado de galáxias. Os astrônomos observaram que a matéria escura não se agrupa muito em pequenas galáxias, mas sua densidade aumenta acentuadamente em sistemas maiores, como aglomerados de galáxias, porque ela pode se dispersar apenas quando atingem a energia correta.",
+    "category": "Ciência",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Mat%C3%A9ria_escura"
+  },
+  {
+    "id": 202,
+    "title": "Império Bizantino",
+    "author_or_source": "Wikipédia",
+    "description": "Império Bizantino foi a continuação direta do Império Romano na Antiguidade Tardia e Idade Média. Sua capital, Constantinopla, originalmente era conhecida como Bizâncio. Inicialmente parte oriental do Império Romano, sobreviveu à fragmentação e ao colapso do Império Romano do Ocidente no século V e continuou a prosperar, existindo por mais de mil anos até sua queda diante da expansão dos turcos otomanos em 1453. Foi conhecido simplesmente como Império Romano ou România por seus habitantes e vizinhos.",
+    "category": "História",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Bizantino"
+  },
+  {
+    "id": 203,
+    "title": "Guerra dos Trinta Anos",
+    "author_or_source": "Wikipédia",
+    "description": "Guerra dos Trinta Anos (1618-1648) é a denominação genérica de uma série de guerras que diversas nações europeias travaram entre si a partir de 1618, especialmente na Alemanha, por motivos variados: rivalidades religiosas, dinásticas, territoriais e comerciais. Foi um dos maiores e mais destrutivos conflitos da história, deixando um saldo de mais de oito milhões de mortos, sendo a maioria da Europa Central.",
+    "category": "História",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Guerra_dos_Trinta_Anos"
+  },
+  {
+    "id": 204,
+    "title": "Revolução Russa de 1917",
+    "author_or_source": "Wikipédia",
+    "description": "A Revolução Russa de 1917 foi um período de mudança política e social na Rússia, iniciado em 1917. Nesse período, a Rússia aboliu sua monarquia e adotou uma forma socialista de governo após duas revoluções sucessivas e uma guerra civil. Pode ser vista como precursora de outras revoluções ocorridas em meio às consequências da Primeira Guerra Mundial, como a Revolução Alemã de 1918-1919. A Revolução Russa foi um acontecimento fundamental do século XX.",
+    "category": "História",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Russa_de_1917"
+  },
+  {
+    "id": 205,
+    "title": "Revoluções de 1848",
+    "author_or_source": "Wikipédia",
+    "description": "Revoluções de 1848, conhecidas em alguns países como a Primavera dos Povos ou Primavera das Nações, foram uma série de revoluções em toda a Europa ao longo de mais de um ano, de 1848 a 1849. Continua a ser a onda revolucionária mais generalizada na história europeia até hoje.",
+    "category": "História",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%B5es_de_1848"
+  },
+  {
+    "id": 206,
+    "title": "Tratado de Tordesilhas",
+    "author_or_source": "Wikipédia",
+    "description": "Tratado de Tordesilhas foi um acordo internacional assinado na povoação castelhana de Tordesilhas em 7 de junho de 1494, celebrado entre o Reino de Portugal e a Coroa de Castela para dividir as terras \"descobertas e por descobrir\" por ambas as Coroas fora da Europa. Este tratado surgiu na sequência da contestação portuguesa às pretensões da Coroa de Castela, resultantes da viagem de Cristóvão Colombo, que um ano e meio antes chegara ao chamado Novo Mundo, reclamando-o oficialmente para Isabel, a Católica (1474-1504).",
+    "category": "História",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Tratado_de_Tordesilhas"
+  },
+  {
+    "id": 207,
+    "title": "Revolução Haitiana",
+    "author_or_source": "Wikipédia",
+    "description": "A Revolução Haitiana foi uma insurreição bem-sucedida de escravos auto-libertados contra o domínio colonial francês em São Domingos, agora o estado soberano do Haiti. A revolta começou em 22 de agosto de 1791, e terminou em 1804 com a independência da ex-colônia. Envolveu participantes negros, mestiços, franceses, espanhóis, britânicos e poloneses - com o ex-escravo Toussaint Louverture emergindo como o herói mais carismático do Haiti junto de Jean-Jacques Dessalines, Henri Christophe, e outros. Louverture teve um papel de grande importância na Revolução Haitiana, uma vez que foi o responsável por liderar e por mobilizar a grande revolta negra em prol da necessidade de instaurar a liberdade e a igualdade em São Domingos. A revolução foi a única revolta de escravos que levou à fundação de um estado que estava livre da escravidão colonial europeia e governado por não brancos e ex-cativos. É agora é visto como um momento decisivo na história do Novo Mundo.",
+    "category": "História",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Haitiana"
+  },
+  {
+    "id": 208,
+    "title": "Império Quemer",
+    "author_or_source": "Wikipédia",
+    "description": "Império Quemer, ou o Império de Angkor, são os termos que historiadores usam para se referir ao Camboja do século IX ao XV, quando a nação era um império hindu/budista no sudeste da Ásia. O império se referia a si mesmo como Camboja.",
+    "category": "História",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Quemer"
+  },
+  {
+    "id": 209,
+    "title": "Guerra das Rosas",
+    "author_or_source": "Wikipédia",
+    "description": "As Guerras das Rosas conhecidas na época e nos séculos seguintes como \"as Guerras Civis\", foram uma série de guerras civis travadas pelo controle do trono inglês de 1455 a 1487. As guerras ocorreram entre os apoiadores da Casa de Lancaster e da Casa de York, dois ramos rivais da Casa Real dos Plantagenetas. O conflito resultou no fim da linhagem masculina dos Lancaster em 1471, deixando a família Tudor herdar sua reivindicação ao trono através da linhagem feminina. O conflito foi amplamente encerrado com a união das duas casas por meio de um casamento, criando a dinastia Tudor que governaria a Inglaterra posteriormente.",
+    "category": "História",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Guerra_das_Rosas"
+  },
+  {
+    "id": 210,
+    "title": "Guerra Civil Americana",
+    "author_or_source": "Wikipédia",
+    "description": "Guerra Civil Americana foi uma guerra civil nos Estados Unidos entre a União e a Confederação, que foi formada em 1861 por estados que se separaram da União para preservar a escravidão de afro-americanos, que eles consideravam ameaçada devido à eleição de Abraham Lincoln e ao crescente movimento abolicionista no Norte.",
+    "category": "História",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Guerra_Civil_Americana"
+  },
+  {
+    "id": 211,
+    "title": "Realismo mágico",
+    "author_or_source": "Wikipédia",
+    "description": "O realismo mágico é uma corrente artística, pictórica e literária da primeira metade do século XX. Também é conhecida como realismo fantástico ou real maravilhoso, sendo este último nome utilizado principalmente em castelhano. É considerada a resposta latino-americana à literatura fantástica europeia. A origem desse termo e seu escopo, entretanto, são muito mais gerais e têm sido usados ​​para qualificar uma grande variedade de romances, poemas, pinturas e obras cinematográficas. Além disso, o realismo mágico conhece diversas variações e pode caracterizar vários estilos, estéticas, gêneros, correntes e movimentos na Ásia, Europa ou América.",
+    "category": "Literatura",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Realismo_m%C3%A1gico"
+  },
+  {
+    "id": 212,
+    "title": "Fluxo de consciência",
+    "author_or_source": "Wikipédia",
+    "description": "Na literatura, fluxo de consciência é uma técnica literária, usada primeiramente por Édouard Dujardin em 1888, em que se procura transcrever o complexo processo de pensamento de um personagem, com o raciocínio lógico entremeado com impressões pessoais momentâneas e exibindo os processos de associação de ideias. A característica não-linear deste processo de pensamento leva frequentemente a rupturas na sintaxe e na pontuação. O termo aparece pela primeira vez em seu uso na psicologia pelo filósofo e psicólogo Alexander Bain em 1855, mas é também frequentemente considerado como tendo sido cunhado pelo filósofo e psicólogo William James, em 1892.",
+    "category": "Literatura",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Fluxo_de_consci%C3%AAncia"
+  },
+  {
+    "id": 213,
+    "title": "James Joyce",
+    "author_or_source": "Wikipédia",
+    "description": "James Augustine Aloysius Joyce foi um romancista, contista e poeta da Irlanda que viveu boa parte de sua vida expatriado. É amplamente considerado um dos maiores escritores do século XX. Suas obras mais conhecidas são o volume de contos Dublinenses/Gente de Dublin (1914) e os romances Retrato do Artista Quando Jovem (1916), Ulisses (1922) e Finnegans Wake (1939) — o que se poderia considerar um \"cânone joyceano\". Também participou dos primórdios do modernismo poético em língua inglesa, sendo considerado por Ezra Pound um dos mais eminentes poetas do imagismo.",
+    "category": "Literatura",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/James_Joyce"
+  },
+  {
+    "id": 214,
+    "title": "Fiódor Dostoiévski",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Literatura. (Conteúdo extraído do arquivo essencial).",
+    "category": "Literatura",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Fi%C3%B3dor%20Dostoi%C3%A9vski"
+  },
+  {
+    "id": 215,
+    "title": "Parnasianismo",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Literatura. (Conteúdo extraído do arquivo essencial).",
+    "category": "Literatura",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Parnasianismo"
+  },
+  {
+    "id": 216,
+    "title": "Simbolismo",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Literatura. (Conteúdo extraído do arquivo essencial).",
+    "category": "Literatura",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Simbolismo"
+  },
+  {
+    "id": 217,
+    "title": "Marcel Proust",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Literatura. (Conteúdo extraído do arquivo essencial).",
+    "category": "Literatura",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Marcel%20Proust"
+  },
+  {
+    "id": 218,
+    "title": "Franz Kafka",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Literatura. (Conteúdo extraído do arquivo essencial).",
+    "category": "Literatura",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Franz%20Kafka"
+  },
+  {
+    "id": 219,
+    "title": "Sol",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Sol"
+  },
+  {
+    "id": 220,
+    "title": "Lua",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Lua"
+  },
+  {
+    "id": 221,
+    "title": "Terra",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Terra"
+  },
+  {
+    "id": 222,
+    "title": "Marte",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Marte"
+  },
+  {
+    "id": 223,
+    "title": "Via Láctea",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Via%20L%C3%A1ctea"
+  },
+  {
+    "id": 224,
+    "title": "Estrela",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Estrela"
+  },
+  {
+    "id": 225,
+    "title": "Planeta",
+    "author_or_source": "Wikipédia",
+    "description": "Planetas (em grego: πλανήτης; romaniz.: planḗtēs; lit. \"viajante\", pronunciado: [planεːtεːs]) são objetos com massas reais abaixo da massa limite para a fusão termonuclear de deutério que orbitam estrelas, anãs castanhas ou remanescentes estelares, com massa suficiente para se tornar esférico pela sua própria gravidade, e que têm uma relação de massa com o objeto central abaixo da instabilidade L4/L5 (M/Mcentral < 2/(25+√621) ≈ 1/25), não importa como se formaram. A massa/tamanho mínimo necessário para que um objeto extrassolar seja considerado um planeta deve ser o mesmo usado em nosso Sistema Solar, que é uma massa suficiente tanto para que a autogravidade supere as forças do corpo rígido quanto para limpar a vizinhança ao redor da órbita do objeto (dominância orbital). O termo planeta é antigo, com ligações com a história, astrologia, ciência, mitologia e religião. Os planetas eram vistos por muitas culturas antigas como divinos ou emissários de deuses. À medida que o conhecimento científico evoluiu, a percepção humana sobre os planetas mudou, incorporando diversos tipos de objetos. Em 2006, a União Astronômica Internacional (UAI) adotou oficialmente uma resolução definindo planetas dentro do Sistema Solar, a qual tem sido elogiada e criticada, permanecendo em discussão entre alguns cientistas.",
+    "category": "Astronomia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Planeta"
+  },
+  {
+    "id": 226,
+    "title": "Eclipse",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Eclipse"
+  },
+  {
+    "id": 227,
+    "title": "Telescópio",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Telesc%C3%B3pio"
+  },
+  {
+    "id": 228,
+    "title": "Buraco negro",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Buraco%20negro"
+  },
+  {
+    "id": 229,
+    "title": "Radiação cósmica de fundo",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Radia%C3%A7%C3%A3o%20c%C3%B3smica%20de%20fundo"
+  },
+  {
+    "id": 230,
+    "title": "Pulsar",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Pulsar"
+  },
+  {
+    "id": 231,
+    "title": "Quasar",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Quasar"
+  },
+  {
+    "id": 232,
+    "title": "Exoplaneta",
+    "author_or_source": "Wikipédia",
+    "description": "Um exoplaneta ou planeta extrassolar é um planeta fora do Sistema Solar. A primeira evidência possível de um exoplaneta foi observada em 1917, mas não foi reconhecida como tal. A primeira confirmação da detecção ocorreu em 1992. Um planeta diferente, detectado inicialmente em 1988, foi confirmado em 2003. Desde 23 de abril de 2026, existem 6,416 exoplanetas confirmados em 4,809 sistemas planetários, com 1,061 sistemas com mais de um exoplaneta.",
+    "category": "Astronomia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Exoplaneta"
+  },
+  {
+    "id": 233,
+    "title": "Supernova",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Supernova"
+  },
+  {
+    "id": 234,
+    "title": "Energia escura",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Energia%20escura"
+  },
+  {
+    "id": 235,
+    "title": "Esfera de Dyson",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Astronomia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Astronomia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Esfera%20de%20Dyson"
+  },
+  {
+    "id": 236,
+    "title": "Psicanálise",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Psicologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Psicologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Psican%C3%A1lise"
+  },
+  {
+    "id": 237,
+    "title": "Inconsciente",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Psicologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Psicologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Inconsciente"
+  },
+  {
+    "id": 238,
+    "title": "Emoção",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Psicologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Psicologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Emo%C3%A7%C3%A3o"
+  },
+  {
+    "id": 239,
+    "title": "Memória",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Psicologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Psicologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Mem%C3%B3ria"
+  },
+  {
+    "id": 240,
+    "title": "Comportamento",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Psicologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Psicologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Comportamento"
+  },
+  {
+    "id": 241,
+    "title": "Inteligência",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Psicologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Psicologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Intelig%C3%AAncia"
+  },
+  {
+    "id": 242,
+    "title": "Personalidade",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Psicologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Psicologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Personalidade"
+  },
+  {
+    "id": 243,
+    "title": "Carl Jung",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Psicologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Psicologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Carl%20Jung"
+  },
+  {
+    "id": 244,
+    "title": "Arquétipo",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Psicologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Psicologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Arqu%C3%A9tipo"
+  },
+  {
+    "id": 245,
+    "title": "Behaviorismo radical",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Psicologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Psicologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Behaviorismo%20radical"
+  },
+  {
+    "id": 246,
+    "title": "Dissonância cognitiva",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Psicologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Psicologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Disson%C3%A2ncia%20cognitiva"
+  },
+  {
+    "id": 247,
+    "title": "Teoria da Gestalt",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Psicologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Psicologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Teoria%20da%20Gestalt"
+  },
+  {
+    "id": 248,
+    "title": "Psicologia analítica",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Psicologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Psicologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Psicologia%20anal%C3%ADtica"
+  },
+  {
+    "id": 249,
+    "title": "Leonardo da Vinci",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Arte. (Conteúdo extraído do arquivo essencial).",
+    "category": "Arte",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Leonardo%20da%20Vinci"
+  },
+  {
+    "id": 250,
+    "title": "Pablo Picasso",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Arte. (Conteúdo extraído do arquivo essencial).",
+    "category": "Arte",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Pablo%20Picasso"
+  },
+  {
+    "id": 251,
+    "title": "Vincent van Gogh",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Arte. (Conteúdo extraído do arquivo essencial).",
+    "category": "Arte",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Vincent%20van%20Gogh"
+  },
+  {
+    "id": 252,
+    "title": "Pintura",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Arte. (Conteúdo extraído do arquivo essencial).",
+    "category": "Arte",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Pintura"
+  },
+  {
+    "id": 253,
+    "title": "Arquitetura gótica",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Arte. (Conteúdo extraído do arquivo essencial).",
+    "category": "Arte",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Arquitetura%20g%C3%B3tica"
+  },
+  {
+    "id": 254,
+    "title": "Cubismo",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Arte. (Conteúdo extraído do arquivo essencial).",
+    "category": "Arte",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Cubismo"
+  },
+  {
+    "id": 255,
+    "title": "Música clássica",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Arte. (Conteúdo extraído do arquivo essencial).",
+    "category": "Arte",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/M%C3%BAsica%20cl%C3%A1ssica"
+  },
+  {
+    "id": 256,
+    "title": "Surrealismo",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Arte. (Conteúdo extraído do arquivo essencial).",
+    "category": "Arte",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Surrealismo"
+  },
+  {
+    "id": 257,
+    "title": "Expressionismo abstrato",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Arte. (Conteúdo extraído do arquivo essencial).",
+    "category": "Arte",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Expressionismo%20abstrato"
+  },
+  {
+    "id": 258,
+    "title": "Suprematismo",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Arte. (Conteúdo extraído do arquivo essencial).",
+    "category": "Arte",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Suprematismo"
+  },
+  {
+    "id": 259,
+    "title": "Arte conceitual",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Arte. (Conteúdo extraído do arquivo essencial).",
+    "category": "Arte",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Arte%20conceitual"
+  },
+  {
+    "id": 260,
+    "title": "Bauhaus",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Arte. (Conteúdo extraído do arquivo essencial).",
+    "category": "Arte",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Bauhaus"
+  },
+  {
+    "id": 261,
+    "title": "Minimalismo",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Arte. (Conteúdo extraído do arquivo essencial).",
+    "category": "Arte",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Minimalismo"
+  },
+  {
+    "id": 262,
+    "title": "Pop art",
+    "author_or_source": "Wikipédia",
+    "description": "Pop art ou Arte pop é um movimento artístico surgido na década de 1950 no Reino Unido, mas que alcançou sua maturidade na década de 1960 nos Estados Unidos. O nome desta escola estético-artística coube ao crítico britânico Laurence Alloway sendo uma das primeiras, e mais famosas imagens relacionadas ao estilo - que de alguma maneira se tornou paradigma deste - ,a colagem de Richard Hamilton : O que Exatamente Torna os Lares de Hoje Tão Diferentes, Tão Atraentes?, de 1956. A Pop art propunha que se admitisse a crise da arte que assolava o século XX desta maneira pretendia demonstrar com suas obras a massificação da cultura popular capitalista. Procurava a estética das massas, tentando achar a definição do que seria a, aproximando-se do que costuma chamar de kitsch.",
+    "category": "Arte",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Pop_art"
+  },
+  {
+    "id": 263,
+    "title": "Fauvismo",
+    "author_or_source": "Wikipédia",
+    "description": "O fauvismo ou fovismo é uma corrente artística do início do século XX, que se desenvolveu de 1905 até a segunda metade de 1907.",
+    "category": "Arte",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Fauvismo"
+  },
+  {
+    "id": 264,
+    "title": "Neoclassicismo",
+    "author_or_source": "Wikipédia",
+    "description": "O neoclassicismo foi um movimento cultural nascido na Europa Ocidental em meados do século XVIII, que teve larga influência na arte e cultura de todo o ocidente até meados do século XIX. Teve como base os ideais do iluminismo e um renovado interesse pela cultura da Antiguidade Clássica, advogando os princípios da moderação, equilíbrio e idealismo como uma reação contra os excessos decorativistas e dramáticos do Barroco.",
+    "category": "Arte",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Neoclassicismo"
+  },
+  {
+    "id": 265,
+    "title": "Geometria",
+    "author_or_source": "Wikipédia",
+    "description": "A geometria é um ramo da matemática preocupado com questões de forma, tamanho e posição relativa de figuras e com as propriedades dos espaços. Um matemático que trabalha no campo da geometria é denominado de geômetra.",
+    "category": "Matemática",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Geometria"
+  },
+  {
+    "id": 266,
+    "title": "Álgebra",
+    "author_or_source": "Wikipédia",
+    "description": "A álgebra é um ramo da matemática que lida com sistemas abstratos, conhecidos como estruturas algébricas, e com a manipulação de expressões dentro desses sistemas. É uma generalização da aritmética que introduz variáveis e operações algébricas além das operações aritméticas padrão, como a adição e a multiplicação.",
+    "category": "Matemática",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/%C3%81lgebra"
+  },
+  {
+    "id": 267,
+    "title": "Adição",
+    "author_or_source": "Wikipédia",
+    "description": "Adição é uma das operações básicas da aritmética. Na sua forma mais simples, a adição combina dois números em um único número, denominado soma, total ou resultado. Adicionar mais números corresponde a repetir a operação. Por extensão, a adição de zero, um ou uma quantidade infinita de números pode ser definida.",
+    "category": "Matemática",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Adi%C3%A7%C3%A3o"
+  },
+  {
+    "id": 268,
+    "title": "Fração",
+    "author_or_source": "Wikipédia",
+    "description": "Fração  é um modo de expressar uma quantidade a partir de uma razão de dois números inteiros. A palavra fração vem do latim fractus e significa \"partido\", dividido ou quebrado.",
+    "category": "Matemática",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Fra%C3%A7%C3%A3o"
+  },
+  {
+    "id": 269,
+    "title": "Triângulo",
+    "author_or_source": "Wikipédia",
+    "description": "No plano, o triângulo é a figura geométrica que ocupa o espaço interno limitado por três segmentos de reta que concorrem, dois a dois, em três pontos diferentes formando três lados e três ângulos internos que somam 180°. Também se pode definir um triângulo em superfícies gerais. Nesse caso, são chamados de triângulos geodésicos e têm propriedades diferentes. Também podemos dizer que o triângulo é a união de três pontos não-colineares, por três segmentos de reta.",
+    "category": "Matemática",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Tri%C3%A2ngulo"
+  },
+  {
+    "id": 270,
+    "title": "Círculo",
+    "author_or_source": "Wikipédia",
+    "description": "Na geometria, um círculo, por vezes chamado de disco, é a região em um plano delimitada por uma circunferência. Um círculo é considerado fechado se contiver a circunferência que constitui seu limite, e aberto se não contiver. Um círculo de raio r e centro O é geralmente denotado como C(O; r).",
+    "category": "Matemática",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/C%C3%ADrculo"
+  },
+  {
+    "id": 271,
+    "title": "Teorema de Pitágoras",
+    "author_or_source": "Wikipédia",
+    "description": "Na matemática, o teorema de Pitágoras é uma relação matemática entre os comprimentos dos lados de qualquer triângulo retângulo. Na geometria euclidiana, o teorema afirma que:",
+    "category": "Matemática",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Teorema_de_Pit%C3%A1goras"
+  },
+  {
+    "id": 272,
+    "title": "Número primo",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Matemática. (Conteúdo extraído do arquivo essencial).",
+    "category": "Matemática",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/N%C3%BAmero%20primo"
+  },
+  {
+    "id": 273,
+    "title": "Matemática financeira",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Matemática. (Conteúdo extraído do arquivo essencial).",
+    "category": "Matemática",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Matem%C3%A1tica%20financeira"
+  },
+  {
+    "id": 274,
+    "title": "Cálculo",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Matemática. (Conteúdo extraído do arquivo essencial).",
+    "category": "Matemática",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/C%C3%A1lculo"
+  },
+  {
+    "id": 275,
+    "title": "Equação diferencial",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Matemática. (Conteúdo extraído do arquivo essencial).",
+    "category": "Matemática",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Equa%C3%A7%C3%A3o%20diferencial"
+  },
+  {
+    "id": 276,
+    "title": "Infinito",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Matemática. (Conteúdo extraído do arquivo essencial).",
+    "category": "Matemática",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Infinito"
+  },
+  {
+    "id": 277,
+    "title": "Teoria dos grafos",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Matemática. (Conteúdo extraído do arquivo essencial).",
+    "category": "Matemática",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Teoria%20dos%20grafos"
+  },
+  {
+    "id": 278,
+    "title": "Fractal",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Matemática. (Conteúdo extraído do arquivo essencial).",
+    "category": "Matemática",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Fractal"
+  },
+  {
+    "id": 279,
+    "title": "Topologia",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Matemática. (Conteúdo extraído do arquivo essencial).",
+    "category": "Matemática",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Topologia"
+  },
+  {
+    "id": 280,
+    "title": "Sociedade",
+    "author_or_source": "Wikipédia",
+    "description": "Sociedade é um grupo de indivíduos envolvido em interação social persistente ou um grande grupo social que compartilha o mesmo território espacial ou social, tipicamente sujeito à mesma autoridade política e expectativas culturais dominantes. As sociedades são caracterizadas por padrões de relacionamentos entre indivíduos que compartilham uma cultura e instituições distintas; uma determinada sociedade pode ser descrita como a soma total de tais relacionamentos entre seus membros constituintes.",
+    "category": "Sociologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Sociedade"
+  },
+  {
+    "id": 281,
+    "title": "Socialização",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Sociologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Sociologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Socializa%C3%A7%C3%A3o"
+  },
+  {
+    "id": 282,
+    "title": "Classe social",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Sociologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Sociologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Classe%20social"
+  },
+  {
+    "id": 283,
+    "title": "Desigualdade social",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Sociologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Sociologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Desigualdade%20social"
+  },
+  {
+    "id": 284,
+    "title": "Estado",
+    "author_or_source": "Wikipédia",
+    "description": "Estado é uma entidade política que regula a sociedade e a população dentro de um território definido. O governo é considerado o aparelho fundamental dos Estados contemporâneos. É uma entidade política que regula a sociedade e a população dentro de um território definido. Considera-se que o governo constitui o aparato fundamental dos Estados contemporâneos. Um país tem frequentemente um único Estado, com várias divisões administrativas. Um Estado pode ser um unitário ou algum tipo de união federal; neste último tipo, o termo “estado” é por vezes utilizado para se referir às entidades políticas federadas que compõem a federação que podem ter alguns dos atributos limitados de um Estado soberano.",
+    "category": "Sociologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Estado"
+  },
+  {
+    "id": 285,
+    "title": "Cidadania",
+    "author_or_source": "Wikipédia",
+    "description": "Cidadania corresponde, no direito ao vínculo jurídico que traduz a condição de um indivíduo enquanto membro de um Estado ou de uma comunidade política, a que designamos cidadão, constituindo-o como detentor de direitos e de deveres perante essa mesma entidade num determinado território que este administra,[carece de fontes?] e ao exercício da sua prática. Esses direitos e deveres devem andar sempre juntos, uma vez que o direito de um cidadão implica necessariamente uma obrigação com outro cidadão e com o lugar onde habita. São esses recursos e práticas que, segundo Dalmo de Abreu Dallari, \"dão à pessoa a possibilidade de participar ativamente da vida social e do governo de seu povo\".",
+    "category": "Sociologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Cidadania"
+  },
+  {
+    "id": 286,
+    "title": "Família",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Sociologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Sociologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Fam%C3%ADlia"
+  },
+  {
+    "id": 287,
+    "title": "Educação",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Sociologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Sociologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Educa%C3%A7%C3%A3o"
+  },
+  {
+    "id": 288,
+    "title": "Émile Durkheim",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Sociologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Sociologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/%C3%89mile%20Durkheim"
+  },
+  {
+    "id": 289,
+    "title": "Max Weber",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Sociologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Sociologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Max%20Weber"
+  },
+  {
+    "id": 290,
+    "title": "Anomia",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Sociologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Sociologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Anomia"
+  },
+  {
+    "id": 291,
+    "title": "Fato social",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Sociologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Sociologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Fato%20social"
+  },
+  {
+    "id": 292,
+    "title": "Ação social",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Sociologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Sociologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/A%C3%A7%C3%A3o%20social"
+  },
+  {
+    "id": 293,
+    "title": "Computador",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Computador"
+  },
+  {
+    "id": 294,
+    "title": "Smartphone",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Smartphone"
+  },
+  {
+    "id": 295,
+    "title": "Inteligência artificial",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Intelig%C3%AAncia%20artificial"
+  },
+  {
+    "id": 296,
+    "title": "Rede social",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Rede%20social"
+  },
+  {
+    "id": 297,
+    "title": "Software",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Software"
+  },
+  {
+    "id": 298,
+    "title": "Hardware",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Hardware"
+  },
+  {
+    "id": 299,
+    "title": "Robótica",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Rob%C3%B3tica"
+  },
+  {
+    "id": 300,
+    "title": "Wi-Fi",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Wi-Fi"
+  },
+  {
+    "id": 301,
+    "title": "Computação quântica",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o%20qu%C3%A2ntica"
+  },
+  {
+    "id": 302,
+    "title": "Blockchain",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Blockchain"
+  },
+  {
+    "id": 303,
+    "title": "Aprendizado de máquina",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Aprendizado%20de%20m%C3%A1quina"
+  },
+  {
+    "id": 304,
+    "title": "Internet das coisas",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Internet%20das%20coisas"
+  },
+  {
+    "id": 305,
+    "title": "Realidade virtual",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Realidade%20virtual"
+  },
+  {
+    "id": 306,
+    "title": "Realidade aumentada",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Realidade%20aumentada"
+  },
+  {
+    "id": 307,
+    "title": "Rede neural artificial",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Rede%20neural%20artificial"
+  },
+  {
+    "id": 308,
+    "title": "Nanotecnologia",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Nanotecnologia"
+  },
+  {
+    "id": 309,
+    "title": "Biotecnologia",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Tecnologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Tecnologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Biotecnologia"
+  },
+  {
+    "id": 310,
+    "title": "República",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Política. (Conteúdo extraído do arquivo essencial).",
+    "category": "Política",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Rep%C3%BAblica"
+  },
+  {
+    "id": 311,
+    "title": "Monarquia",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Política. (Conteúdo extraído do arquivo essencial).",
+    "category": "Política",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Monarquia"
+  },
+  {
+    "id": 312,
+    "title": "Ditadura",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Política. (Conteúdo extraído do arquivo essencial).",
+    "category": "Política",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Ditadura"
+  },
+  {
+    "id": 313,
+    "title": "Constituição",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Política. (Conteúdo extraído do arquivo essencial).",
+    "category": "Política",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Constitui%C3%A7%C3%A3o"
+  },
+  {
+    "id": 314,
+    "title": "Poder Executivo",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Política. (Conteúdo extraído do arquivo essencial).",
+    "category": "Política",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Poder%20Executivo"
+  },
+  {
+    "id": 315,
+    "title": "Poder Legislativo",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Política. (Conteúdo extraído do arquivo essencial).",
+    "category": "Política",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Poder%20Legislativo"
+  },
+  {
+    "id": 316,
+    "title": "Poder Judiciário",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Política. (Conteúdo extraído do arquivo essencial).",
+    "category": "Política",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Poder%20Judici%C3%A1rio"
+  },
+  {
+    "id": 317,
+    "title": "Eleição",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Política. (Conteúdo extraído do arquivo essencial).",
+    "category": "Política",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o"
+  },
+  {
+    "id": 318,
+    "title": "Realpolitik",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Política. (Conteúdo extraído do arquivo essencial).",
+    "category": "Política",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Realpolitik"
+  },
+  {
+    "id": 319,
+    "title": "Totalitarismo",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Política. (Conteúdo extraído do arquivo essencial).",
+    "category": "Política",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Totalitarismo"
+  },
+  {
+    "id": 320,
+    "title": "Geopolítica",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Política. (Conteúdo extraído do arquivo essencial).",
+    "category": "Política",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Geopol%C3%ADtica"
+  },
+  {
+    "id": 321,
+    "title": "Social-democracia",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Política. (Conteúdo extraído do arquivo essencial).",
+    "category": "Política",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Social-democracia"
+  },
+  {
+    "id": 322,
+    "title": "Oligarquia",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Política. (Conteúdo extraído do arquivo essencial).",
+    "category": "Política",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Oligarquia"
+  },
+  {
+    "id": 323,
+    "title": "Soberania",
+    "author_or_source": "Wikipédia",
+    "description": "De acordo com Jean Bodin (1530–1596), soberania refere-se à entidade que não conhece superior na ordem externa nem igual na ordem interna. Nas estritas palavras do renascentista francês, \"a soberania é o poder absoluto e perpétuo de um Estado-Nação\".",
+    "category": "Política",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Soberania"
+  },
+  {
+    "id": 324,
+    "title": "Zeus",
+    "author_or_source": "Wikipédia",
+    "description": "Zeus é o pai dos deuses, que exercia a autoridade sobre os deuses olímpicos na antiga religião grega. É o deus dos céus, raios, relâmpagos que mantêm a ordem e justiça na mitologia grega. Seu equivalente romano é Júpiter, enquanto seu equivalente etrusco é Tinia; alguns autores estabeleceram seu equivalente hindu como sendo Indra.",
+    "category": "Mitologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Zeus"
+  },
+  {
+    "id": 325,
+    "title": "Thor",
+    "author_or_source": "Wikipédia",
+    "description": "Thor é um deus proeminente no paganismo germânico. Na mitologia nórdica, ele é um deus empunhando um martelo associado a relâmpago, trovão, tempestades, bosques e árvores sagradas, força, a proteção da humanidade e a fertilidade.\n\n\n",
+    "category": "Mitologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Thor"
+  },
+  {
+    "id": 326,
+    "title": "Mitologia nórdica",
+    "author_or_source": "Wikipédia",
+    "description": "Mitologia nórdica, também chamada mitologia viking, mitologia germânica ou mitologia escandinava, é o conjunto de lendas dos povos escandinavos, especialmente durante a Era Viking, cujo conhecimento chegou aos nossos dias principalmente através das Edas islandesas do século XIII. A maioria das fontes escritas vieram dos povos escandinavos que se estabeleceram na Islândia.",
+    "category": "Mitologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Mitologia_n%C3%B3rdica"
+  },
+  {
+    "id": 327,
+    "title": "Deus",
+    "author_or_source": "Wikipédia",
+    "description": "Nos sistemas de crenças monoteístas, Deus é geralmente visto como o ser supremo, criador e principal objeto da fé. Nos sistemas de crenças politeístas, um deus é \"um espírito ou ser que se acredita ter criado, ou que controla alguma parte do universo ou da vida, motivo pelo qual tal divindade é frequentemente adorada\". A crença na existência de pelo menos um deus é chamada de teísmo.",
+    "category": "Mitologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Deus"
+  },
+  {
+    "id": 328,
+    "title": "Hércules",
+    "author_or_source": "Wikipédia",
+    "description": "Hércules é o nome em latim dado pelos antigos romanos ao herói da mitologia grega Héracles, filho de Zeus e da mortal Alcmena. As antigas fontes romanas indicam que o herói grego \"importado\" veio substituir um antigo pastor mitológico chamado pelos povos da Itália de Recaranus ou Garanus, e que é famoso por sua força física e bravura. Enquanto o mito de Hércules incorporou muito da iconografia e da própria mitologia do personagem grego, ele também tinha algumas características e lendas que eram marcadamente romanas.",
+    "category": "Mitologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/H%C3%A9rcules"
+  },
+  {
+    "id": 329,
+    "title": "Posídon",
+    "author_or_source": "Wikipédia",
+    "description": "Posídon, também conhecido como Poseídon, Poseidon, Posidão, Posêidon ou Possêidon, assumiu o estatuto de deus supremo do mar, conhecido pelos romanos como Netuno, possivelmente tendo origem etrusca como Nethuns. Também era conhecido como o deus dos terremotos. Os símbolos associados a Posídon com mais frequência eram o tridente e o golfinho.",
+    "category": "Mitologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Pos%C3%ADdon"
+  },
+  {
+    "id": 330,
+    "title": "Atena",
+    "author_or_source": "Wikipédia",
+    "description": "Atena ou Atená, também conhecida como Palas Atena ou grafada como Atene, é, na mitologia grega, a deusa da civilização, da sabedoria, da estratégia em batalha, das artes, da justiça e da habilidade. Uma das principais divindades do panteão grego e um dos doze deuses olímpicos, Atena recebeu culto em toda a Grécia Antiga e em toda a sua área de influência, desde as colônias gregas da Ásia Menor até as da Península Ibérica e norte da África. Sua presença é atestada até nas proximidades da Índia. Por isso seu culto assumiu muitas formas, além de sua figura ter sido sincretizada com várias outras divindades das regiões em torno do Mediterrâneo, ampliando a variedade das formas de culto.",
+    "category": "Mitologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Atena"
+  },
+  {
+    "id": 331,
+    "title": "Odin",
+    "author_or_source": "Wikipédia",
+    "description": "Odin ou Ódin é o rei dos deuses e a divindade principal do clã dos Æsir, o clã mais importante de deuses da mitologia nórdica e nas crenças das religiões neopagãs germânicas. Também é conhecido como \"Pai de Todos\" e o deus nórdico da cura, da vida e da morte",
+    "category": "Mitologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Odin"
+  },
+  {
+    "id": 332,
+    "title": "Loki",
+    "author_or_source": "Wikipédia",
+    "description": "Loki é um deus da mitologia nórdica. É um deus da trapaça e da travessura e do fogo, também está ligado à magia e pode assumir a forma que quiser. Ele não pertence aos Aesir, embora viva com eles. É frequentemente considerado um símbolo da maldade, traiçoeiro, de pouca confiança; e, embora suas artimanhas geralmente causem problemas a curto prazo aos deuses, estes frequentemente se beneficiam, no fim, das travessuras de Loki. Ele está entre as figuras mais complexas da mitologia nórdica.",
+    "category": "Mitologia",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Loki"
+  },
+  {
+    "id": 333,
+    "title": "Enuma Elish",
+    "author_or_source": "Wikipédia",
+    "description": "O Enûma Eliš é o mito de criação babilônico. Foi descoberto por Austen Henry Layard em 1849 nas ruínas da Biblioteca de Assurbanípal em Nínive, e publicado por George Smith em 1876.",
+    "category": "Mitologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Enuma_Elish"
+  },
+  {
+    "id": 334,
+    "title": "Ragnarök",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Mitologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Mitologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Ragnar%C3%B6k"
+  },
+  {
+    "id": 335,
+    "title": "Matéria da Bretanha",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Mitologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Mitologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Mat%C3%A9ria%20da%20Bretanha"
+  },
+  {
+    "id": 336,
+    "title": "Mitologia iorubá",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Mitologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Mitologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Mitologia%20iorub%C3%A1"
+  },
+  {
+    "id": 337,
+    "title": "Gilgamesh",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Mitologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Mitologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Gilgamesh"
+  },
+  {
+    "id": 338,
+    "title": "Mitologia tupi-guarani",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Mitologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Mitologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Mitologia%20tupi-guarani"
+  },
+  {
+    "id": 339,
+    "title": "Quetzalcóatl",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Mitologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Mitologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Quetzalc%C3%B3atl"
+  },
+  {
+    "id": 340,
+    "title": "Mitologia celta",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Mitologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Mitologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Mitologia%20celta"
+  },
+  {
+    "id": 341,
+    "title": "Yggdrasil",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Mitologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Mitologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Yggdrasil"
+  },
+  {
+    "id": 342,
+    "title": "Cosmogonia",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito importante no estudo da Mitologia. (Conteúdo extraído do arquivo essencial).",
+    "category": "Mitologia",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Cosmogonia"
+  },
+  {
+    "id": 343,
+    "title": "Leis de Newton",
+    "author_or_source": "Wikipédia",
+    "description": "Leis de Newton são as três leis que possibilitam e constituem a base primária para compreensão dos comportamentos estático e dinâmico dos corpos materiais, em escalas celeste e terrestre. Foram formuladas pelo físico inglês Isaac Newton ainda no século XVII e foram publicadas pela primeira vez em seu livro Philosophiae Naturalis Principia Mathematica. Em essência, as leis estabelecem inicialmente os observadores (referenciais) que podem corretamente usá-las, a fim de explicar a estática e a dinâmica dos corpos em observação ; e assumindo estes referenciais por padrão, passam então a mensurar as interações físicas entre dois, entre todos os corpos materiais bem como o resultado destas interações sobre o repouso ou o movimento de tais corpos.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Leis_de_Newton"
+  },
+  {
+    "id": 344,
+    "title": "Cinemática",
+    "author_or_source": "Wikipédia",
+    "description": "A cinemática é o ramo da física que se ocupa da descrição dos movimentos de pontos, corpos ou sistemas de corpos, sem se preocupar com a análise de suas causas.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Cinem%C3%A1tica"
+  },
+  {
+    "id": 345,
+    "title": "Eletromagnetismo",
+    "author_or_source": "Wikipédia",
+    "description": "Eletromagnetismo, na física, é uma interação que ocorre entre partículas com carga elétrica por meio de campos eletromagnéticos. A força eletromagnética é uma das quatro forças fundamentais da natureza. É a força dominante nas interações de átomos e moléculas. O eletromagnetismo pode ser pensado como uma combinação de eletrostática e magnetismo, dois fenômenos distintos, mas intimamente interligados. As forças eletromagnéticas ocorrem entre quaisquer duas partículas carregadas, causando uma atração entre partículas com cargas opostas e repulsão entre partículas com a mesma carga, enquanto o magnetismo é uma interação que ocorre exclusivamente entre partículas carregadas em movimento relativo. Esses dois efeitos se combinam para criar campos eletromagnéticos nas proximidades de partículas carregadas, que podem acelerar outras partículas carregadas por meio da força de Lorentz. Em alta energia, a força fraca e a força eletromagnética são unificadas como uma única força eletrofraca.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Eletromagnetismo"
+  },
+  {
+    "id": 346,
+    "title": "Óptica",
+    "author_or_source": "Wikipédia",
+    "description": "A óptica (português brasileiro) ou ótica (português europeu) é o ramo da Física que estuda os fenômenos que têm como causa determinante a energia radiante. A óptica explica, a partir das proposições quanto às trajetórias seguidas pela luz, o estudo da natureza constitutiva da luz, as causas dos defeitos de visão, projeção de imagens, funcionamento de espelhos, a estrutura atômica, entre outras aplicações.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/%C3%93ptica"
+  },
+  {
+    "id": 347,
+    "title": "Acústica",
+    "author_or_source": "Wikipédia",
+    "description": "A acústica é o ramo da física associado ao estudo do som e dos fenômenos a ele relacionados. O som é um fenômeno ondulatório causado pelos mais diversos objetos e se propaga através dos diferentes estados físicos da matéria.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Ac%C3%BAstica"
+  },
+  {
+    "id": 348,
+    "title": "Força",
+    "author_or_source": "Wikipédia",
+    "description": "Força é um dos conceitos fundamentais da mecânica clássica. Relacionado com as três leis de Newton, é uma grandeza que tem a capacidade de vencer a inércia de um corpo, modificando-lhe a velocidade. Como corolário, chega-se ao constructo de que a força pode causar deformação em um objeto flexível.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/For%C3%A7a"
+  },
+  {
+    "id": 349,
+    "title": "Energia cinética",
+    "author_or_source": "Wikipédia",
+    "description": "Em física, a energia cinética em um objeto é a energia que ele possui devido ao seu movimento. Isto é definido como o trabalho necessário para acelerar um corpo de massa em repouso para que este adquira velocidade. Tendo ganho essa energia durante a aceleração, o corpo mantém essa energia cinética a menos que a sua velocidade mude. A mesma quantidade de trabalho é produzido por um corpo desacelerando da sua velocidade atual para um estado de repouso.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Energia_cin%C3%A9tica"
+  },
+  {
+    "id": 350,
+    "title": "Calor",
+    "author_or_source": "Wikipédia",
+    "description": "Em física, engenharia, e outras áreas da ciência e tecnologia, calor é energia que é transferida entre parcelas de matéria devido à diferença de temperaturas entre elas.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Calor"
+  },
+  {
+    "id": 351,
+    "title": "Eletricidade",
+    "author_or_source": "Wikipédia",
+    "description": "Eletricidade é o conjunto de fenômenos físicos associados à presença e ao movimento de matéria com carga elétrica. A eletricidade está relacionada ao magnetismo, sendo ambos parte do fenômeno do eletromagnetismo, conforme descrito pelas equações de Maxwell. Fenômenos comuns estão relacionados à eletricidade, incluindo relâmpagos, eletricidade estática, aquecimento elétrico, descargas elétricas e muitos outros.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/Eletricidade"
+  },
+  {
+    "id": 352,
+    "title": "Inércia",
+    "author_or_source": "Wikipédia",
+    "description": "A inércia é uma propriedade geral da matéria. Considere um corpo não submetido à ação de forças ou submetido a um conjunto de forças de resultante nula; nesta condição esse corpo não sofre variação de velocidade. Isto significa que, se está parado, permanece parado, e se está em movimento, permanece em movimento em linha reta e a sua velocidade se mantém constante. Tal princípio, formulado pela primeira vez por Galileu e, posteriormente, confirmado por Newton, é conhecido como primeiro princípio da Dinâmica ou princípio da Inércia.",
+    "category": "Física",
+    "level": "basic",
+    "link": "https://pt.wikipedia.org/wiki/In%C3%A9rcia"
+  },
+  {
+    "id": 353,
+    "title": "Relatividade restrita",
+    "author_or_source": "Wikipédia",
+    "description": "A Teoria da Relatividade Restrita ou Teoria da Relatividade Especial, publicada pela primeira vez por Albert Einstein em 1905, descreve a física do movimento na ausência de campos gravitacionais.",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Relatividade_restrita"
+  },
+  {
+    "id": 354,
+    "title": "Modelo Padrão",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito fundamental no estudo da Física. (Conteúdo extraído da base).",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Modelo%20Padr%C3%A3o"
+  },
+  {
+    "id": 355,
+    "title": "Eletrodinâmica quântica",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito fundamental no estudo da Física. (Conteúdo extraído da base).",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Eletrodin%C3%A2mica%20qu%C3%A2ntica"
+  },
+  {
+    "id": 356,
+    "title": "Teoria M",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito fundamental no estudo da Física. (Conteúdo extraído da base).",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Teoria%20M"
+  },
+  {
+    "id": 357,
+    "title": "Princípio da incerteza de Heisenberg",
+    "author_or_source": "Wikipédia",
+    "description": "O princípio da incerteza, também conhecido como princípio da indeterminação de Heisenberg, é um conceito fundamental na mecânica quântica. Ele afirma que há um limite para a precisão com que certos pares de propriedades físicas, como posição e momento, podem ser conhecidos simultaneamente. Em outras palavras, quanto mais precisamente uma propriedade é medida, menos precisamente a outra propriedade pode ser conhecida.",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Princ%C3%ADpio_da_incerteza_de_Heisenberg"
+  },
+  {
+    "id": 358,
+    "title": "Supercondutividade",
+    "author_or_source": "Wikipédia",
+    "description": "A supercondutividade é uma propriedade física intrínseca de certos materiais que, ao serem resfriados a temperaturas extremamente baixas, passam a conduzir corrente elétrica com resistência nula e a expelir campos magnéticos de seu interior. Um composto de hidrogênio, magnésio e lítio, por exemplo, pode se tornar supercondutor a temperaturas de até 200° C, quando submetido a uma pressão altíssima – quase 2,5 milhões de vezes a da atmosfera terrestre.",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Supercondutividade"
+  },
+  {
+    "id": 359,
+    "title": "Física de partículas",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito fundamental no estudo da Física. (Conteúdo extraído da base).",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/F%C3%ADsica%20de%20part%C3%ADculas"
+  },
+  {
+    "id": 360,
+    "title": "Gravidade quântica",
+    "author_or_source": "Conhecimento Geral",
+    "description": "Um conceito fundamental no estudo da Física. (Conteúdo extraído da base).",
+    "category": "Física",
+    "level": "deep",
+    "link": "https://pt.wikipedia.org/wiki/Gravidade%20qu%C3%A2ntica"
+  }
+]

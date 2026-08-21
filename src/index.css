@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  
+  --color-background-dark: #121816;
+  --color-foreground-dark: #f3f4f6;
+  --color-card-dark: #1c2421;
+  --color-accent: #10b981;
+}
+
+body {
+  @apply text-zinc-50 antialiased h-screen overflow-hidden;
+  /* Removed bg-zinc-950 to let App.jsx handle the background gradients */
+}
+
+#root {
+  @apply h-full w-full;
+}
