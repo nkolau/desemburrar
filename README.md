@@ -15,9 +15,13 @@
 * 🎲 **Sorteio Curado de Conhecimento:** Centenas de tópicos integrados, de Física Quântica a Movimentos Artísticos. Com apenas um clique, você descobre algo novo sem precisar pesquisar.
 * 🎚️ **Níveis de Profundidade:** Alterne entre "Essencial" (fatos rápidos) e "Profundo" (teorias complexas). A UI inteira se adapta dinamicamente (de esmeralda para roxo) baseada na sua escolha.
 * 🗂️ **Filtros por Categoria:** Estude o que mais te atrai no momento escolhendo categorias como Filosofia, Ciência, Literatura e Matemática, acompanhadas de imagens fotográficas em alta definição.
-* ⏱️ **Modo de Foco & Técnica Feynman:** O grande diferencial da aplicação. 
+* ⏱️ **Modo de Foco & Técnica Feynman Interativa:**
   * Defina um tempo de leitura ininterrupta (5 a 20 minutos).
-  * Ao finalizar, um novo timer de 2 minutos é acionado: a **Fase de Assimilação**. O usuário é desafiado a explicar o conceito recém-lido em voz alta, cimentando o conhecimento no cérebro.
+  * **Fase de Assimilação com Bloco de Notas:** Durante 2 minutos, explique o conceito com suas palavras ou anote sua síntese no bloco de notas.
+  * **Autoavaliação de Domínio:** Classifique sua compreensão (*Dominei*, *Básico* ou *Revisar*) para registrar seu aprendizado.
+* 📚 **Biblioteca Pessoal (LocalStorage):**
+  * Salve referências favoritas com uma estrela ⭐.
+  * Histórico de estudos completo com data, nível de domínio e suas anotações pessoais gravadas localmente.
 * 🎨 **UI/UX Imersiva:** Design moderno utilizando *Glassmorphism*, paletas dinâmicas, desfoque de fundo (backdrop blur) e animações suaves para máxima imersão.
 
 ## 🛠️ Tecnologias Utilizadas
