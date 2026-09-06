@@ -12,17 +12,15 @@
 
 ## ✨ Funcionalidades Principais
 
-* 🎲 **Sorteio Curado de Conhecimento:** Centenas de tópicos integrados, de Física Quântica a Movimentos Artísticos. Com apenas um clique, você descobre algo novo sem precisar pesquisar.
-* 🎚️ **Níveis de Profundidade:** Alterne entre "Essencial" (fatos rápidos) e "Profundo" (teorias complexas). A UI inteira se adapta dinamicamente (de esmeralda para roxo) baseada na sua escolha.
-* 🗂️ **Filtros por Categoria:** Estude o que mais te atrai no momento escolhendo categorias como Filosofia, Ciência, Literatura e Matemática, acompanhadas de imagens fotográficas em alta definição.
-* ⏱️ **Modo de Foco & Técnica Feynman Interativa:**
-  * Defina um tempo de leitura ininterrupta (5 a 20 minutos).
-  * **Fase de Assimilação com Bloco de Notas:** Durante 2 minutos, explique o conceito com suas palavras ou anote sua síntese no bloco de notas.
-  * **Autoavaliação de Domínio:** Classifique sua compreensão (*Dominei*, *Básico* ou *Revisar*) para registrar seu aprendizado.
-* 📚 **Biblioteca Pessoal (LocalStorage):**
-  * Salve referências favoritas com uma estrela ⭐.
-  * Histórico de estudos completo com data, nível de domínio e suas anotações pessoais gravadas localmente.
-* 🎨 **UI/UX Imersiva:** Design moderno utilizando *Glassmorphism*, paletas dinâmicas, desfoque de fundo (backdrop blur) e animações suaves para máxima imersão.
+* 🔍 **Busca Rápida Global (Command Palette):** Pressione `Ctrl + K` ou `/` para buscar instantaneamente por qualquer tema, categoria ou conceito entre centenas de referências.
+* 🎧 **Áudio Ambiente Lo-Fi:** Gerador nativo de ruído marrom/chuva suave via Web Audio API para foco absoluto durante as sessões de estudo.
+* ⚡ **Atalhos de Teclado Fluidos:** Navegue sem o mouse (`Espaço` para novo tema, `F` para favoritar, `S` para compartilhar, `T` para alternar fonte editorial, `B` para abrir biblioteca).
+* 💡 **Provocações Socráticas:** Cada tema conta com uma reflexão profunda gerada para conectar o aprendizado teórico às decisões do seu cotidiano.
+* 🔗 **Teia de Conexões ("Rabbit Hole"):** Recomendações conceituais no rodapé do card para continuar explorando temas correlatos.
+* 🔥 **Contador de Streak & Gamificação:** Acompanhe sua sequência de dias consecutivos de estudo.
+* 📤 **Compartilhador Social:** Copie um resumo elegante e pronto para postar no LinkedIn ou WhatsApp com 1 clique.
+* 📚 **Biblioteca Pessoal & Técnica Feynman:** Salve favoritos, anote sua síntese durante a assimilação e classifique seu nível de domínio (*Dominei*, *Básico*, *Revisar*).
+* 🎨 **Design Háptico & 3D Tilt:** Efeito tátil de inclinação 3D com a posição do mouse, modo editorial serifado e acabamento em *Glassmorphism*.
 
 ## 🛠️ Tecnologias Utilizadas
 
