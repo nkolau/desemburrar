@@ -18,7 +18,7 @@ const CATEGORY_IMAGES = {
   'Sociologia': 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400&q=80',
   'Tecnologia': 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&q=80',
   'Política': 'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=400&q=80',
-  'Mitologia': 'https://images.unsplash.com/photo-1601002766343-7f284fb41c23?w=400&q=80',
+  'Mitologia': 'https://images.unsplash.com/photo-1555993539-1732b0258235?w=800&q=80',
   'Física': 'https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=400&q=80',
   'Todas': 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=400&q=80'
 };
