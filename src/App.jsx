@@ -890,21 +890,21 @@ function App() {
 
                       {/* Description with Dynamic Font Style */}
                       <div className="flex-1 overflow-y-auto pr-2 max-h-[26vh] sm:max-h-[32vh] scrollbar-thin scrollbar-thumb-white/20 scrollbar-track-transparent mb-4">
-                        <p className={`text-base sm:text-lg ${fontFamily === 'serif' ? 'font-serif text-slate-100 tracking-wide leading-relaxed' : 'font-sans text-slate-200 leading-relaxed font-light'}`}>
+                        <p className={`text-base sm:text-lg ${fontFamily === 'serif' ? 'font-serif text-slate-100 tracking-wide leading-relaxed' : 'font-sans text-slate-100 leading-relaxed font-normal'}`}>
                           {reference.description}
                         </p>
                       </div>
 
                       {/* Socratic Provocation Card */}
                       <div className="p-3.5 rounded-2xl bg-white/[0.04] border border-white/10 mb-4 flex items-start gap-3">
-                        <div className="p-1.5 rounded-lg bg-amber-500/10 text-amber-400 shrink-0 mt-0.5">
+                        <div className="p-1.5 rounded-lg bg-amber-500/15 text-amber-400 shrink-0 mt-0.5">
                           <Lightbulb size={16} />
                         </div>
                         <div>
-                          <span className="text-[10px] uppercase font-bold text-amber-400/90 tracking-wider block mb-0.5">
+                          <span className="text-xs uppercase font-bold text-amber-300 tracking-wider block mb-0.5">
                             Provocação de Reflexão
                           </span>
-                          <p className="text-xs text-slate-300 italic leading-relaxed">
+                          <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-normal">
                             {getSocraticProvocation(reference.category, reference.title)}
                           </p>
                         </div>
@@ -1173,70 +1173,70 @@ function App() {
                     <h2 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
                       Especial Eleições 2026 🇧🇷
                     </h2>
-                    <span className="px-2 py-0.5 rounded-full bg-yellow-400/20 text-yellow-300 text-[10px] font-extrabold uppercase border border-yellow-400/30">
+                    <span className="px-2.5 py-0.5 rounded-full bg-yellow-400/20 text-yellow-300 text-xs font-extrabold uppercase border border-yellow-400/40">
                       TSE Oficial
                     </span>
                   </div>
-                  <p className="text-xs text-slate-400 mt-0.5">
+                  <p className="text-xs sm:text-sm text-slate-300 mt-0.5 font-normal">
                     Guia enciclopédico e neutro de cidadania para o processo democrático brasileiro
                   </p>
                 </div>
               </div>
               <button
                 onClick={() => setIsElectionsOpen(false)}
-                className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-white/10 transition-colors"
+                className="p-2 rounded-full text-slate-300 hover:text-white hover:bg-white/10 transition-colors"
               >
                 <X size={20} />
               </button>
             </div>
 
             {/* Elections Tabs */}
-            <div className="flex border-b border-white/10 bg-slate-950/70 p-1.5 gap-1.5 overflow-x-auto scrollbar-none">
+            <div className="flex border-b border-white/10 bg-slate-950/80 p-2 gap-2 overflow-x-auto scrollbar-none">
               <button
                 onClick={() => setElectionsTab('candidatos')}
-                className={`flex-1 min-w-[130px] py-2.5 px-3 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all ${
+                className={`flex-1 min-w-[130px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all ${
                   electionsTab === 'candidatos' 
-                    ? 'bg-yellow-500/20 text-yellow-300 border border-yellow-500/30 shadow-sm' 
-                    : 'text-slate-400 hover:text-slate-200'
+                    ? 'bg-yellow-500/25 text-yellow-200 border border-yellow-500/50 shadow-sm font-bold' 
+                    : 'text-slate-300 hover:text-white hover:bg-white/5'
                 }`}
               >
-                <UserCheck size={14} />
+                <UserCheck size={15} />
                 <span>Candidatos ({electionsData.candidates_2026.length})</span>
               </button>
 
               <button
                 onClick={() => setElectionsTab('planos')}
-                className={`flex-1 min-w-[140px] py-2.5 px-3 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all ${
+                className={`flex-1 min-w-[140px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all ${
                   electionsTab === 'planos' 
-                    ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30 shadow-sm' 
-                    : 'text-slate-400 hover:text-slate-200'
+                    ? 'bg-amber-500/25 text-amber-200 border border-amber-500/50 shadow-sm font-bold' 
+                    : 'text-slate-300 hover:text-white hover:bg-white/5'
                 }`}
               >
-                <FileText size={14} />
+                <FileText size={15} />
                 <span>Análise dos Planos</span>
               </button>
 
               <button
                 onClick={() => setElectionsTab('marcos')}
-                className={`flex-1 min-w-[130px] py-2.5 px-3 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all ${
+                className={`flex-1 min-w-[130px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all ${
                   electionsTab === 'marcos' 
-                    ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 shadow-sm' 
-                    : 'text-slate-400 hover:text-slate-200'
+                    ? 'bg-emerald-500/25 text-emerald-200 border border-emerald-500/50 shadow-sm font-bold' 
+                    : 'text-slate-300 hover:text-white hover:bg-white/5'
                 }`}
               >
-                <Landmark size={14} />
+                <Landmark size={15} />
                 <span>Marcos Históricos</span>
               </button>
 
               <button
                 onClick={() => setElectionsTab('curiosidades')}
-                className={`flex-1 min-w-[130px] py-2.5 px-3 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all ${
+                className={`flex-1 min-w-[130px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all ${
                   electionsTab === 'curiosidades' 
-                    ? 'bg-blue-500/20 text-blue-300 border border-blue-500/30 shadow-sm' 
-                    : 'text-slate-400 hover:text-slate-200'
+                    ? 'bg-blue-500/25 text-blue-200 border border-blue-500/50 shadow-sm font-bold' 
+                    : 'text-slate-300 hover:text-white hover:bg-white/5'
                 }`}
               >
-                <Lightbulb size={14} />
+                <Lightbulb size={15} />
                 <span>Curiosidades do Voto</span>
               </button>
             </div>
@@ -1247,10 +1247,10 @@ function App() {
               {/* TAB 1: CANDIDATOS 2026 */}
               {electionsTab === 'candidatos' && (
                 <div className="flex flex-col gap-4">
-                  <div className="p-3.5 rounded-2xl bg-white/5 border border-white/10 flex items-start gap-3">
-                    <Info size={18} className="text-yellow-400 shrink-0 mt-0.5" />
-                    <p className="text-xs text-slate-300 leading-relaxed">
-                      Painel com estrutura e critérios estritamente isonômicos para todas as candidaturas registradas no TSE para a Presidência da República em 2026. Dados factuais extraídos do sistema <strong>DivulgaCandContas</strong>.
+                  <div className="p-4 rounded-2xl bg-slate-900/90 border border-amber-500/30 flex items-start gap-3 shadow-md">
+                    <Info size={20} className="text-amber-400 shrink-0 mt-0.5" />
+                    <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-normal">
+                      Painel com estrutura e critérios estritamente isonômicos para todas as candidaturas registradas no TSE para a Presidência da República em 2026. Dados factuais extraídos do sistema <strong className="text-white font-bold">DivulgaCandContas</strong>.
                     </p>
                   </div>
 
@@ -1258,49 +1258,51 @@ function App() {
                     {electionsData.candidates_2026.map(cand => (
                       <div
                         key={cand.id}
-                        className="p-5 rounded-2xl bg-white/[0.03] hover:bg-white/[0.06] border border-white/10 flex flex-col justify-between transition-all"
+                        className="p-5 sm:p-6 rounded-2xl bg-slate-900/90 hover:bg-slate-900 border border-slate-800 hover:border-slate-700/80 flex flex-col justify-between transition-all shadow-md"
                       >
                         <div>
                           <div className="flex items-start justify-between gap-3 mb-2">
                             <div>
-                              <div className="flex items-center gap-2 mb-1">
-                                <span className="text-lg font-mono font-extrabold px-2.5 py-0.5 rounded-lg bg-yellow-500/20 border border-yellow-500/40 text-yellow-300">
+                              <div className="flex items-center gap-2 mb-1.5">
+                                <span className="text-xl font-bold tracking-tight px-3 py-1 rounded-xl bg-yellow-500/20 border border-yellow-500/40 text-yellow-300 tabular-nums">
                                   {cand.number}
                                 </span>
-                                <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-emerald-500/20 border border-emerald-500/30 text-emerald-300">
+                                <span className="text-xs font-semibold px-2.5 py-1 rounded-md bg-emerald-500/20 border border-emerald-500/30 text-emerald-300">
                                   {cand.status}
                                 </span>
                               </div>
-                              <h3 className="text-lg font-bold text-white leading-tight">
+                              <h3 className="text-xl font-bold text-white leading-tight tracking-tight">
                                 {cand.ballot_name}
                               </h3>
-                              <span className="text-xs text-slate-400">
+                              <span className="text-xs sm:text-sm text-slate-300 font-medium block mt-0.5">
                                 {cand.full_name}
                               </span>
                             </div>
                           </div>
 
-                          <div className="text-[11px] text-yellow-400/90 font-medium mb-3">
-                            {cand.party} • <span className="text-slate-400">{cand.coalition}</span>
+                          <div className="text-xs sm:text-sm text-amber-300 font-semibold mb-3.5">
+                            {cand.party} <span className="text-slate-400 font-normal">• {cand.coalition}</span>
                           </div>
 
-                          <div className="space-y-2 mb-4">
+                          <div className="space-y-3 mb-4">
                             <div>
-                              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider block">
+                              <span className="text-xs uppercase font-bold text-emerald-400 tracking-wider block mb-1">
                                 Trajetória Política:
                               </span>
-                              <p className="text-xs text-slate-300 leading-relaxed">
+                              <p className="text-sm text-slate-200 leading-relaxed font-normal">
                                 {cand.trajectory}
                               </p>
                             </div>
 
                             <div>
-                              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider block">
+                              <span className="text-xs uppercase font-bold text-yellow-400 tracking-wider block mb-1.5">
                                 Eixos Principais das Propostas:
                               </span>
-                              <p className="text-xs text-slate-300 leading-relaxed italic bg-white/5 p-2 rounded-xl border border-white/5">
-                                "{cand.proposals_summary}"
-                              </p>
+                              <div className="bg-slate-950/80 p-3.5 rounded-xl border border-white/10 shadow-inner">
+                                <p className="text-sm text-slate-100 leading-relaxed font-normal">
+                                  "{cand.proposals_summary}"
+                                </p>
+                              </div>
                             </div>
                           </div>
 
@@ -1310,25 +1312,25 @@ function App() {
                                 setSelectedPlanCandidateId(cand.id);
                                 setElectionsTab('planos');
                               }}
-                              className="w-full mt-2 mb-3 py-2 px-3 rounded-xl bg-yellow-500/10 hover:bg-yellow-500/20 border border-yellow-500/30 text-yellow-300 font-semibold text-xs flex items-center justify-center gap-1.5 transition-all hover:scale-[1.01]"
+                              className="w-full mt-3 mb-2 py-2.5 px-4 rounded-xl bg-yellow-500/15 hover:bg-yellow-500/25 border border-yellow-500/40 text-yellow-300 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all hover:scale-[1.01] shadow-sm"
                             >
-                              <FileText size={13} />
+                              <FileText size={15} />
                               <span>Ler Análise Completa do Plano</span>
                               <span>→</span>
                             </button>
                           )}
                         </div>
 
-                        <div className="pt-3 border-t border-white/5 flex items-center justify-between text-xs">
-                          <span className="text-[10px] text-slate-500">Fonte: TSE / DivulgaCand</span>
+                        <div className="pt-3.5 mt-2 border-t border-white/10 flex items-center justify-between text-xs">
+                          <span className="text-xs text-slate-400 font-medium">Fonte: TSE / DivulgaCand</span>
                           <a 
                             href={cand.source_link} 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1.5 text-xs text-emerald-400 hover:text-emerald-300 font-medium transition-colors"
+                            className="inline-flex items-center gap-1.5 text-xs sm:text-sm text-emerald-400 hover:text-emerald-300 font-semibold transition-colors"
                           >
                             <span>Consultar Registro</span>
-                            <ExternalLink size={12} />
+                            <ExternalLink size={13} />
                           </a>
                         </div>
                       </div>
@@ -1340,11 +1342,11 @@ function App() {
               {/* TAB: ANÁLISE DOS PLANOS DE GOVERNO */}
               {electionsTab === 'planos' && (
                 <div className="flex flex-col gap-4">
-                  <div className="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-start gap-3">
-                    <FileText size={20} className="text-amber-400 shrink-0 mt-0.5" />
+                  <div className="p-4 rounded-2xl bg-slate-900/90 border border-amber-500/30 flex items-start gap-3 shadow-md">
+                    <FileText size={22} className="text-amber-400 shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="text-sm font-bold text-white mb-0.5">Análise Comparativa dos Planos de Governo</h4>
-                      <p className="text-xs text-slate-300 leading-relaxed">
+                      <h4 className="text-sm sm:text-base font-bold text-white mb-0.5">Análise Comparativa dos Planos de Governo</h4>
+                      <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-normal">
                         Exame analítico e aprofundado das diretrizes macroeconômicas, tributárias, penais, trabalhistas e institucionais das candidaturas à Presidência da República em 2026.
                       </p>
                     </div>
@@ -1356,13 +1358,13 @@ function App() {
                       <button
                         key={c.id}
                         onClick={() => setSelectedPlanCandidateId(c.id)}
-                        className={`px-3.5 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all border flex items-center gap-1.5 ${
+                        className={`px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition-all border flex items-center gap-1.5 ${
                           selectedPlanCandidateId === c.id 
-                            ? 'bg-yellow-500/25 border-yellow-500/60 text-yellow-300 shadow-md scale-105' 
-                            : 'bg-white/5 border-white/10 text-slate-400 hover:text-slate-200 hover:bg-white/10'
+                            ? 'bg-yellow-500/25 border-yellow-500/60 text-yellow-200 shadow-md scale-105 font-bold' 
+                            : 'bg-slate-900 border-slate-700/60 text-slate-300 hover:text-white hover:bg-slate-800'
                         }`}
                       >
-                        <span className="font-mono font-bold opacity-80">{c.number}</span>
+                        <span className="font-bold opacity-90 tabular-nums">{c.number}</span>
                         <span>{c.ballot_name}</span>
                       </button>
                     ))}
@@ -1370,21 +1372,21 @@ function App() {
 
                   {/* Detailed Analysis View */}
                   {currentPlanCandidate && currentPlanCandidate.detailed_analysis ? (
-                    <div className="p-5 sm:p-6 rounded-3xl bg-white/[0.04] border border-white/15 flex flex-col gap-4 animate-in fade-in duration-200">
+                    <div className="p-5 sm:p-7 rounded-3xl bg-slate-900/90 border border-slate-700/70 shadow-xl flex flex-col gap-4 animate-in fade-in duration-200">
                       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-white/10">
                         <div>
                           <div className="flex items-center gap-2 mb-1.5">
-                            <span className="text-xl font-mono font-extrabold px-3 py-0.5 rounded-lg bg-yellow-500/20 border border-yellow-500/40 text-yellow-300">
+                            <span className="text-xl font-bold tracking-tight px-3 py-1 rounded-xl bg-yellow-500/20 border border-yellow-500/40 text-yellow-300 tabular-nums">
                               {currentPlanCandidate.number}
                             </span>
-                            <span className="text-xs font-bold px-2.5 py-0.5 rounded-md bg-emerald-500/20 border border-emerald-500/30 text-emerald-300">
+                            <span className="text-xs font-semibold px-2.5 py-1 rounded-md bg-emerald-500/20 border border-emerald-500/40 text-emerald-300">
                               {currentPlanCandidate.status}
                             </span>
                           </div>
                           <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
                             {currentPlanCandidate.detailed_analysis.ticket_header}
                           </h3>
-                          <p className="text-xs sm:text-sm text-yellow-400/90 font-medium mt-0.5">
+                          <p className="text-xs sm:text-sm text-amber-300 font-semibold mt-1">
                             {currentPlanCandidate.detailed_analysis.ticket_coalition}
                           </p>
                         </div>
@@ -1393,24 +1395,24 @@ function App() {
                           href={currentPlanCandidate.source_link} 
                           target="_blank" 
                           rel="noopener noreferrer"
-                          className="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/10 text-xs text-emerald-300 hover:text-emerald-200 font-medium transition-all flex items-center gap-1.5 w-fit shrink-0"
+                          className="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/15 text-xs sm:text-sm text-emerald-300 hover:text-emerald-200 font-semibold transition-all flex items-center gap-1.5 w-fit shrink-0"
                         >
                           <span>Consultar no JOTA / TSE</span>
-                          <ExternalLink size={13} />
+                          <ExternalLink size={14} />
                         </a>
                       </div>
 
                       {/* Text Paragraphs */}
-                      <div className="flex flex-col gap-3.5 text-xs sm:text-sm text-slate-200 leading-relaxed font-light">
+                      <div className="flex flex-col gap-3.5 text-sm sm:text-base text-slate-100 leading-relaxed font-normal">
                         {currentPlanCandidate.detailed_analysis.text.split('\n\n').map((paragraph, pIdx) => (
-                          <div key={pIdx} className="bg-white/[0.02] hover:bg-white/[0.03] p-4 sm:p-5 rounded-2xl border border-white/5 shadow-inner transition-colors">
+                          <div key={pIdx} className="bg-slate-950/70 hover:bg-slate-950/90 p-4 sm:p-5 rounded-2xl border border-white/5 shadow-inner transition-colors">
                             <p>{paragraph}</p>
                           </div>
                         ))}
                       </div>
                     </div>
                   ) : (
-                    <div className="py-12 text-center text-slate-400 text-sm">
+                    <div className="py-12 text-center text-slate-300 text-sm">
                       Selecione um candidato acima para visualizar a análise completa do plano de governo.
                     </div>
                   )}
@@ -1423,17 +1425,17 @@ function App() {
                   
                   {/* Linha do Tempo */}
                   <div>
-                    <h3 className="text-sm font-bold uppercase tracking-wider text-emerald-400 mb-3 flex items-center gap-2">
-                      <Landmark size={16} /> Marcos Históricos da Democracia
+                    <h3 className="text-sm sm:text-base font-bold uppercase tracking-wider text-emerald-400 mb-3 flex items-center gap-2">
+                      <Landmark size={18} /> Marcos Históricos da Democracia
                     </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                       {electionsData.milestones.map(m => (
-                        <div key={m.id} className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
-                          <span className="text-xs font-mono font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                        <div key={m.id} className="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 shadow-md">
+                          <span className="text-xs font-bold px-2.5 py-1 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 tabular-nums">
                             {m.year}
                           </span>
-                          <h4 className="text-sm font-bold text-white mt-2 mb-1">{m.title}</h4>
-                          <p className="text-xs text-slate-300 leading-relaxed">{m.description}</p>
+                          <h4 className="text-base font-bold text-white mt-2 mb-1">{m.title}</h4>
+                          <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-normal">{m.description}</p>
                         </div>
                       ))}
                     </div>
@@ -1441,15 +1443,15 @@ function App() {
 
                   {/* Figuras Históricas */}
                   <div>
-                    <h3 className="text-sm font-bold uppercase tracking-wider text-yellow-400 mb-3 flex items-center gap-2">
-                      <UserCheck size={16} /> Figuras Históricas da Cidadania
+                    <h3 className="text-sm sm:text-base font-bold uppercase tracking-wider text-yellow-400 mb-3 flex items-center gap-2">
+                      <UserCheck size={18} /> Figuras Históricas da Cidadania
                     </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                       {electionsData.historical_figures.map((fig, idx) => (
-                        <div key={idx} className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
-                          <h4 className="text-sm font-bold text-white">{fig.name}</h4>
-                          <span className="text-[11px] text-yellow-400/90 font-medium block mb-1.5">{fig.role}</span>
-                          <p className="text-xs text-slate-300 leading-relaxed">{fig.bio}</p>
+                        <div key={idx} className="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 shadow-md">
+                          <h4 className="text-base font-bold text-white">{fig.name}</h4>
+                          <span className="text-xs font-semibold text-amber-300 block mb-1.5">{fig.role}</span>
+                          <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-normal">{fig.bio}</p>
                         </div>
                       ))}
                     </div>
@@ -1462,13 +1464,13 @@ function App() {
               {electionsTab === 'curiosidades' && (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                   {electionsData.curiosities.map(c => (
-                    <div key={c.id} className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 flex flex-col justify-between">
+                    <div key={c.id} className="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 shadow-md flex flex-col justify-between">
                       <div>
-                        <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">
+                        <span className="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">
                           {c.tag}
                         </span>
-                        <h4 className="text-sm font-bold text-white mt-2 mb-1.5">{c.title}</h4>
-                        <p className="text-xs text-slate-300 leading-relaxed">{c.description}</p>
+                        <h4 className="text-base font-bold text-white mt-2.5 mb-1.5">{c.title}</h4>
+                        <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-normal">{c.description}</p>
                       </div>
                     </div>
                   ))}
@@ -1478,8 +1480,8 @@ function App() {
             </div>
 
             {/* Legal Notice Footer */}
-            <div className="p-4 bg-slate-950 border-t border-white/10 flex items-start gap-2.5 text-[11px] text-slate-400">
-              <ShieldCheck size={16} className="text-emerald-400 shrink-0 mt-0.5" />
+            <div className="p-4 sm:p-5 bg-slate-950 border-t border-slate-800 flex items-start gap-3 text-xs sm:text-sm text-slate-300">
+              <ShieldCheck size={18} className="text-emerald-400 shrink-0 mt-0.5" />
               <p className="leading-relaxed">
                 {electionsData.notice}
               </p>

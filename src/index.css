@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Outfit', 'Inter', sans-serif;
   
   --color-background-dark: #121816;
   --color-foreground-dark: #f3f4f6;
@@ -9,8 +10,13 @@
   --color-accent: #10b981;
 }
 
+* {
+  text-rendering: optimizeLegibility;
+}
+
 body {
-  @apply text-zinc-50 antialiased h-screen overflow-hidden;
+  @apply text-zinc-100 antialiased h-screen overflow-hidden;
+  font-family: var(--font-sans);
   /* Removed bg-zinc-950 to let App.jsx handle the background gradients */
 }
 
