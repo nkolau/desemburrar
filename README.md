@@ -20,7 +20,7 @@
 * 🔥 **Contador de Streak & Gamificação:** Acompanhe sua sequência de dias consecutivos de estudo.
 * 📤 **Compartilhador Social:** Copie um resumo elegante e pronto para postar no LinkedIn ou WhatsApp com 1 clique.
 * 📚 **Biblioteca Pessoal & Técnica Feynman:** Salve favoritos, anote sua síntese durante a assimilação e classifique seu nível de domínio (*Dominei*, *Básico*, *Revisar*).
-* 🎨 **Design Háptico & 3D Tilt:** Efeito tátil de inclinação 3D com a posição do mouse, modo editorial serifado e acabamento em *Glassmorphism*.
+* 🎨 **Design Imersivo & Tipografia:** Modo editorial serifado/sans e acabamento premium em *Glassmorphism*.
 
 ## 🛠️ Tecnologias Utilizadas
 

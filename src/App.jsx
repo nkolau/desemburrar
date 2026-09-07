@@ -126,8 +126,6 @@ function App() {
   // Ambient sound toggle
   const [isSoundOn, setIsSoundOn] = useState(false);
 
-  // 3D Tilt coordinates for card
-  const [cardTilt, setCardTilt] = useState({ rx: 0, ry: 0 });
 
   // Timer states: 'idle', 'reading', 'assimilation_ready', 'assimilating', 'evaluating', 'done'
   const [timerPhase, setTimerPhase] = useState('idle');
@@ -228,7 +226,6 @@ function App() {
     setTimeLeft(0);
     setFeynmanNote('');
     setLastMastery(null);
-    setCardTilt({ rx: 0, ry: 0 });
     
     setTimeout(() => {
       let filteredData = referencesData.filter(ref => ref.level === mode);
@@ -487,22 +484,6 @@ function App() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [screen, learningMode, selectedCategory, reference, isSearchOpen, isLibraryOpen, isShareModalOpen, generateRandomReference]);
 
-  // Card 3D Tilt Mouse Move
-  const handleMouseMove = (e) => {
-    const card = e.currentTarget;
-    const rect = card.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    const midX = rect.width / 2;
-    const midY = rect.height / 2;
-    const rx = ((y - midY) / midY) * -3;
-    const ry = ((x - midX) / midX) * 3;
-    setCardTilt({ rx, ry });
-  };
-
-  const handleMouseLeave = () => {
-    setCardTilt({ rx: 0, ry: 0 });
-  };
 
   // Timer Tick
   useEffect(() => {
@@ -737,17 +718,11 @@ function App() {
 
             <div className="w-full max-w-5xl flex flex-col lg:flex-row items-stretch gap-6">
               
-              {/* TOPIC CARD WITH 3D TILT */}
+              {/* TOPIC CARD */}
               <div 
                 className={`flex-1 transition-all duration-500 ease-out flex flex-col ${
                   isAnimating ? 'opacity-0 translate-y-4 scale-95 filter blur-sm' : 'opacity-100 translate-y-0 scale-100 filter blur-0'
                 }`}
-                onMouseMove={handleMouseMove}
-                onMouseLeave={handleMouseLeave}
-                style={{
-                  transform: `perspective(1000px) rotateX(${cardTilt.rx}deg) rotateY(${cardTilt.ry}deg)`,
-                  transition: 'transform 0.15s ease-out'
-                }}
               >
                 {reference ? (
                   <div className="flex flex-col h-full bg-slate-950/40 backdrop-blur-xl rounded-[2rem] border border-white/10 shadow-2xl overflow-hidden relative">
