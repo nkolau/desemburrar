@@ -1,0 +1,175 @@
+{
+  "notice": "Painel informativo e enciclopédico de cidadania. Não possui vínculo partidário nem veicula propaganda eleitoral ou pedido explícito de voto. Dados biográficos e propostas estruturados a partir de registros públicos do TSE (DivulgaCandContas) e fontes abertas oficiais, em conformidade com as Resoluções do Tribunal Superior Eleitoral e a Lei nº 9.504/1997.",
+  "curiosities": [
+    {
+      "id": "c1",
+      "title": "A Urna Eletrônica Brasileira (1996)",
+      "tag": "Inovação Cívica",
+      "description": "Desenvolvida por engenheiros brasileiros e adotada nacionalmente a partir de 1996, a urna 100% brasileira eliminou as fraudes históricas da contagem manual e é auditada em Testes Públicos de Segurança (TPS) com participação de universidades e peritos independentes."
+    },
+    {
+      "id": "c2",
+      "title": "A Primeira Eleitora da América Latina (1927)",
+      "tag": "Pioneirismo",
+      "description": "A professora potiguar Celina Guimarães Viana foi a primeira mulher a obter o direito de voto no Brasil e na América Latina em 1927, na cidade de Mossoró (RN), anos antes da promulgação nacional do voto feminino no Código Eleitoral de 1932."
+    },
+    {
+      "id": "c3",
+      "title": "Voto Obrigatório vs. Voto Facultativo",
+      "tag": "Legislação",
+      "description": "No Brasil, o voto é obrigatório para cidadãos alfabetizados entre 18 e 70 anos, e facultativo para jovens de 16 e 17 anos, maiores de 70 anos e analfabetos. Essa regra visa garantir a ampla representatividade das classes populares nas decisões nacionais."
+    },
+    {
+      "id": "c4",
+      "title": "O que é o Quociente Eleitoral?",
+      "tag": "Sistema Proporcional",
+      "description": "Para deputados e vereadores, as cadeiras não vão apenas para os mais votados individualmente. O Quociente Eleitoral divide os votos válidos pelo número de vagas disponíveis, distribuindo as cadeiras proporcionalmente aos partidos e federações que atingiram a cláusula mínima."
+    },
+    {
+      "id": "c5",
+      "title": "O Fim do 'Voto de Cabresto'",
+      "tag": "História Republicana",
+      "description": "Durante a República Velha (1889-1930), o voto era aberto (não secreto), permitindo que coronéis e oligarquias locais coagissem os eleitores. A exigência do voto secreto em cabine indevassável foi uma das maiores conquistas democráticas do Código de 1932."
+    },
+    {
+      "id": "c6",
+      "title": "Biometria e 'Um Cidadão, Um Voto'",
+      "tag": "Segurança",
+      "description": "A Justiça Eleitoral brasileira construiu um dos maiores cadastros biométricos do planeta, associando a impressão digital de mais de 120 milhões de eleitores ao título, impedindo que uma pessoa vote no lugar de outra em qualquer seção eleitoral."
+    }
+  ],
+  "milestones": [
+    {
+      "id": "m1",
+      "year": "1932",
+      "title": "Código Eleitoral de 1932",
+      "description": "Criou a Justiça Eleitoral, instituiu o voto secreto universal e assegurou o direito de voto às mulheres brasileiras, impulsionado pela liderança da bióloga e feminista Bertha Lutz."
+    },
+    {
+      "id": "m2",
+      "year": "1984",
+      "title": "Campanha Diretas Já",
+      "description": "O maior movimento cívico e popular da história brasileira recente, reunindo milhões de cidadãos nas ruas de todo o país exigindo o retorno das eleições presidenciais diretas."
+    },
+    {
+      "id": "m3",
+      "year": "1988",
+      "title": "Constituição Cidadã",
+      "description": "Promulgada sob a liderança de Ulysses Guimarães, consolidou o Estado Democrático de Direito, o pluripartidarismo, a soberania popular e o sufrágio universal com eleições periódicas."
+    },
+    {
+      "id": "m4",
+      "year": "2010",
+      "title": "Lei da Ficha Limpa",
+      "description": "Iniciativa de lei de mobilização popular com mais de 1,6 milhão de assinaturas que tornou inelegíveis por 8 anos candidatos condenados por órgãos colegiados da Justiça."
+    }
+  ],
+  "historical_figures": [
+    {
+      "name": "Bertha Lutz (1894–1976)",
+      "role": "Líder Sufragista e Cientista",
+      "bio": "Bióloga do Museu Nacional e fundadora da Federação Brasileira pelo Progresso Feminino. Liderou a campanha histórica que garantiu às mulheres brasileiras o direito de votar e de serem votadas em 1932."
+    },
+    {
+      "name": "Ulysses Guimarães (1916–1992)",
+      "role": "Presidente da Assembleia Constituinte",
+      "bio": "Conhecido como 'Senhor Diretas', foi o principal líder parlamentar da redemocratização e conduziu a promulgação da Constituição de 1988, declarando: 'Traidor da Constituição é traidor da Pátria'."
+    },
+    {
+      "name": "Celina Guimarães Viana (1890–1972)",
+      "role": "Pioneira do Voto Feminino",
+      "bio": "Professora potiguar que, invocando uma lei estadual pioneira do Rio Grande do Norte em 1927, alistou-se como eleitora e foi a primeira mulher a exercer o voto no continente latino-americano."
+    },
+    {
+      "name": "Rui Barbosa (1849–1923)",
+      "role": "Jurista e Defensor do Voto Secreto",
+      "bio": "Intelectual e diplomata brasileiro que defendeu incansavelmente a criação de mecanismos republicanos independentes de fiscalização eleitoral e a garantia do sigilo do voto contra as oligarquias."
+    }
+  ],
+  "candidates_2026": [
+    {
+      "id": "cand_lula",
+      "ballot_name": "Lula",
+      "full_name": "Luiz Inácio Lula da Silva",
+      "party": "PT - Partido dos Trabalhadores",
+      "coalition": "Federação Brasil da Esperança (PT, PCdoB, PV)",
+      "number": "13",
+      "status": "Candidatura Registrada",
+      "trajectory": "Ex-líder sindical metalúrgico no ABC paulista e cofundador do Partido dos Trabalhadores. Presidente da República eleito em 2002, 2006 e 2022. Focado na consolidação de programas sociais e reindustrialização.",
+      "proposals_summary": "Manutenção e ampliação de programas de transferência de renda, investimento público em infraestrutura (Novo PAC), transição energética sustentável e fortalecimento da integração diplomática do Sul Global (BRICS).",
+      "source_link": "https://divulgacandcontas.tse.jus.br"
+    },
+    {
+      "id": "cand_tarcisio",
+      "ballot_name": "Tarcísio de Freitas",
+      "full_name": "Tarcísio Gomes de Freitas",
+      "party": "Republicanos",
+      "coalition": "Coligação de Centro-Direita / Conservadora",
+      "number": "10",
+      "status": "Candidatura Registrada",
+      "trajectory": "Engenheiro militar formado pelo IME, foi diretor do DNIT, Ministro da Infraestrutura (2019–2022) e eleito Governador do Estado de São Paulo em 2022 com plataforma técnica de atração de capital privado.",
+      "proposals_summary": "Programa amplo de concessões e desestatizações, modernização da malha ferroviária e logística nacional, simplificação tributária, austeridade fiscal rigorosa e investimento prioritário em segurança pública integrada.",
+      "source_link": "https://divulgacandcontas.tse.jus.br"
+    },
+    {
+      "id": "cand_caiado",
+      "ballot_name": "Ronaldo Caiado",
+      "full_name": "Ronaldo Ramos Caiado",
+      "party": "União Brasil",
+      "coalition": "União Brasil e Aliados",
+      "number": "44",
+      "status": "Candidatura Registrada",
+      "trajectory": "Médico e produtor rural, foi fundador da UDR, deputado federal por vários mandatos, senador da República e eleito Governador de Goiás em 2018 e reeleito em 2022 em primeiro turno com foco em ordem pública.",
+      "proposals_summary": "Forte ênfase no combate ao crime organizado e segurança pública como política de Estado, incentivo ao agronegócio e cadeias produtivas do interior, desburocratização administrativa e equilíbrio orçamentário.",
+      "source_link": "https://divulgacandcontas.tse.jus.br"
+    },
+    {
+      "id": "cand_ratinho",
+      "ballot_name": "Ratinho Júnior",
+      "full_name": "Carlos Roberto Massa Júnior",
+      "party": "PSD - Partido Social Democrático",
+      "coalition": "Frente Centrista / PSD",
+      "number": "55",
+      "status": "Candidatura Registrada",
+      "trajectory": "Empresário e comunicador, exerceu mandatos de deputado estadual, deputado federal e secretário de desenvolvimento urbano, sendo eleito Governador do Paraná em 2018 e reeleito com expressiva votação em 2022.",
+      "proposals_summary": "Posicionamento de centro desenvolvimentista, eficiência de gestão pública através da digitalização de serviços, transformação do país em hub logístico e fortalecimento do ensino técnico profissionalizante.",
+      "source_link": "https://divulgacandcontas.tse.jus.br"
+    },
+    {
+      "id": "cand_zema",
+      "ballot_name": "Romeu Zema",
+      "full_name": "Romeu Zema Neto",
+      "party": "NOVO - Partido Novo",
+      "coalition": "Coligação Liberal",
+      "number": "30",
+      "status": "Candidatura Registrada",
+      "trajectory": "Administrador e empresário de longa trajetória no setor varejista. Entrou na vida pública em 2018 sendo eleito Governador de Minas Gerais e reeleito em 2022 com discurso de corte de privilégios e eficiência fiscal.",
+      "proposals_summary": "Enxugamento da máquina estatal com redução de ministérios, defesa de reformas liberais clássicas, incentivo ao empreendedorismo sem subsídios seletivos e privatização de empresas estatais deficitárias.",
+      "source_link": "https://divulgacandcontas.tse.jus.br"
+    },
+    {
+      "id": "cand_ciro",
+      "ballot_name": "Ciro Gomes",
+      "full_name": "Ciro Ferreira Gomes",
+      "party": "PDT - Partido Democrático Trabalhista",
+      "coalition": "Frente Trabalhista e Nacional-Desenvolvimentista",
+      "number": "12",
+      "status": "Candidatura Registrada",
+      "trajectory": "Advogado e professor universitário, foi prefeito de Fortaleza, governador do Ceará, Ministro da Fazenda durante a implantação do Plano Real e Ministro da Integração Nacional. Candidato à Presidência em múltiplos pleitos.",
+      "proposals_summary": "Projeto Nacional de Desenvolvimento (PND) com reindustrialização do país em complexos de saúde e tecnologia, taxação de grandes fortunas para financiamento educacional e refinanciamento de dívidas familiares.",
+      "source_link": "https://divulgacandcontas.tse.jus.br"
+    },
+    {
+      "id": "cand_tebet",
+      "ballot_name": "Simone Tebet",
+      "full_name": "Simone Nassar Tebet",
+      "party": "MDB - Movimento Democrático Brasileiro",
+      "coalition": "Frente Democrática e Cidadã",
+      "number": "15",
+      "status": "Candidatura Registrada",
+      "trajectory": "Professora de Direito Constitucional, foi deputada estadual, prefeita de Três Lagoas (MS), vice-governadora do Mato Grosso do Sul, senadora de destaque na bancada feminina e Ministra do Planejamento e Orçamento.",
+      "proposals_summary": "Plano de metas com responsabilidade fiscal e social integrada, prioridade máxima para a primeira infância e educação básica, fortalecimento das instituições democráticas e reformas institucionais equilibradas.",
+      "source_link": "https://divulgacandcontas.tse.jus.br"
+    }
+  ]
+}

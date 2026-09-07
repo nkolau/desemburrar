@@ -2,9 +2,11 @@ import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { 
   BookOpen, RefreshCw, ExternalLink, ArrowLeft, BrainCircuit, Brain, Clock, 
   CheckCircle2, Play, Square, Star, BookmarkCheck, History, X, Trash2, Check, 
-  Sparkles, Search, Share2, Volume2, VolumeX, Type, Flame, Lightbulb, Compass, Copy, Command
+  Sparkles, Search, Share2, Volume2, VolumeX, Type, Flame, Lightbulb, Compass, Copy, Command,
+  Vote, Calendar, Landmark, Flag, UserCheck, Scale, ShieldCheck, Info
 } from 'lucide-react';
 import referencesData from './data/references.json';
+import electionsData from './data/elections.json';
 
 const CATEGORY_IMAGES = {
   'Filosofia': 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=400&q=80',
@@ -33,7 +35,7 @@ const getCategoryImage = (cat) => {
 const getSocraticProvocation = (category, title) => {
   switch (category) {
     case 'Filosofia':
-      return `Como a premissa de "${title}" questiona uma das suas crenças mais automáticas do dia a dia?`;
+      return `Como a premissa de "${title}" questiona uma das suas certezas mais automáticas do dia a dia?`;
     case 'Ciência':
     case 'Física':
       return `Se essa lei ou conceito governa a realidade, de que maneira ele se manifesta invisivelmente à sua volta agora?`;
@@ -41,7 +43,7 @@ const getSocraticProvocation = (category, title) => {
       return `Quais ecos e padrões de "${title}" você ainda consegue enxergar nas decisões políticas ou sociais de hoje?`;
     case 'Literatura':
     case 'Arte':
-      return `Qual sentimento ou verdade humana oculta esse trabalho busca despertar em quem o contempla?`;
+      return `Qual verdade humana oculta esse trabalho busca despertar em quem o contempla?`;
     case 'Psicologia':
       return `Em quais momentos recentes você percebeu o impacto prático desse comportamento em você ou em pessoas próximas?`;
     case 'Tecnologia':
@@ -67,7 +69,6 @@ class AmbientSoundPlayer {
       if (!AudioCtx) return;
       this.ctx = new AudioCtx();
 
-      // Create brown/pink noise buffer
       const bufferSize = this.ctx.sampleRate * 4;
       const buffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
       const data = buffer.getChannelData(0);
@@ -120,12 +121,18 @@ function App() {
   const [reference, setReference] = useState(null);
   const [isAnimating, setIsAnimating] = useState(false);
 
+  // Daily Topic State
+  const [isDailyTopicActive, setIsDailyTopicActive] = useState(false);
+
+  // Elections Feature State
+  const [isElectionsOpen, setIsElectionsOpen] = useState(false);
+  const [electionsTab, setElectionsTab] = useState('candidatos'); // 'candidatos' | 'marcos' | 'curiosidades'
+
   // Typography state: 'sans' | 'serif'
   const [fontFamily, setFontStyle] = useState('sans');
 
   // Ambient sound toggle
   const [isSoundOn, setIsSoundOn] = useState(false);
-
 
   // Timer states: 'idle', 'reading', 'assimilation_ready', 'assimilating', 'evaluating', 'done'
   const [timerPhase, setTimerPhase] = useState('idle');
@@ -163,6 +170,23 @@ function App() {
 
   // Extract unique categories
   const categories = ['Todas', ...Array.from(new Set(referencesData.map(r => r.category)))].sort();
+
+  // Daily Topic Deterministic Calculation
+  const dailyTopicInfo = useMemo(() => {
+    if (!referencesData || referencesData.length === 0) return null;
+    const now = new Date();
+    const dateKey = `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()}`;
+    let hash = 0;
+    for (let i = 0; i < dateKey.length; i++) {
+      hash = ((hash << 5) - hash) + dateKey.charCodeAt(i);
+      hash |= 0;
+    }
+    const index = Math.abs(hash) % referencesData.length;
+    return {
+      topic: referencesData[index],
+      dateFormatted: now.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long' })
+    };
+  }, []);
 
   // Streak Calculation
   const streak = useMemo(() => {
@@ -226,6 +250,7 @@ function App() {
     setTimeLeft(0);
     setFeynmanNote('');
     setLastMastery(null);
+    setIsDailyTopicActive(false);
     
     setTimeout(() => {
       let filteredData = referencesData.filter(ref => ref.level === mode);
@@ -278,6 +303,21 @@ function App() {
 
   const startApp = () => {
     generateRandomReference(learningMode, selectedCategory);
+    setScreen('app');
+  };
+
+  // Select Daily Topic
+  const selectDailyTopic = () => {
+    if (!dailyTopicInfo?.topic) return;
+    clearInterval(timerRef.current);
+    setTimerPhase('idle');
+    setTimeLeft(0);
+    setFeynmanNote('');
+    setLastMastery(null);
+    setReference(dailyTopicInfo.topic);
+    setSelectedCategory(dailyTopicInfo.topic.category);
+    setLearningMode(dailyTopicInfo.topic.level);
+    setIsDailyTopicActive(true);
     setScreen('app');
   };
 
@@ -399,6 +439,7 @@ function App() {
     setReference(topic);
     setSelectedCategory(topic.category);
     setLearningMode(topic.level);
+    setIsDailyTopicActive(false);
     setIsLibraryOpen(false);
     setIsSearchOpen(false);
     setScreen('app');
@@ -415,17 +456,16 @@ function App() {
   // Keyboard Navigation
   useEffect(() => {
     const handleKeyDown = (e) => {
-      // Don't trigger when user is typing in input or textarea
       if (['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
         if (e.key === 'Escape') {
           setIsSearchOpen(false);
           setIsLibraryOpen(false);
           setIsShareModalOpen(false);
+          setIsElectionsOpen(false);
         }
         return;
       }
 
-      // Command Palette (Ctrl+K, Cmd+K, or /)
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
         setIsSearchOpen(prev => !prev);
@@ -437,53 +477,47 @@ function App() {
         return;
       }
 
-      // Space: Draw New Topic
-      if (e.code === 'Space' && screen === 'app' && !isSearchOpen && !isLibraryOpen && !isShareModalOpen) {
+      if (e.code === 'Space' && screen === 'app' && !isSearchOpen && !isLibraryOpen && !isShareModalOpen && !isElectionsOpen) {
         e.preventDefault();
         generateRandomReference(learningMode, selectedCategory);
         return;
       }
 
-      // F: Favorite
       if (e.key.toLowerCase() === 'f' && reference) {
         e.preventDefault();
         toggleFavorite(reference);
         return;
       }
 
-      // B: Library
       if (e.key.toLowerCase() === 'b') {
         e.preventDefault();
         setIsLibraryOpen(prev => !prev);
         return;
       }
 
-      // S: Share
       if (e.key.toLowerCase() === 's' && screen === 'app') {
         e.preventDefault();
         setIsShareModalOpen(prev => !prev);
         return;
       }
 
-      // T: Toggle Serif Font
       if (e.key.toLowerCase() === 't') {
         e.preventDefault();
         setFontStyle(prev => prev === 'sans' ? 'serif' : 'sans');
         return;
       }
 
-      // Escape: Close any open modal
       if (e.key === 'Escape') {
         setIsSearchOpen(false);
         setIsLibraryOpen(false);
         setIsShareModalOpen(false);
+        setIsElectionsOpen(false);
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [screen, learningMode, selectedCategory, reference, isSearchOpen, isLibraryOpen, isShareModalOpen, generateRandomReference]);
-
+  }, [screen, learningMode, selectedCategory, reference, isSearchOpen, isLibraryOpen, isShareModalOpen, isElectionsOpen, generateRandomReference]);
 
   // Timer Tick
   useEffect(() => {
@@ -529,27 +563,48 @@ function App() {
       <main className="relative z-10 flex flex-col items-center justify-start min-h-screen p-4 sm:p-8 pb-36">
         
         {screen === 'intro' ? (
-          <div className="w-full max-w-2xl flex flex-col items-center text-center animate-in fade-in zoom-in duration-700 mt-12 sm:mt-16">
+          <div className="w-full max-w-2xl flex flex-col items-center text-center animate-in fade-in zoom-in duration-700 mt-10 sm:mt-14">
             <div className="mb-6 p-4 bg-white/5 backdrop-blur-sm rounded-full border border-white/10 shadow-2xl">
               <BookOpen size={40} className={learningMode === 'basic' ? "text-emerald-400" : "text-purple-400"} />
             </div>
             
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white mb-4 drop-shadow-md">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white mb-3 drop-shadow-md">
               Desemburrar
             </h1>
             
-            <p className="text-lg text-slate-200 mb-4 leading-relaxed font-light">
+            <p className="text-base sm:text-lg text-slate-200 mb-3 leading-relaxed font-light">
               Uma ferramenta projetada para ajudar você a ler mais, descobrir novas perspectivas e expandir sua bagagem cultural.
             </p>
-            <p className="text-base text-slate-300 mb-6 max-w-xl font-light">
-              Aprenda de forma ativa com a <strong>Técnica Feynman</strong> e explore mais de 380 tópicos curados.
+            <p className="text-xs sm:text-sm text-slate-300 mb-6 max-w-xl font-light">
+              Explore mais de <strong>500 referências curadas</strong> em 13 áreas do saber e consolide seu aprendizado com a Técnica Feynman.
             </p>
 
+            {/* Quick Actions (Tema do Dia & Especial Eleições) */}
+            <div className="mb-6 flex flex-wrap items-center justify-center gap-2.5">
+              {/* Tema de Hoje */}
+              <button
+                onClick={selectDailyTopic}
+                className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-amber-500/20 to-orange-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-500/40 text-amber-200 text-xs sm:text-sm font-semibold transition-all shadow-lg backdrop-blur-md hover:scale-105"
+              >
+                <Calendar size={15} className="text-amber-400" />
+                <span>Tema de Hoje ({dailyTopicInfo?.dateFormatted})</span>
+              </button>
+
+              {/* Especial Eleições 2026 */}
+              <button
+                onClick={() => setIsElectionsOpen(true)}
+                className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-600/30 via-yellow-500/20 to-blue-600/30 hover:from-emerald-600/40 hover:to-blue-600/40 border border-yellow-500/40 text-yellow-200 text-xs sm:text-sm font-semibold transition-all shadow-lg backdrop-blur-md hover:scale-105"
+              >
+                <Vote size={15} className="text-yellow-400" />
+                <span>🇧🇷 Especial Eleições 2026</span>
+              </button>
+            </div>
+
             {/* Quick Stats Banner */}
-            <div className="mb-8 flex flex-wrap items-center justify-center gap-3">
+            <div className="mb-8 flex flex-wrap items-center justify-center gap-2.5">
               {streak > 0 && (
                 <div className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-amber-500/20 border border-amber-500/30 text-amber-300 text-xs font-semibold backdrop-blur-md shadow-lg">
-                  <Flame size={15} className="fill-amber-400 text-amber-400 animate-pulse" />
+                  <Flame size={14} className="fill-amber-400 text-amber-400 animate-pulse" />
                   <span>{streak} {streak === 1 ? 'dia seguido' : 'dias seguidos'}</span>
                 </div>
               )}
@@ -565,7 +620,7 @@ function App() {
               )}
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-10 w-full max-w-md">
+            <div className="flex flex-col sm:flex-row gap-4 mb-8 w-full max-w-md">
               <button
                 onClick={() => handleModeSwitch('basic')}
                 className={`flex-1 flex flex-col items-center gap-2 p-5 rounded-3xl border transition-all duration-300 ${
@@ -614,26 +669,44 @@ function App() {
               <div className="flex items-center gap-2">
                 <button 
                   onClick={() => setScreen('intro')}
-                  className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors p-2 rounded-full hover:bg-white/10 backdrop-blur-sm"
+                  className="flex items-center gap-1.5 text-slate-300 hover:text-white transition-colors p-2 rounded-full hover:bg-white/10 backdrop-blur-sm"
                   title="Voltar ao início"
                 >
                   <ArrowLeft size={18} />
-                  <span className="hidden sm:inline text-sm font-medium">Início</span>
+                  <span className="hidden sm:inline text-xs font-medium">Início</span>
                 </button>
 
-                {streak > 0 && (
-                  <div className="hidden md:flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/20 border border-amber-500/30 text-amber-300 text-xs font-bold backdrop-blur-md">
-                    <Flame size={14} className="fill-amber-400 text-amber-400 animate-pulse" />
-                    <span>{streak}d</span>
-                  </div>
-                )}
+                {/* Especial Eleições 2026 Button */}
+                <button
+                  onClick={() => setIsElectionsOpen(true)}
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-emerald-600/30 to-blue-600/30 hover:from-emerald-600/40 hover:to-blue-600/40 border border-yellow-500/40 text-yellow-200 text-xs font-bold transition-all shadow-md backdrop-blur-md hover:scale-105"
+                  title="Especial Eleições 2026"
+                >
+                  <Vote size={14} className="text-yellow-400" />
+                  <span className="hidden sm:inline">Eleições 2026</span>
+                  <span className="px-1.5 py-0.2 rounded-full bg-yellow-400/20 text-[9px] text-yellow-300 font-extrabold uppercase">Novo</span>
+                </button>
+
+                {/* Tema do Dia Quick Trigger */}
+                <button
+                  onClick={selectDailyTopic}
+                  className={`p-2 sm:px-3 sm:py-1.5 rounded-full border text-xs font-semibold transition-all backdrop-blur-md flex items-center gap-1.5 ${
+                    isDailyTopicActive 
+                      ? 'bg-amber-500/30 border-amber-500/60 text-amber-300 shadow-[0_0_15px_rgba(245,158,11,0.3)]' 
+                      : 'bg-white/10 hover:bg-white/20 border-white/15 text-slate-200'
+                  }`}
+                  title="Ver o Tema Fixo do Dia"
+                >
+                  <Calendar size={14} className="text-amber-400" />
+                  <span className="hidden md:inline">Tema do Dia</span>
+                </button>
               </div>
 
               {/* Central Mode Switcher */}
               <div className="flex bg-slate-950/40 backdrop-blur-md p-1 rounded-full border border-white/10 shadow-lg">
                 <button
                   onClick={() => handleModeSwitch('basic')}
-                  className={`px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-all duration-300 ${
+                  className={`px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-all duration-300 ${
                     learningMode === 'basic' ? 'bg-emerald-500 text-slate-950 shadow-md' : 'text-slate-300 hover:text-white'
                   }`}
                 >
@@ -641,7 +714,7 @@ function App() {
                 </button>
                 <button
                   onClick={() => handleModeSwitch('deep')}
-                  className={`px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-all duration-300 ${
+                  className={`px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-all duration-300 ${
                     learningMode === 'deep' ? 'bg-purple-500 text-white shadow-md' : 'text-slate-300 hover:text-white'
                   }`}
                 >
@@ -650,7 +723,7 @@ function App() {
               </div>
 
               {/* Right Action Icons */}
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1.5 sm:gap-2">
                 
                 {/* Search Trigger */}
                 <button
@@ -736,7 +809,7 @@ function App() {
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/30 to-transparent"></div>
                       
-                      {/* Left Category & History Badges */}
+                      {/* Left Category, Daily Topic & History Badges */}
                       <div className="absolute bottom-4 left-6 sm:left-8 flex flex-wrap items-center gap-2">
                         <span className={`px-3.5 py-1 rounded-full border text-[10px] font-bold uppercase tracking-widest shadow-lg ${
                           reference.level === 'basic' 
@@ -745,6 +818,13 @@ function App() {
                         }`}>
                           {reference.category}
                         </span>
+
+                        {isDailyTopicActive && (
+                          <span className="flex items-center gap-1 text-[10px] px-3 py-1 rounded-full bg-amber-500/30 border border-amber-500/50 text-amber-200 font-bold backdrop-blur-md shadow-lg">
+                            <Calendar size={12} className="text-amber-400" />
+                            <span>Tema de Hoje</span>
+                          </span>
+                        )}
 
                         {currentHistoryItem && (
                           <span className="flex items-center gap-1 text-[10px] px-3 py-1 rounded-full bg-emerald-500/30 border border-emerald-500/40 text-emerald-200 font-semibold backdrop-blur-md">
@@ -1072,6 +1152,232 @@ function App() {
         )}
       </main>
 
+      {/* SPECIAL ELECTIONS 2026 MODAL */}
+      {isElectionsOpen && (
+        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-lg flex items-center justify-center p-3 sm:p-6 animate-in fade-in duration-200">
+          <div className="w-full max-w-4xl max-h-[90vh] bg-slate-950/95 border border-emerald-500/30 rounded-3xl shadow-[0_0_50px_rgba(16,185,129,0.15)] flex flex-col overflow-hidden animate-in zoom-in-95 duration-200">
+            
+            {/* Elections Header */}
+            <div className="p-5 sm:p-6 border-b border-white/10 bg-gradient-to-r from-emerald-950/40 via-slate-900/50 to-blue-950/40 flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className="p-2.5 bg-yellow-500/20 border border-yellow-500/30 rounded-2xl text-yellow-400 shadow-inner">
+                  <Vote size={26} />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h2 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
+                      Especial Eleições 2026 🇧🇷
+                    </h2>
+                    <span className="px-2 py-0.5 rounded-full bg-yellow-400/20 text-yellow-300 text-[10px] font-extrabold uppercase border border-yellow-400/30">
+                      TSE Oficial
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-400 mt-0.5">
+                    Guia enciclopédico e neutro de cidadania para o processo democrático brasileiro
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => setIsElectionsOpen(false)}
+                className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-white/10 transition-colors"
+              >
+                <X size={20} />
+              </button>
+            </div>
+
+            {/* Elections Tabs */}
+            <div className="flex border-b border-white/10 bg-slate-950/70 p-1.5 gap-1.5 overflow-x-auto scrollbar-none">
+              <button
+                onClick={() => setElectionsTab('candidatos')}
+                className={`flex-1 min-w-[140px] py-2.5 px-3 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all ${
+                  electionsTab === 'candidatos' 
+                    ? 'bg-yellow-500/20 text-yellow-300 border border-yellow-500/30 shadow-sm' 
+                    : 'text-slate-400 hover:text-slate-200'
+                }`}
+              >
+                <UserCheck size={14} />
+                <span>Candidatos à Presidência ({electionsData.candidates_2026.length})</span>
+              </button>
+
+              <button
+                onClick={() => setElectionsTab('marcos')}
+                className={`flex-1 min-w-[140px] py-2.5 px-3 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all ${
+                  electionsTab === 'marcos' 
+                    ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 shadow-sm' 
+                    : 'text-slate-400 hover:text-slate-200'
+                }`}
+              >
+                <Landmark size={14} />
+                <span>Marcos Históricos & Figuras</span>
+              </button>
+
+              <button
+                onClick={() => setElectionsTab('curiosidades')}
+                className={`flex-1 min-w-[140px] py-2.5 px-3 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all ${
+                  electionsTab === 'curiosidades' 
+                    ? 'bg-blue-500/20 text-blue-300 border border-blue-500/30 shadow-sm' 
+                    : 'text-slate-400 hover:text-slate-200'
+                }`}
+              >
+                <Lightbulb size={14} />
+                <span>Curiosidades do Voto & Urna</span>
+              </button>
+            </div>
+
+            {/* Elections Content Body */}
+            <div className="p-5 sm:p-6 overflow-y-auto flex-1 scrollbar-thin scrollbar-thumb-white/10">
+              
+              {/* TAB 1: CANDIDATOS 2026 */}
+              {electionsTab === 'candidatos' && (
+                <div className="flex flex-col gap-4">
+                  <div className="p-3.5 rounded-2xl bg-white/5 border border-white/10 flex items-start gap-3">
+                    <Info size={18} className="text-yellow-400 shrink-0 mt-0.5" />
+                    <p className="text-xs text-slate-300 leading-relaxed">
+                      Painel com estrutura e critérios estritamente isonômicos para todas as candidaturas registradas no TSE para a Presidência da República em 2026. Dados factuais extraídos do sistema <strong>DivulgaCandContas</strong>.
+                    </p>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {electionsData.candidates_2026.map(cand => (
+                      <div
+                        key={cand.id}
+                        className="p-5 rounded-2xl bg-white/[0.03] hover:bg-white/[0.06] border border-white/10 flex flex-col justify-between transition-all"
+                      >
+                        <div>
+                          <div className="flex items-start justify-between gap-3 mb-2">
+                            <div>
+                              <div className="flex items-center gap-2 mb-1">
+                                <span className="text-lg font-mono font-extrabold px-2.5 py-0.5 rounded-lg bg-yellow-500/20 border border-yellow-500/40 text-yellow-300">
+                                  {cand.number}
+                                </span>
+                                <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-emerald-500/20 border border-emerald-500/30 text-emerald-300">
+                                  {cand.status}
+                                </span>
+                              </div>
+                              <h3 className="text-lg font-bold text-white leading-tight">
+                                {cand.ballot_name}
+                              </h3>
+                              <span className="text-xs text-slate-400">
+                                {cand.full_name}
+                              </span>
+                            </div>
+                          </div>
+
+                          <div className="text-[11px] text-yellow-400/90 font-medium mb-3">
+                            {cand.party} • <span className="text-slate-400">{cand.coalition}</span>
+                          </div>
+
+                          <div className="space-y-2 mb-4">
+                            <div>
+                              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider block">
+                                Trajetória Política:
+                              </span>
+                              <p className="text-xs text-slate-300 leading-relaxed">
+                                {cand.trajectory}
+                              </p>
+                            </div>
+
+                            <div>
+                              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider block">
+                                Eixos Principais das Propostas:
+                              </span>
+                              <p className="text-xs text-slate-300 leading-relaxed italic bg-white/5 p-2 rounded-xl border border-white/5">
+                                "{cand.proposals_summary}"
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="pt-3 border-t border-white/5 flex items-center justify-between text-xs">
+                          <span className="text-[10px] text-slate-500">Fonte: TSE / DivulgaCand</span>
+                          <a 
+                            href={cand.source_link} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 text-xs text-emerald-400 hover:text-emerald-300 font-medium transition-colors"
+                          >
+                            <span>Consultar Registro</span>
+                            <ExternalLink size={12} />
+                          </a>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* TAB 2: MARCOS HISTÓRICOS & FIGURAS */}
+              {electionsTab === 'marcos' && (
+                <div className="flex flex-col gap-6">
+                  
+                  {/* Linha do Tempo */}
+                  <div>
+                    <h3 className="text-sm font-bold uppercase tracking-wider text-emerald-400 mb-3 flex items-center gap-2">
+                      <Landmark size={16} /> Marcos Históricos da Democracia
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      {electionsData.milestones.map(m => (
+                        <div key={m.id} className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+                          <span className="text-xs font-mono font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                            {m.year}
+                          </span>
+                          <h4 className="text-sm font-bold text-white mt-2 mb-1">{m.title}</h4>
+                          <p className="text-xs text-slate-300 leading-relaxed">{m.description}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Figuras Históricas */}
+                  <div>
+                    <h3 className="text-sm font-bold uppercase tracking-wider text-yellow-400 mb-3 flex items-center gap-2">
+                      <UserCheck size={16} /> Figuras Históricas da Cidadania
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      {electionsData.historical_figures.map((fig, idx) => (
+                        <div key={idx} className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+                          <h4 className="text-sm font-bold text-white">{fig.name}</h4>
+                          <span className="text-[11px] text-yellow-400/90 font-medium block mb-1.5">{fig.role}</span>
+                          <p className="text-xs text-slate-300 leading-relaxed">{fig.bio}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                </div>
+              )}
+
+              {/* TAB 3: CURIOSIDADES */}
+              {electionsTab === 'curiosidades' && (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                  {electionsData.curiosities.map(c => (
+                    <div key={c.id} className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 flex flex-col justify-between">
+                      <div>
+                        <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">
+                          {c.tag}
+                        </span>
+                        <h4 className="text-sm font-bold text-white mt-2 mb-1.5">{c.title}</h4>
+                        <p className="text-xs text-slate-300 leading-relaxed">{c.description}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+            </div>
+
+            {/* Legal Notice Footer */}
+            <div className="p-4 bg-slate-950 border-t border-white/10 flex items-start gap-2.5 text-[11px] text-slate-400">
+              <ShieldCheck size={16} className="text-emerald-400 shrink-0 mt-0.5" />
+              <p className="leading-relaxed">
+                {electionsData.notice}
+              </p>
+            </div>
+
+          </div>
+        </div>
+      )}
+
       {/* COMMAND PALETTE / SEARCH MODAL (Ctrl + K) */}
       {isSearchOpen && (
         <div className="fixed inset-0 z-50 bg-black/75 backdrop-blur-md flex items-start justify-center pt-16 sm:pt-24 p-4 animate-in fade-in duration-200">
@@ -1084,7 +1390,7 @@ function App() {
                 autoFocus
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Buscar por tema, categoria ou conceito em 380+ referências..."
+                placeholder="Buscar por tema, categoria ou conceito em 500+ referências..."
                 className="w-full bg-transparent text-slate-100 placeholder:text-slate-500 focus:outline-none text-base font-sans"
               />
               <button
@@ -1098,7 +1404,7 @@ function App() {
             <div className="p-3 max-h-[60vh] overflow-y-auto scrollbar-thin scrollbar-thumb-white/10 flex flex-col gap-1.5">
               {searchQuery.trim() === '' ? (
                 <div className="py-10 text-center text-slate-500 text-xs">
-                  Digite para pesquisar por Filosofia, Física Quântica, Mitologia e muito mais...
+                  Digite para pesquisar em 500+ tópicos de Filosofia, Física, História, Literatura e mais...
                 </div>
               ) : searchResults.length === 0 ? (
                 <div className="py-10 text-center text-slate-400 text-sm">
@@ -1127,14 +1433,14 @@ function App() {
                         {item.description}
                       </p>
                     </div>
-                    <CornerDownLeft size={16} className="text-slate-500 group-hover:text-white shrink-0 opacity-0 group-hover:opacity-100 transition-all" />
+                    <ExternalLink size={14} className="text-slate-500 group-hover:text-white shrink-0 opacity-0 group-hover:opacity-100 transition-all" />
                   </div>
                 ))
               )}
             </div>
 
             <div className="p-3 bg-slate-950/60 border-t border-white/10 flex items-center justify-between text-[11px] text-slate-400 px-4">
-              <span>Navegue rápido pelos 380+ temas</span>
+              <span>Navegue rápido pelos 500+ temas</span>
               <kbd className="px-1.5 py-0.5 rounded bg-white/10 text-[10px]">Esc para fechar</kbd>
             </div>
           </div>

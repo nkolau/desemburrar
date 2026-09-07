@@ -12,6 +12,9 @@
 
 ## ✨ Funcionalidades Principais
 
+* 🇧🇷 **Especial Eleições 2026 (Cidadania & Democracia):** Painel temático sazonal com perfis factuais e isonômicos dos candidatos à Presidência da República registrados no TSE (DivulgaCandContas), marcos históricos da redemocratização (Diretas Já, Código de 1932, Constituição de 1988), pioneiras do sufrágio e curiosidades sobre a urna eletrônica.
+* 📅 **O Tema do Dia (Daily Challenge):** Um tópico especial selecionado deterministicamente a cada 24 horas para todos os usuários, estimulando debates coletivos sobre o mesmo tema.
+* 📚 **Base Expandida (500+ Referências):** Mais de quinhentos tópicos curados distribuídos de forma equilibrada em 13 áreas do conhecimento humano.
 * 🔍 **Busca Rápida Global (Command Palette):** Pressione `Ctrl + K` ou `/` para buscar instantaneamente por qualquer tema, categoria ou conceito entre centenas de referências.
 * 🎧 **Áudio Ambiente Lo-Fi:** Gerador nativo de ruído marrom/chuva suave via Web Audio API para foco absoluto durante as sessões de estudo.
 * ⚡ **Atalhos de Teclado Fluidos:** Navegue sem o mouse (`Espaço` para novo tema, `F` para favoritar, `S` para compartilhar, `T` para alternar fonte editorial, `B` para abrir biblioteca).
