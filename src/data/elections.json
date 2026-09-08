@@ -40,10 +40,22 @@
   ],
   "milestones": [
     {
+      "id": "m_vargas",
+      "year": "1930",
+      "title": "Revolução de 1930 e a Era Vargas",
+      "description": "Ascensão de Getúlio Vargas ao poder, rompendo com a política do 'café com leite' da República Velha. O período impulsionou a modernização das instituições brasileiras, a criação da Justiça Eleitoral e do voto feminino (1932), a consolidação das leis trabalhistas (CLT, 1943) e o retorno de Vargas à Presidência pelo voto direto em 1950."
+    },
+    {
       "id": "m1",
       "year": "1932",
       "title": "Código Eleitoral de 1932",
       "description": "Criou a Justiça Eleitoral, instituiu o voto secreto universal e assegurou o direito de voto às mulheres brasileiras, impulsionado pela liderança da bióloga e feminista Bertha Lutz."
+    },
+    {
+      "id": "m_golpe64",
+      "year": "1964",
+      "title": "Golpe Civil-Militar de 1964",
+      "description": "Deposição do presidente constitucional João Goulart pelas Forças Armadas com apoio civil, iniciando uma ditadura militar que durou 21 anos. O regime extinguiu as eleições presidenciais diretas, suspendeu direitos políticos, instituiu Atos Institucionais repressivos (como o AI-5 em 1968) e censurou os meios de comunicação."
     },
     {
       "id": "m2",
@@ -65,6 +77,11 @@
     }
   ],
   "historical_figures": [
+    {
+      "name": "Getúlio Vargas (1882–1954)",
+      "role": "Presidente da República e Reformador Trabalhista",
+      "bio": "Líder político decisivo na formação do Brasil contemporâneo. Comandou o país em dois períodos (1930–1945 e 1951–1954), liderou a criação da Justiça Eleitoral, sancionou a Consolidação das Leis do Trabalho (CLT) e promoveu a transição nacional para o modelo urbano-industrial."
+    },
     {
       "name": "Bertha Lutz (1894–1976)",
       "role": "Líder Sufragista e Cientista",
