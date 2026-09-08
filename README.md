@@ -16,7 +16,6 @@
 * 📅 **O Tema do Dia (Daily Challenge):** Um tópico especial selecionado deterministicamente a cada 24 horas para todos os usuários, estimulando debates coletivos sobre o mesmo tema.
 * 📚 **Base Expandida (500+ Referências):** Mais de quinhentos tópicos curados distribuídos de forma equilibrada em 13 áreas do conhecimento humano.
 * 🔍 **Busca Rápida Global (Command Palette):** Pressione `Ctrl + K` ou `/` para buscar instantaneamente por qualquer tema, categoria ou conceito entre centenas de referências.
-* 🎧 **Áudio Ambiente Lo-Fi:** Gerador nativo de ruído marrom/chuva suave via Web Audio API para foco absoluto durante as sessões de estudo.
 * ⚡ **Atalhos de Teclado Fluidos:** Navegue sem o mouse (`Espaço` para novo tema, `F` para favoritar, `S` para compartilhar, `T` para alternar fonte editorial, `B` para abrir biblioteca).
 * 💡 **Provocações Socráticas:** Cada tema conta com uma reflexão profunda gerada para conectar o aprendizado teórico às decisões do seu cotidiano.
 * 🔗 **Teia de Conexões ("Rabbit Hole"):** Recomendações conceituais no rodapé do card para continuar explorando temas correlatos.

@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { 
   BookOpen, RefreshCw, ExternalLink, ArrowLeft, BrainCircuit, Brain, Clock, 
   CheckCircle2, Play, Square, Star, BookmarkCheck, History, X, Trash2, Check, 
-  Sparkles, Search, Share2, Volume2, VolumeX, Type, Flame, Lightbulb, Compass, Copy, Command,
+  Sparkles, Search, Share2, Type, Flame, Lightbulb, Compass, Copy, Command,
   Vote, Calendar, Landmark, Flag, UserCheck, Scale, ShieldCheck, Info, FileText
 } from 'lucide-react';
 import referencesData from './data/references.json';
@@ -53,67 +53,6 @@ const getSocraticProvocation = (category, title) => {
   }
 };
 
-// Ambient Sound Generator (Web Audio API - Gentle Rain/Focus Lo-Fi)
-class AmbientSoundPlayer {
-  constructor() {
-    this.ctx = null;
-    this.source = null;
-    this.gain = null;
-    this.playing = false;
-  }
-
-  start() {
-    if (this.playing) return;
-    try {
-      const AudioCtx = window.AudioContext || window.webkitAudioContext;
-      if (!AudioCtx) return;
-      this.ctx = new AudioCtx();
-
-      const bufferSize = this.ctx.sampleRate * 4;
-      const buffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
-      const data = buffer.getChannelData(0);
-      let lastOut = 0.0;
-      for (let i = 0; i < bufferSize; i++) {
-        const white = Math.random() * 2 - 1;
-        data[i] = (lastOut + (0.02 * white)) / 1.02;
-        lastOut = data[i];
-        data[i] *= 3.0;
-      }
-
-      this.source = this.ctx.createBufferSource();
-      this.source.buffer = buffer;
-      this.source.loop = true;
-
-      const filter = this.ctx.createBiquadFilter();
-      filter.type = 'lowpass';
-      filter.frequency.value = 550;
-
-      this.gain = this.ctx.createGain();
-      this.gain.gain.setValueAtTime(0.06, this.ctx.currentTime);
-
-      this.source.connect(filter);
-      filter.connect(this.gain);
-      this.gain.connect(this.ctx.destination);
-
-      this.source.start();
-      this.playing = true;
-    } catch {
-      this.playing = false;
-    }
-  }
-
-  stop() {
-    if (!this.playing) return;
-    try {
-      this.source?.stop();
-      this.ctx?.close();
-    } catch {}
-    this.playing = false;
-  }
-}
-
-const ambientLoFi = new AmbientSoundPlayer();
-
 function App() {
   const [screen, setScreen] = useState('intro');
   const [learningMode, setLearningMode] = useState('basic');
@@ -136,8 +75,6 @@ function App() {
   // Typography state: 'sans' | 'serif'
   const [fontFamily, setFontStyle] = useState('sans');
 
-  // Ambient sound toggle
-  const [isSoundOn, setIsSoundOn] = useState(false);
 
   // Timer states: 'idle', 'reading', 'assimilation_ready', 'assimilating', 'evaluating', 'done'
   const [timerPhase, setTimerPhase] = useState('idle');
@@ -326,16 +263,6 @@ function App() {
     setScreen('app');
   };
 
-  // Sound Handler
-  const toggleSound = () => {
-    if (isSoundOn) {
-      ambientLoFi.stop();
-      setIsSoundOn(false);
-    } else {
-      ambientLoFi.start();
-      setIsSoundOn(true);
-    }
-  };
 
   // Timer Handlers
   const startReadingTimer = (minutes) => {
@@ -741,18 +668,6 @@ function App() {
                   <kbd className="hidden lg:inline px-1.5 py-0.5 rounded bg-black/40 text-[9px] text-slate-400 border border-white/10">⌘K</kbd>
                 </button>
 
-                {/* Lo-Fi Ambient Sound Toggle */}
-                <button
-                  onClick={toggleSound}
-                  className={`p-2 rounded-full border transition-all backdrop-blur-md ${
-                    isSoundOn 
-                      ? 'bg-cyan-500/20 border-cyan-500/50 text-cyan-300 shadow-[0_0_15px_rgba(6,182,212,0.3)]' 
-                      : 'bg-white/10 hover:bg-white/20 border-white/15 text-slate-300'
-                  }`}
-                  title={isSoundOn ? "Desativar som de foco Lo-Fi" : "Ativar som ambiente de foco (Chuva Lo-Fi)"}
-                >
-                  {isSoundOn ? <Volume2 size={16} className="animate-pulse" /> : <VolumeX size={16} />}
-                </button>
 
                 {/* Library Button */}
                 <button
@@ -1000,11 +915,6 @@ function App() {
                       {formatTime(timeLeft)}
                     </div>
 
-                    {isSoundOn && (
-                      <span className="text-[11px] text-cyan-300 flex items-center gap-1 animate-pulse">
-                        <Volume2 size={12} /> Áudio Lo-Fi ativado
-                      </span>
-                    )}
 
                     <div className="flex flex-col gap-2 w-full mt-2">
                       <button 
