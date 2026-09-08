@@ -1069,11 +1069,11 @@ function App() {
 
       {/* SPECIAL ELECTIONS 2026 MODAL */}
       {isElectionsOpen && (
-        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-lg flex items-center justify-center p-3 sm:p-6 animate-in fade-in duration-200">
-          <div className="w-full max-w-4xl max-h-[90vh] bg-slate-950/95 border border-emerald-500/30 rounded-3xl shadow-[0_0_50px_rgba(16,185,129,0.15)] flex flex-col overflow-hidden animate-in zoom-in-95 duration-200">
+        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-lg flex items-center justify-center p-2 sm:p-4 md:p-6 overflow-y-auto animate-in fade-in duration-200">
+          <div className="w-full max-w-4xl max-h-[calc(100dvh-1.5rem)] sm:max-h-[88vh] bg-slate-950/95 border border-emerald-500/30 rounded-3xl shadow-[0_0_50px_rgba(16,185,129,0.15)] flex flex-col overflow-hidden my-auto shrink-0 animate-in zoom-in-95 duration-200">
             
             {/* Elections Header */}
-            <div className="p-5 sm:p-6 border-b border-white/10 bg-gradient-to-r from-emerald-950/40 via-slate-900/50 to-blue-950/40 flex items-center justify-between">
+            <div className="p-4 sm:p-6 border-b border-white/10 bg-gradient-to-r from-emerald-950/40 via-slate-900/50 to-blue-950/40 flex items-center justify-between shrink-0">
               <div className="flex items-center gap-3">
                 <div className="p-2.5 bg-yellow-500/20 border border-yellow-500/30 rounded-2xl text-yellow-400 shadow-inner">
                   <Vote size={26} />
@@ -1098,13 +1098,13 @@ function App() {
             </div>
 
             {/* Elections Tabs */}
-            <div className="flex border-b border-white/10 bg-slate-950/80 p-2 gap-2 overflow-x-auto scrollbar-none">
+            <div className="flex border-b border-white/10 bg-slate-950/90 px-3 py-2.5 gap-2 overflow-x-auto scrollbar-none shrink-0 items-center">
               <button
                 onClick={() => setElectionsTab('candidatos')}
-                className={`flex-1 min-w-[130px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu ${
+                className={`flex-1 min-w-[140px] h-10 sm:h-11 px-3.5 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu shrink-0 border ${
                   electionsTab === 'candidatos' 
-                    ? 'bg-yellow-500/25 text-yellow-200 border border-yellow-500/50 shadow-sm font-bold' 
-                    : 'text-slate-300 hover:text-white hover:bg-white/5'
+                    ? 'bg-yellow-500/25 text-yellow-200 border-yellow-500/50 shadow-sm font-bold' 
+                    : 'border-transparent text-slate-300 hover:text-white hover:bg-white/5'
                 }`}
               >
                 <UserCheck size={15} />
@@ -1113,10 +1113,10 @@ function App() {
 
               <button
                 onClick={() => setElectionsTab('planos')}
-                className={`flex-1 min-w-[140px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu ${
+                className={`flex-1 min-w-[150px] h-10 sm:h-11 px-3.5 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu shrink-0 border ${
                   electionsTab === 'planos' 
-                    ? 'bg-amber-500/25 text-amber-200 border border-amber-500/50 shadow-sm font-bold' 
-                    : 'text-slate-300 hover:text-white hover:bg-white/5'
+                    ? 'bg-amber-500/25 text-amber-200 border-amber-500/50 shadow-sm font-bold' 
+                    : 'border-transparent text-slate-300 hover:text-white hover:bg-white/5'
                 }`}
               >
                 <FileText size={15} />
@@ -1125,10 +1125,10 @@ function App() {
 
               <button
                 onClick={() => setElectionsTab('marcos')}
-                className={`flex-1 min-w-[130px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu ${
+                className={`flex-1 min-w-[140px] h-10 sm:h-11 px-3.5 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu shrink-0 border ${
                   electionsTab === 'marcos' 
                     ? 'bg-emerald-500/25 text-emerald-200 border border-emerald-500/50 shadow-sm font-bold' 
-                    : 'text-slate-300 hover:text-white hover:bg-white/5'
+                    : 'border-transparent text-slate-300 hover:text-white hover:bg-white/5'
                 }`}
               >
                 <Landmark size={15} />
@@ -1137,10 +1137,10 @@ function App() {
 
               <button
                 onClick={() => setElectionsTab('curiosidades')}
-                className={`flex-1 min-w-[130px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu ${
+                className={`flex-1 min-w-[140px] h-10 sm:h-11 px-3.5 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu shrink-0 border ${
                   electionsTab === 'curiosidades' 
                     ? 'bg-blue-500/25 text-blue-200 border border-blue-500/50 shadow-sm font-bold' 
-                    : 'text-slate-300 hover:text-white hover:bg-white/5'
+                    : 'border-transparent text-slate-300 hover:text-white hover:bg-white/5'
                 }`}
               >
                 <Lightbulb size={15} />
@@ -1149,7 +1149,7 @@ function App() {
             </div>
 
             {/* Elections Content Body */}
-            <div className="p-5 sm:p-6 overflow-y-auto flex-1 scrollbar-thin scrollbar-thumb-white/10">
+            <div className="p-4 sm:p-6 overflow-y-auto flex-1 min-h-0 scrollbar-thin scrollbar-thumb-white/10">
               
               {/* TAB 1: CANDIDATOS 2026 */}
               {electionsTab === 'candidatos' && (
@@ -1265,9 +1265,9 @@ function App() {
                   <div className="p-4 rounded-2xl bg-slate-900/90 border border-amber-500/30 flex items-start gap-3 shadow-md">
                     <FileText size={22} className="text-amber-400 shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="text-sm sm:text-base font-bold text-white mb-0.5">Análise Comparativa dos Planos de Governo</h4>
+                      <h4 className="text-sm sm:text-base font-bold text-white mb-0.5">Análise dos Planos de Governo</h4>
                       <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-normal">
-                        Exame analítico e aprofundado das diretrizes macroeconômicas, tributárias, penais, trabalhistas e institucionais das candidaturas à Presidência da República em 2026.
+                        Análise dos planos de governo levantando as principais propostas em saúde, educação, trabalho e segurança dos candidatos a presidência 2026.
                       </p>
                     </div>
                   </div>
@@ -1443,7 +1443,7 @@ function App() {
             </div>
 
             {/* Legal Notice Footer */}
-            <div className="p-4 sm:p-5 bg-slate-950 border-t border-slate-800 flex items-start gap-3 text-xs sm:text-sm text-slate-300">
+            <div className="p-3.5 sm:p-5 bg-slate-950 border-t border-slate-800 flex items-start gap-3 text-xs sm:text-sm text-slate-300 shrink-0">
               <ShieldCheck size={18} className="text-emerald-400 shrink-0 mt-0.5" />
               <p className="leading-relaxed">
                 {electionsData.notice}
@@ -1579,7 +1579,7 @@ function App() {
           <div className="w-full max-w-xl max-h-[85vh] bg-slate-900/95 border border-white/15 rounded-3xl shadow-2xl flex flex-col overflow-hidden animate-in zoom-in-95 duration-200">
             
             {/* Modal Header */}
-            <div className="p-6 pb-4 border-b border-white/10 flex items-center justify-between">
+            <div className="p-6 pb-4 border-b border-white/10 flex items-center justify-between shrink-0">
               <div className="flex items-center gap-3">
                 <div className="p-2 bg-amber-500/10 rounded-xl text-amber-400">
                   <BookmarkCheck size={24} />
@@ -1598,7 +1598,7 @@ function App() {
             </div>
 
             {/* Modal Tabs */}
-            <div className="flex border-b border-white/10 bg-slate-950/40 p-1.5 gap-1.5">
+            <div className="flex border-b border-white/10 bg-slate-950/40 p-1.5 gap-1.5 shrink-0">
               <button
                 onClick={() => setLibraryTab('favorites')}
                 className={`flex-1 py-2 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu ${
@@ -1625,7 +1625,7 @@ function App() {
             </div>
 
             {/* Modal Content */}
-            <div className="p-6 overflow-y-auto flex-1 scrollbar-thin scrollbar-thumb-white/10">
+            <div className="p-6 overflow-y-auto flex-1 min-h-0 scrollbar-thin scrollbar-thumb-white/10">
               
               {/* FAVORITES TAB */}
               {libraryTab === 'favorites' && (
