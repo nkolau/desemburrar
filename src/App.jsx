@@ -516,7 +516,7 @@ function App() {
               {/* Tema de Hoje */}
               <button
                 onClick={selectDailyTopic}
-                className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-amber-500/20 to-orange-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-500/40 text-amber-200 text-xs sm:text-sm font-semibold transition-all shadow-lg backdrop-blur-md hover:scale-105"
+                className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-amber-500/20 to-orange-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-500/40 text-amber-200 text-xs sm:text-sm font-semibold transition-all duration-200 ease-out shadow-lg backdrop-blur-md hover:scale-105 active:scale-95 transform-gpu"
               >
                 <Calendar size={15} className="text-amber-400" />
                 <span>Tema de Hoje ({dailyTopicInfo?.dateFormatted})</span>
@@ -525,7 +525,7 @@ function App() {
               {/* Especial Eleições 2026 */}
               <button
                 onClick={() => setIsElectionsOpen(true)}
-                className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-600/30 via-yellow-500/20 to-blue-600/30 hover:from-emerald-600/40 hover:to-blue-600/40 border border-yellow-500/40 text-yellow-200 text-xs sm:text-sm font-semibold transition-all shadow-lg backdrop-blur-md hover:scale-105"
+                className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-600/30 via-yellow-500/20 to-blue-600/30 hover:from-emerald-600/40 hover:to-blue-600/40 border border-yellow-500/40 text-yellow-200 text-xs sm:text-sm font-semibold transition-all duration-200 ease-out shadow-lg backdrop-blur-md hover:scale-105 active:scale-95 transform-gpu"
               >
                 <Vote size={15} className="text-yellow-400" />
                 <span>🇧🇷 Especial Eleições 2026</span>
@@ -544,7 +544,7 @@ function App() {
               {(history.length > 0 || favorites.length > 0) && (
                 <button
                   onClick={() => setIsLibraryOpen(true)}
-                  className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-xs text-slate-200 transition-all shadow-lg backdrop-blur-md"
+                  className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-xs text-slate-200 transition-all duration-200 ease-out shadow-lg backdrop-blur-md hover:scale-105 active:scale-95 transform-gpu"
                 >
                   <BookmarkCheck size={14} className="text-amber-400" />
                   <span>Sua Biblioteca: <strong>{history.length}</strong> estudados • <strong>{favorites.length}</strong> salvos</span>
@@ -555,10 +555,10 @@ function App() {
             <div className="flex flex-col sm:flex-row gap-4 mb-8 w-full max-w-md">
               <button
                 onClick={() => handleModeSwitch('basic')}
-                className={`flex-1 flex flex-col items-center gap-2 p-5 rounded-3xl border transition-all duration-300 ${
+                className={`flex-1 flex flex-col items-center gap-2 p-5 rounded-3xl border transition-all duration-200 ease-out hover:scale-[1.03] active:scale-[0.98] transform-gpu ${
                   learningMode === 'basic' 
                     ? 'border-emerald-500/50 bg-emerald-500/10 text-emerald-300 shadow-[0_0_30px_rgba(16,185,129,0.15)] scale-105' 
-                    : 'border-white/10 bg-white/5 text-slate-400 hover:bg-white/10'
+                    : 'border-white/10 bg-white/5 text-slate-400 hover:bg-white/10 hover:border-white/20'
                 }`}
               >
                 <Brain size={28} />
@@ -570,10 +570,10 @@ function App() {
 
               <button
                 onClick={() => handleModeSwitch('deep')}
-                className={`flex-1 flex flex-col items-center gap-2 p-5 rounded-3xl border transition-all duration-300 ${
+                className={`flex-1 flex flex-col items-center gap-2 p-5 rounded-3xl border transition-all duration-200 ease-out hover:scale-[1.03] active:scale-[0.98] transform-gpu ${
                   learningMode === 'deep' 
                     ? 'border-purple-500/50 bg-purple-500/10 text-purple-300 shadow-[0_0_30px_rgba(168,85,247,0.15)] scale-105' 
-                    : 'border-white/10 bg-white/5 text-slate-400 hover:bg-white/10'
+                    : 'border-white/10 bg-white/5 text-slate-400 hover:bg-white/10 hover:border-white/20'
                 }`}
               >
                 <BrainCircuit size={28} />
@@ -586,7 +586,7 @@ function App() {
 
             <button
               onClick={startApp}
-              className="group relative px-8 py-3.5 bg-white hover:bg-slate-100 text-slate-900 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_0_40px_rgba(255,255,255,0.15)]"
+              className="group relative px-8 py-3.5 bg-white hover:bg-slate-100 text-slate-900 rounded-full font-semibold text-lg transition-all duration-200 ease-out hover:scale-105 active:scale-95 shadow-[0_0_40px_rgba(255,255,255,0.15)] hover:shadow-[0_0_50px_rgba(255,255,255,0.3)] transform-gpu"
             >
               Começar a explorar
             </button>
@@ -601,7 +601,7 @@ function App() {
               <div className="flex items-center gap-2">
                 <button 
                   onClick={() => setScreen('intro')}
-                  className="flex items-center gap-1.5 text-slate-300 hover:text-white transition-colors p-2 rounded-full hover:bg-white/10 backdrop-blur-sm"
+                  className="flex items-center gap-1.5 text-slate-300 hover:text-white transition-all duration-200 ease-out p-2 rounded-full hover:bg-white/10 backdrop-blur-sm hover:scale-105 active:scale-95 transform-gpu"
                   title="Voltar ao início"
                 >
                   <ArrowLeft size={18} />
@@ -611,7 +611,7 @@ function App() {
                 {/* Especial Eleições 2026 Button */}
                 <button
                   onClick={() => setIsElectionsOpen(true)}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-emerald-600/30 to-blue-600/30 hover:from-emerald-600/40 hover:to-blue-600/40 border border-yellow-500/40 text-yellow-200 text-xs font-bold transition-all shadow-md backdrop-blur-md hover:scale-105"
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-emerald-600/30 to-blue-600/30 hover:from-emerald-600/50 hover:to-blue-600/50 border border-yellow-500/40 text-yellow-200 text-xs font-bold transition-all duration-200 ease-out shadow-md backdrop-blur-md hover:scale-105 active:scale-95 transform-gpu"
                   title="Especial Eleições 2026"
                 >
                   <Vote size={14} className="text-yellow-400" />
@@ -622,7 +622,7 @@ function App() {
                 {/* Tema do Dia Quick Trigger */}
                 <button
                   onClick={selectDailyTopic}
-                  className={`p-2 sm:px-3 sm:py-1.5 rounded-full border text-xs font-semibold transition-all backdrop-blur-md flex items-center gap-1.5 ${
+                  className={`p-2 sm:px-3 sm:py-1.5 rounded-full border text-xs font-semibold transition-all duration-200 ease-out backdrop-blur-md flex items-center gap-1.5 hover:scale-105 active:scale-95 transform-gpu ${
                     isDailyTopicActive 
                       ? 'bg-amber-500/30 border-amber-500/60 text-amber-300 shadow-[0_0_15px_rgba(245,158,11,0.3)]' 
                       : 'bg-white/10 hover:bg-white/20 border-white/15 text-slate-200'
@@ -638,16 +638,16 @@ function App() {
               <div className="flex bg-slate-950/40 backdrop-blur-md p-1 rounded-full border border-white/10 shadow-lg">
                 <button
                   onClick={() => handleModeSwitch('basic')}
-                  className={`px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-all duration-300 ${
-                    learningMode === 'basic' ? 'bg-emerald-500 text-slate-950 shadow-md' : 'text-slate-300 hover:text-white'
+                  className={`px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 ease-out hover:scale-105 active:scale-95 transform-gpu ${
+                    learningMode === 'basic' ? 'bg-emerald-500 text-slate-950 shadow-md' : 'text-slate-300 hover:text-white hover:bg-white/10'
                   }`}
                 >
                   Essencial
                 </button>
                 <button
                   onClick={() => handleModeSwitch('deep')}
-                  className={`px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-all duration-300 ${
-                    learningMode === 'deep' ? 'bg-purple-500 text-white shadow-md' : 'text-slate-300 hover:text-white'
+                  className={`px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 ease-out hover:scale-105 active:scale-95 transform-gpu ${
+                    learningMode === 'deep' ? 'bg-purple-500 text-white shadow-md' : 'text-slate-300 hover:text-white hover:bg-white/10'
                   }`}
                 >
                   Profundo
@@ -660,7 +660,7 @@ function App() {
                 {/* Search Trigger */}
                 <button
                   onClick={() => setIsSearchOpen(true)}
-                  className="p-2 sm:px-3 sm:py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-slate-200 text-xs font-medium transition-all backdrop-blur-md flex items-center gap-1.5"
+                  className="p-2 sm:px-3 sm:py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-slate-200 text-xs font-medium transition-all duration-200 ease-out backdrop-blur-md flex items-center gap-1.5 hover:scale-105 active:scale-95 transform-gpu"
                   title="Buscar tema (Atalho: Ctrl+K ou /)"
                 >
                   <Search size={15} />
@@ -672,7 +672,7 @@ function App() {
                 {/* Library Button */}
                 <button
                   onClick={() => setIsLibraryOpen(true)}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-slate-200 text-xs font-medium transition-all backdrop-blur-md"
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-slate-200 text-xs font-medium transition-all duration-200 ease-out backdrop-blur-md hover:scale-105 active:scale-95 transform-gpu"
                   title="Ver favoritos e histórico (Atalho: B)"
                 >
                   <BookmarkCheck size={15} className="text-amber-400" />
@@ -692,10 +692,10 @@ function App() {
                   <button
                     key={cat}
                     onClick={() => handleCategorySwitch(cat)}
-                    className={`flex items-center gap-2.5 pl-2 pr-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all duration-300 border shadow-md ${
+                    className={`flex items-center gap-2.5 pl-2 pr-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-all duration-200 ease-out border shadow-md transform-gpu hover:scale-105 active:scale-95 ${
                       selectedCategory === cat 
                         ? (learningMode === 'basic' ? 'border-emerald-500/50 bg-emerald-500/20 text-emerald-300 shadow-emerald-500/10 scale-105' : 'border-purple-500/50 bg-purple-500/20 text-purple-300 shadow-purple-500/10 scale-105')
-                        : 'border-white/10 bg-white/5 text-slate-400 hover:bg-white/10 hover:text-slate-200 hover:scale-105'
+                        : 'border-white/10 bg-white/5 text-slate-400 hover:bg-white/10 hover:text-slate-200'
                     }`}
                   >
                     <img 
@@ -762,7 +762,7 @@ function App() {
                         <button
                           onClick={() => setFontStyle(prev => prev === 'sans' ? 'serif' : 'sans')}
                           title={fontFamily === 'serif' ? "Mudar para fonte sem serifa" : "Mudar para fonte serifada editorial"}
-                          className="p-2.5 rounded-full backdrop-blur-md border bg-black/40 border-white/20 text-slate-300 hover:text-white hover:bg-white/10 transition-all text-xs font-bold"
+                          className="p-2.5 rounded-full backdrop-blur-md border bg-black/40 border-white/20 text-slate-300 hover:text-white hover:bg-white/15 transition-all duration-200 ease-out hover:scale-110 active:scale-90 transform-gpu text-xs font-bold"
                         >
                           <Type size={16} />
                         </button>
@@ -771,7 +771,7 @@ function App() {
                         <button
                           onClick={() => setIsShareModalOpen(true)}
                           title="Compartilhar tema nas redes (Atalho: S)"
-                          className="p-2.5 rounded-full backdrop-blur-md border bg-black/40 border-white/20 text-slate-300 hover:text-white hover:bg-white/10 transition-all"
+                          className="p-2.5 rounded-full backdrop-blur-md border bg-black/40 border-white/20 text-slate-300 hover:text-white hover:bg-white/15 transition-all duration-200 ease-out hover:scale-110 active:scale-90 transform-gpu"
                         >
                           <Share2 size={16} />
                         </button>
@@ -780,10 +780,10 @@ function App() {
                         <button
                           onClick={() => toggleFavorite(reference)}
                           title={isCurrentFavorite ? "Remover dos favoritos (F)" : "Salvar nos favoritos (F)"}
-                          className={`p-2.5 rounded-full backdrop-blur-md border transition-all ${
+                          className={`p-2.5 rounded-full backdrop-blur-md border transition-all duration-200 ease-out hover:scale-110 active:scale-90 transform-gpu ${
                             isCurrentFavorite 
                               ? 'bg-amber-500/20 border-amber-500/60 text-amber-400 shadow-[0_0_20px_rgba(245,158,11,0.4)] scale-105' 
-                              : 'bg-black/40 border-white/20 text-slate-300 hover:text-white hover:bg-white/10'
+                              : 'bg-black/40 border-white/20 text-slate-300 hover:text-white hover:bg-white/15'
                           }`}
                         >
                           <Star size={16} fill={isCurrentFavorite ? "currentColor" : "none"} />
@@ -836,7 +836,7 @@ function App() {
                             <button
                               key={rel.id}
                               onClick={() => selectTopicDirectly(rel)}
-                              className="text-[11px] px-2.5 py-1 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 hover:text-white transition-all hover:scale-105"
+                              className="text-[11px] px-2.5 py-1 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 hover:text-white transition-all duration-200 ease-out hover:scale-105 active:scale-95 transform-gpu"
                             >
                               {rel.title} →
                             </button>
@@ -851,7 +851,7 @@ function App() {
                             href={reference.link} 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className={`inline-flex items-center gap-2 font-medium transition-colors w-fit group px-4 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs sm:text-sm ${
+                            className={`inline-flex items-center gap-2 font-medium transition-all duration-200 ease-out hover:scale-105 active:scale-95 transform-gpu w-fit group px-4 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs sm:text-sm ${
                               reference.level === 'basic' ? 'text-emerald-300 hover:text-emerald-200' : 'text-purple-300 hover:text-purple-200'
                             }`}
                           >
@@ -898,7 +898,7 @@ function App() {
                         <button 
                           key={mins}
                           onClick={() => startReadingTimer(mins)}
-                          className="py-2.5 rounded-xl border border-white/10 bg-white/5 hover:bg-white/15 transition-all font-semibold text-slate-200 text-sm"
+                          className="py-2.5 rounded-xl border border-white/10 bg-white/5 hover:bg-white/15 transition-all duration-200 ease-out hover:scale-[1.03] active:scale-95 transform-gpu font-semibold text-slate-200 text-sm"
                         >
                           {mins} min
                         </button>
@@ -919,13 +919,13 @@ function App() {
                     <div className="flex flex-col gap-2 w-full mt-2">
                       <button 
                         onClick={finishReading}
-                        className="w-full py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold transition-all flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20"
+                        className="w-full py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20"
                       >
                         <CheckCircle2 size={18} /> Ir para Assimilação
                       </button>
                       <button 
                         onClick={cancelTimer}
-                        className="w-full py-2 rounded-xl bg-white/5 hover:bg-white/10 text-slate-400 hover:text-slate-200 text-xs font-medium transition-all"
+                        className="w-full py-2 rounded-xl bg-white/5 hover:bg-white/10 text-slate-400 hover:text-slate-200 text-xs font-medium transition-all duration-200 ease-out hover:scale-[1.01] active:scale-95 transform-gpu"
                       >
                         Cancelar
                       </button>
@@ -947,7 +947,7 @@ function App() {
                     </div>
                     <button 
                       onClick={startAssimilationTimer}
-                      className="w-full py-3 rounded-xl bg-yellow-500 hover:bg-yellow-400 text-yellow-950 font-bold transition-all flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(234,179,8,0.2)] mt-1 text-sm"
+                      className="w-full py-3 rounded-xl bg-yellow-500 hover:bg-yellow-400 text-yellow-950 font-bold transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(234,179,8,0.2)] mt-1 text-sm"
                     >
                       <Play size={16} fill="currentColor" /> Iniciar 2 Minutos
                     </button>
@@ -973,7 +973,7 @@ function App() {
 
                     <button 
                       onClick={() => setTimerPhase('evaluating')}
-                      className="w-full py-2.5 rounded-xl bg-yellow-500/20 hover:bg-yellow-500/30 text-yellow-300 font-semibold text-xs transition-all flex items-center justify-center gap-2 border border-yellow-500/30 mt-1"
+                      className="w-full py-2.5 rounded-xl bg-yellow-500/20 hover:bg-yellow-500/30 text-yellow-300 font-semibold text-xs transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu flex items-center justify-center gap-2 border border-yellow-500/30 mt-1"
                     >
                       <CheckCircle2 size={15} /> Finalizar e Avaliar
                     </button>
@@ -994,7 +994,7 @@ function App() {
                     <div className="flex flex-col gap-2 w-full">
                       <button
                         onClick={() => handleSaveMastery('dominado')}
-                        className="w-full py-2.5 px-3 rounded-xl bg-emerald-500/20 hover:bg-emerald-500/30 border border-emerald-500/40 text-emerald-300 font-semibold text-xs flex items-center justify-between transition-all"
+                        className="w-full py-2.5 px-3 rounded-xl bg-emerald-500/20 hover:bg-emerald-500/30 border border-emerald-500/40 text-emerald-300 font-semibold text-xs flex items-center justify-between transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu"
                       >
                         <span>🏆 Dominei o tema!</span>
                         <span className="text-[10px] opacity-70">Explicaria fácil</span>
@@ -1002,7 +1002,7 @@ function App() {
 
                       <button
                         onClick={() => handleSaveMastery('basico')}
-                        className="w-full py-2.5 px-3 rounded-xl bg-yellow-500/20 hover:bg-yellow-500/30 border border-yellow-500/40 text-yellow-300 font-semibold text-xs flex items-center justify-between transition-all"
+                        className="w-full py-2.5 px-3 rounded-xl bg-yellow-500/20 hover:bg-yellow-500/30 border border-yellow-500/40 text-yellow-300 font-semibold text-xs flex items-center justify-between transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu"
                       >
                         <span>💡 Entendi o básico</span>
                         <span className="text-[10px] opacity-70">Boa noção</span>
@@ -1010,7 +1010,7 @@ function App() {
 
                       <button
                         onClick={() => handleSaveMastery('confuso')}
-                        className="w-full py-2.5 px-3 rounded-xl bg-rose-500/20 hover:bg-rose-500/30 border border-rose-500/40 text-rose-300 font-semibold text-xs flex items-center justify-between transition-all"
+                        className="w-full py-2.5 px-3 rounded-xl bg-rose-500/20 hover:bg-rose-500/30 border border-rose-500/40 text-rose-300 font-semibold text-xs flex items-center justify-between transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu"
                       >
                         <span>📖 Ainda confuso</span>
                         <span className="text-[10px] opacity-70">Revisar depois</span>
@@ -1039,7 +1039,7 @@ function App() {
                         setFeynmanNote('');
                         setLastMastery(null);
                       }}
-                      className="w-full py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-slate-200 text-xs font-semibold transition-all mt-2"
+                      className="w-full py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-slate-200 text-xs font-semibold transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu mt-2"
                     >
                       Concluir Ciclo
                     </button>
@@ -1054,7 +1054,7 @@ function App() {
               <button
                 onClick={() => generateRandomReference(learningMode, selectedCategory)}
                 disabled={isAnimating}
-                className="pointer-events-auto group relative flex items-center gap-3 px-8 py-3.5 bg-white hover:bg-slate-200 text-slate-900 rounded-full font-bold text-base transition-all duration-300 hover:scale-105 active:scale-95 disabled:opacity-50 shadow-[0_0_30px_rgba(255,255,255,0.15)]"
+                className="pointer-events-auto group relative flex items-center gap-3 px-8 py-3.5 bg-white hover:bg-slate-100 text-slate-900 rounded-full font-bold text-base transition-all duration-200 ease-out hover:scale-105 active:scale-95 transform-gpu disabled:opacity-50 shadow-[0_0_30px_rgba(255,255,255,0.2)] hover:shadow-[0_0_35px_rgba(255,255,255,0.35)]"
               >
                 <RefreshCw size={20} className={`${isAnimating ? 'animate-spin' : 'group-hover:rotate-180 transition-transform duration-500'}`} />
                 <span>Sortear Tema</span>
@@ -1091,7 +1091,7 @@ function App() {
               </div>
               <button
                 onClick={() => setIsElectionsOpen(false)}
-                className="p-2 rounded-full text-slate-300 hover:text-white hover:bg-white/10 transition-colors"
+                className="p-2 rounded-full text-slate-300 hover:text-white hover:bg-white/10 transition-all duration-200 ease-out hover:scale-110 active:scale-95 transform-gpu"
               >
                 <X size={20} />
               </button>
@@ -1101,7 +1101,7 @@ function App() {
             <div className="flex border-b border-white/10 bg-slate-950/80 p-2 gap-2 overflow-x-auto scrollbar-none">
               <button
                 onClick={() => setElectionsTab('candidatos')}
-                className={`flex-1 min-w-[130px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all ${
+                className={`flex-1 min-w-[130px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu ${
                   electionsTab === 'candidatos' 
                     ? 'bg-yellow-500/25 text-yellow-200 border border-yellow-500/50 shadow-sm font-bold' 
                     : 'text-slate-300 hover:text-white hover:bg-white/5'
@@ -1113,7 +1113,7 @@ function App() {
 
               <button
                 onClick={() => setElectionsTab('planos')}
-                className={`flex-1 min-w-[140px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all ${
+                className={`flex-1 min-w-[140px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu ${
                   electionsTab === 'planos' 
                     ? 'bg-amber-500/25 text-amber-200 border border-amber-500/50 shadow-sm font-bold' 
                     : 'text-slate-300 hover:text-white hover:bg-white/5'
@@ -1125,7 +1125,7 @@ function App() {
 
               <button
                 onClick={() => setElectionsTab('marcos')}
-                className={`flex-1 min-w-[130px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all ${
+                className={`flex-1 min-w-[130px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu ${
                   electionsTab === 'marcos' 
                     ? 'bg-emerald-500/25 text-emerald-200 border border-emerald-500/50 shadow-sm font-bold' 
                     : 'text-slate-300 hover:text-white hover:bg-white/5'
@@ -1137,7 +1137,7 @@ function App() {
 
               <button
                 onClick={() => setElectionsTab('curiosidades')}
-                className={`flex-1 min-w-[130px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all ${
+                className={`flex-1 min-w-[130px] py-2.5 px-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu ${
                   electionsTab === 'curiosidades' 
                     ? 'bg-blue-500/25 text-blue-200 border border-blue-500/50 shadow-sm font-bold' 
                     : 'text-slate-300 hover:text-white hover:bg-white/5'
@@ -1165,7 +1165,7 @@ function App() {
                     {electionsData.candidates_2026.map(cand => (
                       <div
                         key={cand.id}
-                        className="p-5 sm:p-6 rounded-2xl bg-slate-900/90 hover:bg-slate-900 border border-slate-800 hover:border-slate-700/80 flex flex-col justify-between transition-all shadow-md"
+                        className="p-5 sm:p-6 rounded-2xl bg-slate-900/90 hover:bg-slate-900 border border-slate-800 hover:border-slate-700/80 flex flex-col justify-between transition-all duration-200 ease-out shadow-md"
                       >
                         <div>
                           <div className="flex items-start justify-between gap-3 mb-2">
@@ -1219,7 +1219,7 @@ function App() {
                                 setSelectedPlanCandidateId(cand.id);
                                 setElectionsTab('planos');
                               }}
-                              className="w-full mt-3 mb-2 py-2.5 px-4 rounded-xl bg-yellow-500/15 hover:bg-yellow-500/25 border border-yellow-500/40 text-yellow-300 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all hover:scale-[1.01] shadow-sm"
+                              className="w-full mt-3 mb-2 py-2.5 px-4 rounded-xl bg-yellow-500/15 hover:bg-yellow-500/25 border border-yellow-500/40 text-yellow-300 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu shadow-sm"
                             >
                               <FileText size={15} />
                               <span>Ler Análise Completa do Plano</span>
@@ -1236,7 +1236,7 @@ function App() {
                                 href={cand.wiki_link} 
                                 target="_blank" 
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center gap-1 text-xs text-slate-300 hover:text-white font-semibold transition-colors"
+                                className="inline-flex items-center gap-1 text-xs text-slate-300 hover:text-white font-semibold transition-all duration-200 ease-out hover:underline transform-gpu"
                               >
                                 <span>Wikipédia</span>
                                 <ExternalLink size={11} />
@@ -1247,7 +1247,7 @@ function App() {
                             href={cand.source_link} 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1.5 text-xs sm:text-sm text-emerald-400 hover:text-emerald-300 font-semibold transition-colors"
+                            className="inline-flex items-center gap-1.5 text-xs sm:text-sm text-emerald-400 hover:text-emerald-300 font-semibold transition-all duration-200 ease-out hover:scale-105 active:scale-95 transform-gpu"
                           >
                             <span>Consultar Registro</span>
                             <ExternalLink size={13} />
@@ -1278,9 +1278,9 @@ function App() {
                       <button
                         key={c.id}
                         onClick={() => setSelectedPlanCandidateId(c.id)}
-                        className={`px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition-all border flex items-center gap-1.5 ${
+                        className={`px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition-all duration-200 ease-out hover:scale-105 active:scale-95 transform-gpu border flex items-center gap-1.5 ${
                           selectedPlanCandidateId === c.id 
-                            ? 'bg-yellow-500/25 border-yellow-500/60 text-yellow-200 shadow-md scale-105 font-bold' 
+                            ? 'bg-yellow-500/25 border-yellow-500/60 text-yellow-200 shadow-md font-bold' 
                             : 'bg-slate-900 border-slate-700/60 text-slate-300 hover:text-white hover:bg-slate-800'
                         }`}
                       >
@@ -1315,7 +1315,7 @@ function App() {
                           href={currentPlanCandidate.source_link} 
                           target="_blank" 
                           rel="noopener noreferrer"
-                          className="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/15 text-xs sm:text-sm text-emerald-300 hover:text-emerald-200 font-semibold transition-all flex items-center gap-1.5 w-fit shrink-0"
+                          className="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/15 text-xs sm:text-sm text-emerald-300 hover:text-emerald-200 font-semibold transition-all duration-200 ease-out hover:scale-105 active:scale-95 transform-gpu flex items-center gap-1.5 w-fit shrink-0"
                         >
                           <span>Consultar no JOTA / TSE</span>
                           <ExternalLink size={14} />
@@ -1364,7 +1364,7 @@ function App() {
                                 href={m.link} 
                                 target="_blank" 
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center gap-1.5 text-xs text-emerald-400 hover:text-emerald-300 font-semibold transition-colors"
+                                className="inline-flex items-center gap-1.5 text-xs text-emerald-400 hover:text-emerald-300 font-semibold transition-all duration-200 ease-out hover:underline transform-gpu"
                               >
                                 <span>Artigo na Wikipédia</span>
                                 <ExternalLink size={12} />
@@ -1395,7 +1395,7 @@ function App() {
                                 href={fig.link} 
                                 target="_blank" 
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center gap-1.5 text-xs text-amber-300 hover:text-amber-200 font-semibold transition-colors"
+                                className="inline-flex items-center gap-1.5 text-xs text-amber-300 hover:text-amber-200 font-semibold transition-all duration-200 ease-out hover:underline transform-gpu"
                               >
                                 <span>Artigo na Wikipédia</span>
                                 <ExternalLink size={12} />
@@ -1428,7 +1428,7 @@ function App() {
                             href={c.link} 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1.5 text-xs text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                            className="inline-flex items-center gap-1.5 text-xs text-blue-400 hover:text-blue-300 font-semibold transition-all duration-200 ease-out hover:underline transform-gpu"
                           >
                             <span>Artigo na Wikipédia</span>
                             <ExternalLink size={12} />
@@ -1471,7 +1471,7 @@ function App() {
               />
               <button
                 onClick={() => setIsSearchOpen(false)}
-                className="p-1.5 rounded-full text-slate-400 hover:text-white hover:bg-white/10"
+                className="p-1.5 rounded-full text-slate-400 hover:text-white hover:bg-white/10 transition-all duration-200 ease-out hover:scale-110 active:scale-95 transform-gpu"
               >
                 <X size={18} />
               </button>
@@ -1491,7 +1491,7 @@ function App() {
                   <div
                     key={item.id}
                     onClick={() => selectTopicDirectly(item)}
-                    className="p-3 rounded-xl hover:bg-white/10 cursor-pointer transition-all flex items-center justify-between group"
+                    className="p-3 rounded-xl hover:bg-white/10 cursor-pointer transition-all duration-200 ease-out hover:scale-[1.01] active:scale-[0.99] transform-gpu flex items-center justify-between group"
                   >
                     <div className="flex flex-col pr-3">
                       <div className="flex items-center gap-2 mb-0.5">
@@ -1534,7 +1534,7 @@ function App() {
               </div>
               <button
                 onClick={() => setIsShareModalOpen(false)}
-                className="p-1.5 rounded-full text-slate-400 hover:text-white hover:bg-white/10"
+                className="p-1.5 rounded-full text-slate-400 hover:text-white hover:bg-white/10 transition-all duration-200 ease-out hover:scale-110 active:scale-95 transform-gpu"
               >
                 <X size={18} />
               </button>
@@ -1563,7 +1563,7 @@ function App() {
             <div className="flex gap-2">
               <button
                 onClick={copyShareText}
-                className="flex-1 py-3 rounded-xl bg-white hover:bg-slate-200 text-slate-950 font-bold text-xs flex items-center justify-center gap-2 transition-all shadow-lg"
+                className="flex-1 py-3 rounded-xl bg-white hover:bg-slate-200 text-slate-950 font-bold text-xs flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu shadow-lg"
               >
                 {copiedNotification ? <Check size={16} className="text-emerald-600" /> : <Copy size={16} />}
                 <span>{copiedNotification ? 'Copiado para o Clipboard!' : 'Copiar Texto para LinkedIn / WhatsApp'}</span>
@@ -1591,7 +1591,7 @@ function App() {
               </div>
               <button
                 onClick={() => setIsLibraryOpen(false)}
-                className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-white/10 transition-colors"
+                className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-white/10 transition-all duration-200 ease-out hover:scale-110 active:scale-95 transform-gpu"
               >
                 <X size={20} />
               </button>
@@ -1601,10 +1601,10 @@ function App() {
             <div className="flex border-b border-white/10 bg-slate-950/40 p-1.5 gap-1.5">
               <button
                 onClick={() => setLibraryTab('favorites')}
-                className={`flex-1 py-2 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all ${
+                className={`flex-1 py-2 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu ${
                   libraryTab === 'favorites' 
                     ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' 
-                    : 'text-slate-400 hover:text-slate-200'
+                    : 'text-slate-400 hover:text-slate-200 hover:bg-white/5'
                 }`}
               >
                 <Star size={14} fill={libraryTab === 'favorites' ? "currentColor" : "none"} />
@@ -1613,10 +1613,10 @@ function App() {
 
               <button
                 onClick={() => setLibraryTab('history')}
-                className={`flex-1 py-2 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all ${
+                className={`flex-1 py-2 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all duration-200 ease-out hover:scale-[1.02] active:scale-95 transform-gpu ${
                   libraryTab === 'history' 
                     ? 'bg-purple-500/20 text-purple-300 border border-purple-500/30' 
-                    : 'text-slate-400 hover:text-slate-200'
+                    : 'text-slate-400 hover:text-slate-200 hover:bg-white/5'
                 }`}
               >
                 <History size={14} />
@@ -1644,7 +1644,7 @@ function App() {
                         <div
                           key={fav.id}
                           onClick={() => selectTopicDirectly(fav)}
-                          className="group p-3.5 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 flex items-center justify-between cursor-pointer transition-all hover:scale-[1.01]"
+                          className="group p-3.5 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 flex items-center justify-between cursor-pointer transition-all duration-200 ease-out hover:scale-[1.01] active:scale-[0.99] transform-gpu"
                         >
                           <div className="flex flex-col gap-1 pr-3">
                             <div className="flex items-center gap-2">
@@ -1662,7 +1662,7 @@ function App() {
                           <button
                             onClick={(e) => removeFavorite(fav.id, e)}
                             title="Remover dos favoritos"
-                            className="p-2 text-slate-500 hover:text-rose-400 hover:bg-rose-500/10 rounded-xl transition-colors"
+                            className="p-2 text-slate-500 hover:text-rose-400 hover:bg-rose-500/10 rounded-xl transition-all duration-200 ease-out hover:scale-110 active:scale-90 transform-gpu"
                           >
                             <Trash2 size={16} />
                           </button>
@@ -1692,7 +1692,7 @@ function App() {
                         </span>
                         <button
                           onClick={clearHistory}
-                          className="text-[11px] text-rose-400/80 hover:text-rose-300 transition-colors"
+                          className="text-[11px] text-rose-400/80 hover:text-rose-300 transition-all duration-200 ease-out hover:underline"
                         >
                           Limpar tudo
                         </button>
@@ -1702,7 +1702,7 @@ function App() {
                         <div
                           key={item.id}
                           onClick={() => selectTopicDirectly(item)}
-                          className="group p-4 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 flex flex-col gap-2 cursor-pointer transition-all hover:scale-[1.01]"
+                          className="group p-4 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 flex flex-col gap-2 cursor-pointer transition-all duration-200 ease-out hover:scale-[1.01] active:scale-[0.99] transform-gpu"
                         >
                           <div className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
