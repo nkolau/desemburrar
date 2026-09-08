@@ -1321,8 +1321,21 @@ function App() {
                           )}
                         </div>
 
-                        <div className="pt-3.5 mt-2 border-t border-white/10 flex items-center justify-between text-xs">
-                          <span className="text-xs text-slate-400 font-medium">Fonte: TSE / DivulgaCand</span>
+                        <div className="pt-3.5 mt-2 border-t border-white/10 flex items-center justify-between text-xs flex-wrap gap-2">
+                          <div className="flex items-center gap-3">
+                            <span className="text-xs text-slate-400 font-medium">TSE / DivulgaCand</span>
+                            {cand.wiki_link && (
+                              <a 
+                                href={cand.wiki_link} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-1 text-xs text-slate-300 hover:text-white font-semibold transition-colors"
+                              >
+                                <span>Wikipédia</span>
+                                <ExternalLink size={11} />
+                              </a>
+                            )}
+                          </div>
                           <a 
                             href={cand.source_link} 
                             target="_blank" 
@@ -1430,12 +1443,27 @@ function App() {
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                       {electionsData.milestones.map(m => (
-                        <div key={m.id} className="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 shadow-md">
-                          <span className="text-xs font-bold px-2.5 py-1 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 tabular-nums">
-                            {m.year}
-                          </span>
-                          <h4 className="text-base font-bold text-white mt-2 mb-1">{m.title}</h4>
-                          <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-normal">{m.description}</p>
+                        <div key={m.id} className="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 shadow-md flex flex-col justify-between">
+                          <div>
+                            <span className="text-xs font-bold px-2.5 py-1 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 tabular-nums">
+                              {m.year}
+                            </span>
+                            <h4 className="text-base font-bold text-white mt-2 mb-1">{m.title}</h4>
+                            <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-normal">{m.description}</p>
+                          </div>
+                          {m.link && (
+                            <div className="pt-3 mt-3 border-t border-white/10 flex items-center justify-end">
+                              <a 
+                                href={m.link} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-1.5 text-xs text-emerald-400 hover:text-emerald-300 font-semibold transition-colors"
+                              >
+                                <span>Artigo na Wikipédia</span>
+                                <ExternalLink size={12} />
+                              </a>
+                            </div>
+                          )}
                         </div>
                       ))}
                     </div>
@@ -1448,10 +1476,25 @@ function App() {
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                       {electionsData.historical_figures.map((fig, idx) => (
-                        <div key={idx} className="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 shadow-md">
-                          <h4 className="text-base font-bold text-white">{fig.name}</h4>
-                          <span className="text-xs font-semibold text-amber-300 block mb-1.5">{fig.role}</span>
-                          <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-normal">{fig.bio}</p>
+                        <div key={idx} className="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 shadow-md flex flex-col justify-between">
+                          <div>
+                            <h4 className="text-base font-bold text-white">{fig.name}</h4>
+                            <span className="text-xs font-semibold text-amber-300 block mb-1.5">{fig.role}</span>
+                            <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-normal">{fig.bio}</p>
+                          </div>
+                          {fig.link && (
+                            <div className="pt-3 mt-3 border-t border-white/10 flex items-center justify-end">
+                              <a 
+                                href={fig.link} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-1.5 text-xs text-amber-300 hover:text-amber-200 font-semibold transition-colors"
+                              >
+                                <span>Artigo na Wikipédia</span>
+                                <ExternalLink size={12} />
+                              </a>
+                            </div>
+                          )}
                         </div>
                       ))}
                     </div>
@@ -1472,6 +1515,19 @@ function App() {
                         <h4 className="text-base font-bold text-white mt-2.5 mb-1.5">{c.title}</h4>
                         <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-normal">{c.description}</p>
                       </div>
+                      {c.link && (
+                        <div className="pt-3 mt-3 border-t border-white/10 flex items-center justify-end">
+                          <a 
+                            href={c.link} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 text-xs text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                          >
+                            <span>Artigo na Wikipédia</span>
+                            <ExternalLink size={12} />
+                          </a>
+                        </div>
+                      )}
                     </div>
                   ))}
                 </div>
