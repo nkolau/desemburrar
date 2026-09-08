@@ -1173,9 +1173,6 @@ function App() {
                     <h2 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
                       Especial Eleições 2026 🇧🇷
                     </h2>
-                    <span className="px-2.5 py-0.5 rounded-full bg-yellow-400/20 text-yellow-300 text-xs font-extrabold uppercase border border-yellow-400/40">
-                      TSE Oficial
-                    </span>
                   </div>
                   <p className="text-xs sm:text-sm text-slate-300 mt-0.5 font-normal">
                     Guia enciclopédico e neutro de cidadania para o processo democrático brasileiro
